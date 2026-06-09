@@ -1,0 +1,2001 @@
+brand_name,generic_name,manufacturer,therapeutic_class,price,final_price,availability_status,rating,num_reviews
+HealPlus,Atorvastatin,Global Remedies,Antihypertensive,1788.16,1430.53,In stock,2.6,274
+Medix,Paracetamol,ABC Pharma,Antacid,1640.42,1312.34,Out of stock,5.0,33
+HealPlus,Paracetamol,Global Remedies,Antibiotic,1016.76,813.41,In stock,3.2,404
+Medix,Paracetamol,Global Remedies,Antacid,1323.78,1323.78,In stock,2.7,116
+LifeCare,Metformin,Medicare Ltd,Antidiabetic,652.83,522.26,In stock,3.2,471
+BioTrust,Atorvastatin,Nova Life,Antidiabetic,1339.89,1071.91,Limited,3.6,337
+BioTrust,Paracetamol,Nova Life,Antacid,885.9,841.61,In stock,2.6,407
+HealPlus,Atorvastatin,ABC Pharma,Antidiabetic,722.94,650.65,Limited,4.1,133
+Medix,Omeprazole,Nova Life,Analgesic,315.02,252.02,Limited,4.1,282
+Medix,Metformin,Medicare Ltd,Antidiabetic,1366.12,1297.81,Out of stock,3.6,118
+BioTrust,Metformin,ABC Pharma,Antidiabetic,1544.93,1390.44,In stock,3.7,422
+LifeCare,Amoxicillin,Global Remedies,Analgesic,546.76,437.41,Out of stock,2.7,413
+BioTrust,Metformin,Global Remedies,Antihypertensive,1411.96,1200.17,In stock,3.2,308
+PharmaOne,Paracetamol,Sun Healthcare,Antidiabetic,1594.25,1275.4,In stock,4.3,369
+BioTrust,Omeprazole,ABC Pharma,Analgesic,1058.19,1058.19,In stock,2.9,105
+Medix,Atorvastatin,Medicare Ltd,Antidiabetic,987.81,938.42,In stock,4.6,123
+Medix,Omeprazole,Nova Life,Antibiotic,529.08,476.17,In stock,4.3,43
+LifeCare,Amoxicillin,Nova Life,Antacid,1094.18,930.05,Out of stock,2.7,417
+Medix,Amoxicillin,Global Remedies,Analgesic,793.39,753.72,Limited,5.0,241
+Medix,Paracetamol,ABC Pharma,Analgesic,258.5,206.8,Limited,3.0,387
+BioTrust,Metformin,Global Remedies,Antibiotic,825.79,825.79,Out of stock,4.9,484
+Medix,Metformin,Medicare Ltd,Antihypertensive,86.91,73.87,Out of stock,3.7,167
+PharmaOne,Metformin,ABC Pharma,Antacid,1554.46,1476.74,In stock,4.2,277
+BioTrust,Paracetamol,Nova Life,Antacid,1811.84,1540.06,In stock,3.3,362
+HealPlus,Amoxicillin,Nova Life,Antihypertensive,1308.61,1308.61,Limited,4.8,228
+Medix,Amoxicillin,ABC Pharma,Analgesic,50.69,43.09,Limited,2.6,433
+LifeCare,Amoxicillin,Global Remedies,Antihypertensive,1653.65,1653.65,Limited,4.3,365
+Medix,Metformin,Sun Healthcare,Antacid,259.92,246.92,Out of stock,4.7,178
+HealPlus,Omeprazole,Medicare Ltd,Antacid,1527.11,1527.11,Limited,4.7,130
+HealPlus,Atorvastatin,Global Remedies,Antacid,1169.34,993.94,Out of stock,3.9,50
+HealPlus,Amoxicillin,Medicare Ltd,Antacid,92.33,73.86,In stock,4.3,291
+LifeCare,Omeprazole,Global Remedies,Antihypertensive,1904.76,1619.05,In stock,3.3,310
+BioTrust,Metformin,Global Remedies,Antihypertensive,24.65,24.65,In stock,3.6,317
+LifeCare,Atorvastatin,Nova Life,Analgesic,1114.03,891.22,In stock,3.6,282
+Medix,Atorvastatin,Global Remedies,Analgesic,1524.46,1295.79,Out of stock,4.4,256
+LifeCare,Paracetamol,Global Remedies,Antihypertensive,624.37,593.15,Out of stock,4.6,432
+PharmaOne,Atorvastatin,Global Remedies,Antibiotic,468.53,421.68,Limited,3.1,330
+Medix,Paracetamol,Medicare Ltd,Antacid,45.41,38.6,Out of stock,4.8,439
+Medix,Atorvastatin,Medicare Ltd,Antihypertensive,1499.28,1424.32,Limited,4.5,111
+LifeCare,Omeprazole,Global Remedies,Antidiabetic,1405.05,1124.04,Out of stock,4.4,247
+LifeCare,Atorvastatin,Global Remedies,Antibiotic,1815.83,1634.25,In stock,4.8,119
+BioTrust,Metformin,Global Remedies,Antibiotic,264.13,224.51,Limited,3.2,438
+BioTrust,Amoxicillin,Medicare Ltd,Antidiabetic,672.4,605.16,Out of stock,4.0,274
+PharmaOne,Atorvastatin,Global Remedies,Analgesic,1700.55,1530.49,In stock,3.2,478
+LifeCare,Paracetamol,Sun Healthcare,Analgesic,1565.63,1252.5,Limited,2.8,381
+Medix,Atorvastatin,Sun Healthcare,Antidiabetic,1012.67,810.14,In stock,4.4,50
+BioTrust,Amoxicillin,Sun Healthcare,Antacid,315.95,300.15,Limited,3.7,95
+PharmaOne,Metformin,Global Remedies,Antibiotic,424.61,424.61,Out of stock,2.7,307
+PharmaOne,Paracetamol,Sun Healthcare,Antacid,588.35,588.35,Limited,4.1,279
+HealPlus,Omeprazole,Global Remedies,Analgesic,429.94,365.45,Out of stock,3.5,336
+HealPlus,Amoxicillin,Global Remedies,Antibiotic,743.22,631.74,In stock,4.7,427
+Medix,Omeprazole,Sun Healthcare,Antibiotic,1135.25,964.96,Out of stock,3.0,437
+PharmaOne,Atorvastatin,Nova Life,Analgesic,587.83,499.66,In stock,4.2,82
+BioTrust,Amoxicillin,ABC Pharma,Antibiotic,758.68,606.94,Limited,4.0,142
+LifeCare,Amoxicillin,Nova Life,Antihypertensive,763.2,725.04,Out of stock,4.9,491
+HealPlus,Omeprazole,Sun Healthcare,Analgesic,1485.5,1336.95,Out of stock,2.9,157
+BioTrust,Atorvastatin,Medicare Ltd,Antacid,1425.92,1425.92,In stock,3.3,89
+PharmaOne,Omeprazole,Medicare Ltd,Antacid,727.5,654.75,Out of stock,3.5,337
+PharmaOne,Amoxicillin,Global Remedies,Antidiabetic,1806.14,1625.53,In stock,2.8,212
+BioTrust,Paracetamol,Nova Life,Antihypertensive,221.77,199.59,Out of stock,3.6,464
+PharmaOne,Omeprazole,Nova Life,Antibiotic,186.68,149.34,Out of stock,4.0,185
+Medix,Metformin,Medicare Ltd,Analgesic,87.1,78.39,Limited,3.5,347
+PharmaOne,Metformin,Sun Healthcare,Antibiotic,155.24,155.24,Limited,2.5,213
+BioTrust,Paracetamol,Medicare Ltd,Antidiabetic,916.32,916.32,In stock,3.9,15
+PharmaOne,Amoxicillin,Nova Life,Antihypertensive,581.73,581.73,Out of stock,3.7,265
+BioTrust,Paracetamol,ABC Pharma,Antacid,309.29,309.29,Limited,4.1,263
+Medix,Atorvastatin,Medicare Ltd,Antidiabetic,1248.5,1061.22,In stock,4.0,292
+BioTrust,Paracetamol,Global Remedies,Antihypertensive,750.13,637.61,Out of stock,4.7,210
+PharmaOne,Paracetamol,Nova Life,Antacid,1419.33,1135.46,Out of stock,4.2,224
+HealPlus,Omeprazole,ABC Pharma,Antibiotic,507.98,406.38,In stock,3.5,196
+PharmaOne,Atorvastatin,Medicare Ltd,Antihypertensive,832.25,749.02,In stock,3.8,224
+LifeCare,Paracetamol,ABC Pharma,Antihypertensive,1310.19,1048.15,In stock,4.6,499
+BioTrust,Atorvastatin,Sun Healthcare,Analgesic,1168.13,1109.72,Out of stock,2.9,455
+Medix,Atorvastatin,ABC Pharma,Antibiotic,487.23,414.15,Limited,3.4,107
+HealPlus,Amoxicillin,Nova Life,Antihypertensive,1147.25,917.8,Limited,4.3,338
+BioTrust,Metformin,Nova Life,Antibiotic,1237.58,1051.94,In stock,2.5,105
+LifeCare,Omeprazole,Sun Healthcare,Antacid,692.03,588.23,Limited,3.1,216
+LifeCare,Omeprazole,ABC Pharma,Antihypertensive,1064.22,1064.22,Out of stock,2.6,391
+LifeCare,Omeprazole,Nova Life,Antihypertensive,1577.95,1262.36,In stock,3.8,453
+BioTrust,Metformin,Sun Healthcare,Antihypertensive,468.73,468.73,In stock,3.4,386
+LifeCare,Atorvastatin,Medicare Ltd,Analgesic,207.79,207.79,Out of stock,2.7,297
+BioTrust,Paracetamol,Global Remedies,Antibiotic,1965.91,1965.91,Limited,3.0,96
+PharmaOne,Paracetamol,Global Remedies,Antidiabetic,1717.33,1631.46,Out of stock,5.0,57
+LifeCare,Metformin,Global Remedies,Antidiabetic,1633.65,1633.65,Out of stock,4.5,178
+HealPlus,Paracetamol,Global Remedies,Analgesic,1872.56,1872.56,Out of stock,4.4,444
+LifeCare,Atorvastatin,ABC Pharma,Analgesic,629.22,629.22,In stock,3.1,143
+Medix,Omeprazole,Medicare Ltd,Antacid,1581.18,1581.18,Out of stock,4.7,436
+LifeCare,Paracetamol,Nova Life,Antidiabetic,377.28,301.82,Out of stock,3.0,404
+PharmaOne,Atorvastatin,Medicare Ltd,Antacid,1994.73,1795.26,Limited,3.7,327
+BioTrust,Paracetamol,Nova Life,Antihypertensive,745.8,633.93,In stock,3.0,393
+LifeCare,Paracetamol,Sun Healthcare,Antacid,304.91,243.93,In stock,2.8,403
+Medix,Paracetamol,Medicare Ltd,Analgesic,1135.72,1135.72,Limited,3.9,328
+LifeCare,Omeprazole,Medicare Ltd,Analgesic,415.96,395.16,In stock,4.7,34
+BioTrust,Atorvastatin,Medicare Ltd,Antihypertensive,1330.54,1264.01,Limited,3.4,413
+BioTrust,Amoxicillin,Medicare Ltd,Antibiotic,394.73,355.26,In stock,3.6,151
+Medix,Metformin,Global Remedies,Antidiabetic,957.8,862.02,Out of stock,2.7,47
+BioTrust,Paracetamol,ABC Pharma,Antidiabetic,1972.25,1972.25,In stock,3.0,289
+PharmaOne,Metformin,Global Remedies,Analgesic,1235.95,1174.15,Out of stock,4.8,52
+LifeCare,Amoxicillin,Sun Healthcare,Antibiotic,192.2,192.2,In stock,3.8,465
+LifeCare,Omeprazole,Global Remedies,Antihypertensive,1238.45,1176.53,In stock,4.4,271
+PharmaOne,Omeprazole,Nova Life,Analgesic,1349.63,1147.19,Out of stock,2.8,490
+LifeCare,Atorvastatin,Medicare Ltd,Antidiabetic,1014.07,1014.07,In stock,4.1,246
+LifeCare,Amoxicillin,Medicare Ltd,Antacid,151.72,128.96,Out of stock,3.1,266
+BioTrust,Metformin,Global Remedies,Antibiotic,998.65,948.72,Limited,2.9,133
+BioTrust,Atorvastatin,Global Remedies,Antihypertensive,1870.9,1870.9,Limited,4.1,450
+Medix,Paracetamol,Nova Life,Antihypertensive,1281.58,1217.5,In stock,3.1,395
+LifeCare,Paracetamol,Global Remedies,Analgesic,1243.74,1057.18,In stock,3.4,226
+HealPlus,Metformin,Global Remedies,Analgesic,899.87,764.89,In stock,3.3,426
+BioTrust,Omeprazole,Sun Healthcare,Antibiotic,724.18,687.97,Out of stock,3.3,314
+BioTrust,Amoxicillin,ABC Pharma,Antihypertensive,93.23,74.58,In stock,3.6,101
+HealPlus,Atorvastatin,ABC Pharma,Antacid,858.45,729.68,In stock,4.7,183
+BioTrust,Atorvastatin,Nova Life,Analgesic,170.62,145.03,Out of stock,2.6,401
+HealPlus,Atorvastatin,ABC Pharma,Antacid,1385.94,1108.75,In stock,2.8,455
+BioTrust,Paracetamol,ABC Pharma,Antidiabetic,1547.11,1315.04,Out of stock,2.6,352
+HealPlus,Paracetamol,Medicare Ltd,Antibiotic,274.17,274.17,Limited,5.0,308
+PharmaOne,Omeprazole,Sun Healthcare,Analgesic,1256.87,1131.18,Out of stock,4.2,420
+BioTrust,Atorvastatin,Global Remedies,Analgesic,1041.13,1041.13,Out of stock,2.5,414
+BioTrust,Paracetamol,Medicare Ltd,Antihypertensive,1404.58,1334.35,Out of stock,5.0,188
+PharmaOne,Paracetamol,Global Remedies,Antihypertensive,1107.45,885.96,Limited,3.5,179
+HealPlus,Metformin,ABC Pharma,Antihypertensive,24.84,21.11,Limited,3.4,428
+PharmaOne,Atorvastatin,Sun Healthcare,Antacid,1253.0,1002.4,Limited,4.6,251
+Medix,Amoxicillin,Sun Healthcare,Antidiabetic,349.23,279.38,In stock,4.2,139
+BioTrust,Paracetamol,Medicare Ltd,Antibiotic,286.76,286.76,Limited,3.2,218
+LifeCare,Amoxicillin,Nova Life,Analgesic,1350.3,1215.27,Out of stock,4.1,333
+Medix,Omeprazole,Sun Healthcare,Antidiabetic,445.56,378.73,Limited,3.5,266
+BioTrust,Amoxicillin,Nova Life,Antihypertensive,239.58,191.66,Out of stock,3.6,179
+LifeCare,Omeprazole,Sun Healthcare,Antibiotic,1745.61,1483.77,Limited,5.0,314
+Medix,Paracetamol,Nova Life,Analgesic,1767.42,1590.68,Out of stock,2.6,190
+BioTrust,Paracetamol,Medicare Ltd,Antibiotic,1911.83,1529.46,Limited,4.0,273
+PharmaOne,Omeprazole,Global Remedies,Antidiabetic,152.45,137.2,Limited,4.6,200
+HealPlus,Atorvastatin,Medicare Ltd,Antibiotic,690.46,586.89,Limited,2.5,371
+BioTrust,Omeprazole,ABC Pharma,Antacid,1249.38,999.5,Out of stock,4.8,60
+PharmaOne,Metformin,Medicare Ltd,Antacid,308.63,293.2,Limited,3.3,170
+Medix,Atorvastatin,Medicare Ltd,Antihypertensive,1642.42,1313.94,Out of stock,4.1,185
+PharmaOne,Atorvastatin,ABC Pharma,Antibiotic,753.36,715.69,Out of stock,3.9,355
+Medix,Atorvastatin,Medicare Ltd,Antidiabetic,1310.17,1244.66,Out of stock,3.9,352
+BioTrust,Paracetamol,ABC Pharma,Antacid,488.17,414.94,Limited,4.6,184
+PharmaOne,Metformin,Medicare Ltd,Antacid,980.87,833.74,In stock,4.7,468
+LifeCare,Omeprazole,Nova Life,Antidiabetic,41.39,41.39,In stock,4.0,253
+HealPlus,Paracetamol,Medicare Ltd,Antihypertensive,1172.51,996.63,Limited,4.6,352
+LifeCare,Atorvastatin,Medicare Ltd,Antihypertensive,98.78,88.9,In stock,4.7,31
+PharmaOne,Amoxicillin,Sun Healthcare,Antidiabetic,545.32,490.79,Limited,4.6,338
+LifeCare,Paracetamol,Sun Healthcare,Antihypertensive,1541.16,1232.93,Limited,3.7,212
+LifeCare,Metformin,Sun Healthcare,Antibiotic,1295.53,1101.2,Limited,4.3,470
+HealPlus,Atorvastatin,Nova Life,Antihypertensive,1081.92,919.63,Out of stock,4.4,140
+Medix,Paracetamol,Global Remedies,Antacid,783.46,626.77,In stock,3.5,485
+Medix,Amoxicillin,Nova Life,Antihypertensive,689.77,689.77,Limited,4.0,262
+HealPlus,Amoxicillin,Nova Life,Antacid,1669.43,1585.96,In stock,3.4,15
+LifeCare,Paracetamol,Medicare Ltd,Analgesic,617.29,493.83,In stock,3.5,3
+Medix,Omeprazole,Sun Healthcare,Antibiotic,1704.89,1449.16,Out of stock,2.7,268
+HealPlus,Amoxicillin,ABC Pharma,Antacid,1119.25,1119.25,Out of stock,2.7,240
+HealPlus,Amoxicillin,Medicare Ltd,Antihypertensive,1712.56,1626.93,Out of stock,4.3,87
+HealPlus,Metformin,Sun Healthcare,Antibiotic,1470.25,1323.22,In stock,3.8,468
+HealPlus,Paracetamol,Sun Healthcare,Analgesic,241.3,205.11,In stock,4.7,176
+PharmaOne,Amoxicillin,ABC Pharma,Antihypertensive,1936.28,1936.28,Limited,4.0,166
+BioTrust,Omeprazole,Sun Healthcare,Antacid,1617.89,1537.0,Out of stock,3.7,184
+Medix,Atorvastatin,ABC Pharma,Antidiabetic,1276.54,1276.54,In stock,2.7,58
+LifeCare,Omeprazole,Sun Healthcare,Antihypertensive,642.31,642.31,Limited,2.9,215
+HealPlus,Paracetamol,ABC Pharma,Antidiabetic,1102.6,1102.6,Out of stock,3.0,488
+HealPlus,Omeprazole,Sun Healthcare,Antidiabetic,1113.93,891.14,Out of stock,4.4,14
+PharmaOne,Amoxicillin,Sun Healthcare,Antidiabetic,882.56,838.43,In stock,4.0,16
+BioTrust,Metformin,Global Remedies,Analgesic,630.47,535.9,In stock,2.9,187
+LifeCare,Metformin,Sun Healthcare,Antihypertensive,109.66,98.69,Limited,3.9,248
+PharmaOne,Metformin,Global Remedies,Antidiabetic,1749.9,1574.91,Limited,2.9,277
+BioTrust,Metformin,Medicare Ltd,Antidiabetic,156.5,133.03,Out of stock,3.1,68
+HealPlus,Amoxicillin,Sun Healthcare,Antacid,455.43,432.66,Out of stock,4.0,429
+BioTrust,Paracetamol,Sun Healthcare,Analgesic,811.54,689.81,Out of stock,3.0,146
+LifeCare,Omeprazole,Nova Life,Analgesic,1235.78,1050.41,In stock,2.6,370
+BioTrust,Omeprazole,Sun Healthcare,Antidiabetic,606.03,545.43,In stock,4.0,290
+LifeCare,Metformin,Sun Healthcare,Analgesic,1751.29,1663.73,Limited,4.2,475
+Medix,Omeprazole,Nova Life,Antacid,1917.2,1821.34,In stock,3.7,18
+HealPlus,Metformin,Global Remedies,Antihypertensive,1376.95,1376.95,In stock,2.8,154
+HealPlus,Amoxicillin,Medicare Ltd,Antacid,970.73,970.73,In stock,2.6,496
+Medix,Omeprazole,Global Remedies,Analgesic,1992.03,1693.23,In stock,4.5,149
+PharmaOne,Amoxicillin,Medicare Ltd,Analgesic,1478.86,1404.92,Limited,4.4,253
+PharmaOne,Amoxicillin,Nova Life,Analgesic,867.97,867.97,Out of stock,2.8,164
+HealPlus,Metformin,Sun Healthcare,Antacid,977.95,977.95,Out of stock,4.7,120
+BioTrust,Metformin,ABC Pharma,Antihypertensive,175.35,140.28,In stock,2.6,78
+HealPlus,Amoxicillin,Global Remedies,Analgesic,105.13,84.1,In stock,4.1,324
+PharmaOne,Amoxicillin,Global Remedies,Analgesic,1105.79,939.92,In stock,4.6,272
+Medix,Atorvastatin,Medicare Ltd,Antibiotic,1608.48,1528.06,In stock,4.5,272
+LifeCare,Atorvastatin,Nova Life,Antacid,868.54,738.26,Limited,3.2,29
+Medix,Atorvastatin,Sun Healthcare,Antacid,383.99,345.59,In stock,3.0,409
+Medix,Metformin,Nova Life,Antibiotic,121.97,121.97,In stock,3.9,50
+Medix,Atorvastatin,Nova Life,Antidiabetic,629.37,503.5,Out of stock,3.4,302
+LifeCare,Metformin,Medicare Ltd,Analgesic,69.71,62.74,Limited,3.5,494
+PharmaOne,Paracetamol,Nova Life,Antidiabetic,1253.21,1253.21,In stock,4.4,285
+HealPlus,Paracetamol,Global Remedies,Antihypertensive,1422.07,1350.97,In stock,3.5,166
+BioTrust,Paracetamol,Global Remedies,Antihypertensive,881.94,881.94,Out of stock,4.2,420
+Medix,Atorvastatin,Global Remedies,Analgesic,649.63,519.7,Out of stock,4.4,74
+Medix,Omeprazole,Global Remedies,Analgesic,1055.66,950.09,Out of stock,3.9,499
+LifeCare,Metformin,Medicare Ltd,Antacid,868.48,868.48,Limited,3.8,28
+PharmaOne,Omeprazole,Sun Healthcare,Antacid,725.33,725.33,Out of stock,3.6,426
+Medix,Metformin,Nova Life,Antidiabetic,206.42,196.1,Limited,4.3,32
+HealPlus,Amoxicillin,Nova Life,Antibiotic,1339.62,1339.62,Out of stock,2.9,158
+BioTrust,Atorvastatin,ABC Pharma,Antihypertensive,227.05,204.35,In stock,2.5,436
+LifeCare,Amoxicillin,Medicare Ltd,Antihypertensive,1631.72,1386.96,In stock,3.1,459
+Medix,Omeprazole,Nova Life,Antihypertensive,141.84,113.47,Limited,3.4,463
+LifeCare,Metformin,ABC Pharma,Antacid,1373.55,1098.84,Out of stock,4.5,500
+BioTrust,Atorvastatin,Global Remedies,Antibiotic,1640.8,1558.76,Limited,4.9,316
+Medix,Omeprazole,ABC Pharma,Antihypertensive,1770.51,1681.98,In stock,3.5,274
+LifeCare,Paracetamol,Nova Life,Antidiabetic,362.95,290.36,Out of stock,4.7,171
+PharmaOne,Paracetamol,ABC Pharma,Antidiabetic,1803.74,1623.37,Limited,4.5,94
+HealPlus,Paracetamol,Global Remedies,Analgesic,733.12,659.81,In stock,3.3,437
+PharmaOne,Omeprazole,Global Remedies,Antibiotic,599.0,509.15,Out of stock,2.7,40
+HealPlus,Omeprazole,Medicare Ltd,Antihypertensive,1059.19,1059.19,Limited,3.4,429
+PharmaOne,Atorvastatin,Global Remedies,Antibiotic,378.9,378.9,Out of stock,3.6,289
+Medix,Atorvastatin,Nova Life,Antacid,1671.63,1588.05,Out of stock,4.4,321
+LifeCare,Atorvastatin,Nova Life,Antihypertensive,461.03,414.93,Limited,4.8,181
+Medix,Atorvastatin,Global Remedies,Antibiotic,1044.43,887.77,Limited,4.0,228
+PharmaOne,Metformin,ABC Pharma,Analgesic,358.76,340.82,Out of stock,4.4,236
+BioTrust,Paracetamol,ABC Pharma,Antibiotic,1448.95,1231.61,In stock,4.9,79
+HealPlus,Amoxicillin,Medicare Ltd,Antacid,186.91,158.87,Out of stock,3.1,61
+PharmaOne,Omeprazole,ABC Pharma,Antibiotic,1009.07,857.71,Out of stock,4.5,40
+PharmaOne,Metformin,Nova Life,Antacid,719.82,647.84,Limited,4.3,153
+LifeCare,Metformin,Global Remedies,Antibiotic,903.86,903.86,In stock,4.6,121
+LifeCare,Paracetamol,Medicare Ltd,Antibiotic,1377.63,1308.75,Out of stock,4.7,275
+Medix,Amoxicillin,Global Remedies,Analgesic,185.25,157.46,Limited,4.3,352
+LifeCare,Omeprazole,Medicare Ltd,Antidiabetic,949.73,902.24,In stock,4.2,127
+PharmaOne,Paracetamol,Sun Healthcare,Antidiabetic,1731.54,1471.81,Limited,2.9,170
+Medix,Omeprazole,Global Remedies,Antibiotic,1563.92,1563.92,Limited,4.4,3
+Medix,Omeprazole,Nova Life,Antacid,817.43,653.94,Limited,3.2,476
+LifeCare,Amoxicillin,ABC Pharma,Analgesic,188.13,178.72,In stock,4.5,306
+PharmaOne,Atorvastatin,Sun Healthcare,Antibiotic,1090.37,1035.85,Out of stock,2.5,128
+PharmaOne,Amoxicillin,Sun Healthcare,Antidiabetic,155.72,124.58,Out of stock,4.5,311
+HealPlus,Paracetamol,ABC Pharma,Analgesic,722.1,686.0,In stock,5.0,322
+HealPlus,Amoxicillin,Nova Life,Antibiotic,1214.83,1093.35,In stock,5.0,154
+PharmaOne,Paracetamol,Nova Life,Antibiotic,184.84,166.36,In stock,3.1,349
+LifeCare,Omeprazole,Sun Healthcare,Antacid,1347.0,1077.6,Out of stock,3.8,132
+HealPlus,Paracetamol,ABC Pharma,Antacid,1249.62,1124.66,Limited,3.6,52
+Medix,Atorvastatin,ABC Pharma,Analgesic,1231.35,1231.35,Out of stock,3.3,90
+HealPlus,Omeprazole,ABC Pharma,Antacid,1869.58,1589.14,Out of stock,4.5,446
+Medix,Omeprazole,ABC Pharma,Analgesic,284.63,284.63,Limited,4.8,159
+LifeCare,Metformin,Medicare Ltd,Antibiotic,377.56,339.8,Out of stock,3.1,150
+LifeCare,Paracetamol,Sun Healthcare,Antihypertensive,122.62,110.36,Limited,4.6,211
+LifeCare,Atorvastatin,Global Remedies,Antihypertensive,222.37,177.9,Out of stock,4.6,317
+PharmaOne,Metformin,ABC Pharma,Antibiotic,400.34,360.31,Limited,3.9,245
+BioTrust,Paracetamol,Global Remedies,Antibiotic,1429.77,1429.77,In stock,4.3,382
+LifeCare,Metformin,Sun Healthcare,Analgesic,59.16,59.16,Out of stock,3.4,342
+HealPlus,Atorvastatin,ABC Pharma,Analgesic,1624.7,1624.7,Limited,4.3,209
+Medix,Amoxicillin,Sun Healthcare,Analgesic,55.21,52.45,In stock,3.7,201
+PharmaOne,Amoxicillin,Medicare Ltd,Antacid,91.18,86.62,Out of stock,4.7,493
+PharmaOne,Omeprazole,Medicare Ltd,Analgesic,1766.19,1501.26,Limited,4.9,403
+Medix,Paracetamol,ABC Pharma,Antihypertensive,1057.92,1005.02,Out of stock,4.0,166
+Medix,Metformin,Nova Life,Antidiabetic,1870.0,1776.5,Limited,4.3,255
+PharmaOne,Metformin,Sun Healthcare,Antidiabetic,972.17,972.17,Out of stock,3.4,425
+HealPlus,Paracetamol,Medicare Ltd,Antibiotic,1850.98,1850.98,In stock,4.1,287
+PharmaOne,Atorvastatin,Medicare Ltd,Antibiotic,113.22,90.58,Limited,4.6,224
+Medix,Metformin,Nova Life,Antihypertensive,1553.24,1553.24,Out of stock,3.4,418
+HealPlus,Metformin,Medicare Ltd,Antacid,608.31,517.06,Limited,3.6,4
+PharmaOne,Atorvastatin,Global Remedies,Antidiabetic,798.37,638.7,Limited,4.9,470
+Medix,Amoxicillin,Nova Life,Analgesic,416.07,353.66,In stock,4.8,411
+HealPlus,Amoxicillin,Sun Healthcare,Antacid,436.33,436.33,In stock,3.7,275
+LifeCare,Metformin,ABC Pharma,Antidiabetic,1456.88,1311.19,Limited,4.5,161
+PharmaOne,Omeprazole,Global Remedies,Analgesic,1672.31,1588.69,Out of stock,3.7,106
+BioTrust,Atorvastatin,ABC Pharma,Antacid,499.12,399.3,Limited,2.8,194
+Medix,Metformin,ABC Pharma,Antihypertensive,972.21,777.77,Limited,3.3,243
+LifeCare,Paracetamol,ABC Pharma,Antidiabetic,1990.83,1990.83,Limited,3.1,308
+HealPlus,Amoxicillin,Medicare Ltd,Antacid,1232.62,1170.99,Out of stock,3.5,105
+HealPlus,Metformin,Sun Healthcare,Antacid,676.12,642.31,Limited,3.7,31
+HealPlus,Atorvastatin,Sun Healthcare,Antibiotic,1014.02,963.32,Out of stock,4.2,2
+PharmaOne,Paracetamol,Nova Life,Antidiabetic,373.92,355.22,Out of stock,3.5,299
+LifeCare,Amoxicillin,Sun Healthcare,Analgesic,144.48,115.58,Out of stock,5.0,345
+BioTrust,Atorvastatin,ABC Pharma,Antacid,1687.76,1687.76,Limited,3.2,255
+BioTrust,Paracetamol,Global Remedies,Antidiabetic,223.48,178.78,Out of stock,3.7,182
+BioTrust,Omeprazole,Sun Healthcare,Antibiotic,568.05,568.05,Limited,2.8,477
+LifeCare,Atorvastatin,Nova Life,Analgesic,1539.79,1539.79,Out of stock,4.8,144
+PharmaOne,Paracetamol,Global Remedies,Antibiotic,1410.78,1269.7,Out of stock,3.4,254
+Medix,Metformin,Sun Healthcare,Antihypertensive,1355.46,1152.14,Limited,4.9,154
+LifeCare,Paracetamol,ABC Pharma,Antihypertensive,663.17,530.54,Out of stock,3.8,371
+LifeCare,Atorvastatin,Sun Healthcare,Antidiabetic,999.65,849.7,Limited,4.4,420
+BioTrust,Amoxicillin,Sun Healthcare,Analgesic,1998.25,1698.51,In stock,4.2,110
+Medix,Omeprazole,Sun Healthcare,Antihypertensive,700.51,700.51,In stock,5.0,472
+BioTrust,Atorvastatin,Sun Healthcare,Analgesic,1776.49,1687.67,Limited,2.8,136
+BioTrust,Amoxicillin,Medicare Ltd,Analgesic,1918.64,1726.78,In stock,4.4,413
+BioTrust,Omeprazole,Medicare Ltd,Antidiabetic,1307.51,1307.51,Limited,2.6,119
+LifeCare,Paracetamol,ABC Pharma,Antibiotic,1802.96,1532.52,Out of stock,4.8,451
+HealPlus,Metformin,Global Remedies,Antacid,1747.88,1485.7,Out of stock,2.6,375
+BioTrust,Paracetamol,Sun Healthcare,Antidiabetic,1625.56,1544.28,Out of stock,4.6,235
+HealPlus,Atorvastatin,Sun Healthcare,Analgesic,763.58,763.58,Limited,4.2,40
+Medix,Omeprazole,Nova Life,Antibiotic,1443.39,1154.71,Out of stock,4.2,331
+Medix,Omeprazole,Medicare Ltd,Antacid,65.24,52.19,In stock,4.1,312
+LifeCare,Paracetamol,Sun Healthcare,Antibiotic,854.33,811.61,Out of stock,3.3,297
+Medix,Amoxicillin,Medicare Ltd,Antacid,1748.81,1661.37,In stock,3.3,299
+LifeCare,Amoxicillin,ABC Pharma,Analgesic,1419.13,1206.26,In stock,2.7,22
+HealPlus,Paracetamol,ABC Pharma,Analgesic,1139.22,1139.22,Limited,3.8,164
+HealPlus,Paracetamol,Sun Healthcare,Antihypertensive,1889.68,1511.74,Limited,4.8,292
+LifeCare,Atorvastatin,Nova Life,Antacid,1044.76,835.81,In stock,3.5,86
+Medix,Omeprazole,Medicare Ltd,Antacid,161.96,153.86,Out of stock,2.7,258
+Medix,Atorvastatin,Global Remedies,Antihypertensive,1383.89,1176.31,Limited,4.4,351
+HealPlus,Omeprazole,ABC Pharma,Antihypertensive,1936.76,1646.25,In stock,3.1,102
+Medix,Paracetamol,Global Remedies,Antidiabetic,210.52,189.47,Limited,3.2,299
+Medix,Amoxicillin,Global Remedies,Antidiabetic,848.82,679.06,In stock,3.5,379
+BioTrust,Omeprazole,Medicare Ltd,Antihypertensive,1036.77,984.93,In stock,3.9,429
+PharmaOne,Metformin,Global Remedies,Antibiotic,1660.51,1328.41,In stock,4.9,407
+PharmaOne,Omeprazole,Nova Life,Antihypertensive,1501.45,1501.45,Out of stock,2.7,439
+BioTrust,Amoxicillin,Nova Life,Antibiotic,524.53,419.62,In stock,4.7,275
+PharmaOne,Paracetamol,ABC Pharma,Analgesic,782.42,782.42,Limited,4.4,167
+HealPlus,Metformin,Global Remedies,Antibiotic,1600.34,1440.31,Limited,3.7,476
+Medix,Amoxicillin,Sun Healthcare,Analgesic,481.72,457.63,Out of stock,3.2,253
+LifeCare,Metformin,Nova Life,Antihypertensive,539.73,512.74,Out of stock,4.8,142
+PharmaOne,Paracetamol,ABC Pharma,Antibiotic,967.81,967.81,Out of stock,3.2,275
+HealPlus,Omeprazole,ABC Pharma,Antihypertensive,117.75,94.2,In stock,2.7,500
+HealPlus,Metformin,Nova Life,Analgesic,258.2,232.38,Out of stock,4.6,145
+LifeCare,Omeprazole,Global Remedies,Analgesic,1074.51,1020.78,Out of stock,3.0,440
+LifeCare,Metformin,ABC Pharma,Antihypertensive,1131.41,1074.84,In stock,4.2,30
+HealPlus,Omeprazole,Medicare Ltd,Antidiabetic,183.86,174.67,Limited,4.1,493
+PharmaOne,Atorvastatin,Nova Life,Antihypertensive,601.17,541.05,In stock,4.6,323
+LifeCare,Metformin,Global Remedies,Antihypertensive,973.05,924.4,Out of stock,4.4,108
+LifeCare,Paracetamol,Sun Healthcare,Antibiotic,1319.4,1055.52,Out of stock,3.1,101
+Medix,Atorvastatin,Global Remedies,Antihypertensive,234.24,222.53,Out of stock,4.0,422
+BioTrust,Omeprazole,ABC Pharma,Antihypertensive,1230.35,1230.35,In stock,4.3,19
+LifeCare,Atorvastatin,Medicare Ltd,Analgesic,1018.81,916.93,In stock,4.8,316
+PharmaOne,Omeprazole,ABC Pharma,Antihypertensive,1964.09,1964.09,Limited,4.8,396
+PharmaOne,Amoxicillin,Sun Healthcare,Antihypertensive,1621.27,1297.02,In stock,2.8,445
+LifeCare,Omeprazole,ABC Pharma,Antibiotic,1863.29,1863.29,Out of stock,4.9,460
+HealPlus,Omeprazole,Sun Healthcare,Antacid,1393.68,1184.63,Limited,3.2,60
+HealPlus,Amoxicillin,Sun Healthcare,Antacid,1093.76,984.38,Out of stock,4.8,345
+HealPlus,Atorvastatin,Global Remedies,Analgesic,1884.26,1695.83,In stock,2.7,386
+LifeCare,Amoxicillin,Medicare Ltd,Analgesic,288.1,230.48,Limited,3.5,297
+LifeCare,Amoxicillin,ABC Pharma,Antihypertensive,747.72,598.18,Limited,3.7,263
+PharmaOne,Atorvastatin,ABC Pharma,Antibiotic,1226.14,1103.53,In stock,4.3,69
+HealPlus,Paracetamol,Global Remedies,Antacid,1260.86,1134.77,In stock,4.4,361
+BioTrust,Paracetamol,ABC Pharma,Antibiotic,1684.65,1600.42,Out of stock,4.5,371
+BioTrust,Metformin,Medicare Ltd,Antibiotic,1436.1,1292.49,In stock,3.2,238
+LifeCare,Paracetamol,ABC Pharma,Analgesic,955.41,859.87,Limited,3.1,140
+HealPlus,Paracetamol,Sun Healthcare,Antibiotic,643.46,643.46,In stock,4.0,72
+LifeCare,Omeprazole,Medicare Ltd,Analgesic,1061.49,902.27,Limited,4.6,282
+PharmaOne,Atorvastatin,Global Remedies,Antibiotic,1980.71,1782.64,In stock,3.5,27
+HealPlus,Amoxicillin,Sun Healthcare,Antibiotic,990.3,940.78,In stock,4.1,132
+PharmaOne,Omeprazole,Global Remedies,Antihypertensive,1440.98,1440.98,In stock,3.3,438
+Medix,Omeprazole,Global Remedies,Antihypertensive,287.76,244.6,In stock,4.7,407
+Medix,Omeprazole,ABC Pharma,Antihypertensive,1534.49,1227.59,Out of stock,2.7,182
+Medix,Omeprazole,Sun Healthcare,Analgesic,322.8,306.66,In stock,3.0,100
+Medix,Metformin,ABC Pharma,Analgesic,1351.27,1283.71,Out of stock,3.3,156
+LifeCare,Paracetamol,Global Remedies,Antidiabetic,1595.4,1356.09,Out of stock,2.7,330
+PharmaOne,Paracetamol,ABC Pharma,Antidiabetic,875.04,787.54,In stock,4.5,431
+Medix,Atorvastatin,ABC Pharma,Analgesic,644.49,547.82,Out of stock,3.3,99
+LifeCare,Metformin,Global Remedies,Antihypertensive,216.93,216.93,Limited,3.1,434
+PharmaOne,Amoxicillin,Nova Life,Antihypertensive,1433.62,1361.94,In stock,3.1,419
+Medix,Amoxicillin,Sun Healthcare,Antihypertensive,197.2,177.48,Limited,3.5,350
+BioTrust,Atorvastatin,Global Remedies,Antibiotic,1959.06,1763.15,Out of stock,4.0,332
+PharmaOne,Omeprazole,Nova Life,Antidiabetic,1570.68,1335.08,Out of stock,3.5,484
+PharmaOne,Atorvastatin,Medicare Ltd,Antacid,1579.87,1421.88,Limited,4.1,178
+PharmaOne,Omeprazole,ABC Pharma,Antacid,1457.1,1238.53,Limited,4.9,284
+HealPlus,Amoxicillin,ABC Pharma,Antacid,690.51,690.51,Out of stock,4.9,88
+HealPlus,Paracetamol,Medicare Ltd,Antidiabetic,1623.71,1542.52,In stock,3.5,52
+PharmaOne,Metformin,Global Remedies,Antihypertensive,1450.8,1305.72,In stock,4.2,183
+LifeCare,Metformin,Medicare Ltd,Antidiabetic,932.09,932.09,In stock,4.8,210
+HealPlus,Omeprazole,Sun Healthcare,Antidiabetic,546.38,464.42,Limited,3.3,387
+HealPlus,Omeprazole,Sun Healthcare,Antacid,939.64,798.69,In stock,2.7,269
+PharmaOne,Atorvastatin,Medicare Ltd,Antihypertensive,1559.92,1247.94,Out of stock,3.4,207
+Medix,Amoxicillin,Medicare Ltd,Antidiabetic,399.46,379.49,In stock,4.9,382
+HealPlus,Atorvastatin,Global Remedies,Antihypertensive,1741.96,1393.57,Out of stock,2.9,209
+Medix,Atorvastatin,ABC Pharma,Antihypertensive,1653.48,1653.48,In stock,4.8,419
+BioTrust,Amoxicillin,Nova Life,Antibiotic,1256.06,1004.85,Limited,2.6,373
+PharmaOne,Atorvastatin,Nova Life,Antihypertensive,1071.93,964.74,Out of stock,3.7,57
+BioTrust,Metformin,Nova Life,Antihypertensive,315.74,299.95,Out of stock,3.4,386
+Medix,Amoxicillin,ABC Pharma,Antibiotic,969.18,872.26,Limited,4.5,182
+PharmaOne,Amoxicillin,Sun Healthcare,Antidiabetic,942.63,848.37,Out of stock,3.0,409
+PharmaOne,Amoxicillin,Sun Healthcare,Antacid,1388.37,1388.37,In stock,4.6,86
+Medix,Atorvastatin,Sun Healthcare,Antihypertensive,1235.59,1112.03,In stock,4.4,109
+Medix,Amoxicillin,Medicare Ltd,Analgesic,475.66,475.66,Out of stock,3.4,347
+BioTrust,Metformin,Global Remedies,Antacid,1390.97,1390.97,Limited,4.3,20
+PharmaOne,Omeprazole,Sun Healthcare,Antidiabetic,1242.38,993.9,Out of stock,3.5,314
+LifeCare,Atorvastatin,Global Remedies,Analgesic,1497.02,1272.47,Out of stock,4.2,22
+BioTrust,Paracetamol,Sun Healthcare,Antidiabetic,1559.96,1403.96,In stock,3.1,10
+LifeCare,Amoxicillin,Global Remedies,Antidiabetic,239.0,191.2,Limited,3.1,111
+PharmaOne,Omeprazole,Nova Life,Antidiabetic,1201.1,1080.99,Out of stock,3.1,373
+Medix,Omeprazole,Medicare Ltd,Antacid,654.42,588.98,In stock,3.8,125
+PharmaOne,Atorvastatin,Medicare Ltd,Antibiotic,1636.2,1390.77,Out of stock,4.7,360
+PharmaOne,Paracetamol,Global Remedies,Analgesic,481.46,433.31,In stock,2.9,300
+HealPlus,Omeprazole,ABC Pharma,Antacid,1173.57,1173.57,Limited,4.4,391
+BioTrust,Omeprazole,Sun Healthcare,Antacid,1549.01,1549.01,In stock,2.8,23
+Medix,Metformin,ABC Pharma,Antibiotic,1901.67,1806.59,In stock,2.6,8
+LifeCare,Amoxicillin,Global Remedies,Antibiotic,1603.07,1603.07,In stock,4.7,190
+BioTrust,Paracetamol,Global Remedies,Antidiabetic,903.37,903.37,Limited,3.2,242
+BioTrust,Metformin,Global Remedies,Analgesic,219.47,197.52,Limited,3.5,50
+BioTrust,Amoxicillin,Sun Healthcare,Antihypertensive,1389.36,1111.49,Limited,5.0,376
+Medix,Omeprazole,ABC Pharma,Antihypertensive,1293.5,1293.5,Limited,4.2,193
+HealPlus,Atorvastatin,ABC Pharma,Analgesic,1765.91,1589.32,In stock,3.6,184
+PharmaOne,Atorvastatin,Global Remedies,Antibiotic,508.18,457.36,In stock,2.8,336
+Medix,Omeprazole,Nova Life,Antihypertensive,1811.71,1539.95,Out of stock,4.6,86
+Medix,Amoxicillin,Sun Healthcare,Analgesic,1641.05,1476.94,Out of stock,3.3,290
+PharmaOne,Amoxicillin,Nova Life,Analgesic,745.82,671.24,In stock,3.1,454
+PharmaOne,Metformin,Global Remedies,Antidiabetic,406.31,325.05,Out of stock,3.9,350
+BioTrust,Amoxicillin,Medicare Ltd,Antacid,1549.46,1394.51,Out of stock,4.0,190
+BioTrust,Amoxicillin,Sun Healthcare,Antibiotic,416.03,332.82,In stock,3.9,211
+Medix,Omeprazole,Medicare Ltd,Antidiabetic,334.07,267.26,In stock,4.6,38
+BioTrust,Amoxicillin,Nova Life,Antihypertensive,1712.08,1455.27,In stock,3.4,480
+BioTrust,Atorvastatin,ABC Pharma,Analgesic,1397.71,1327.82,In stock,3.9,145
+Medix,Metformin,Sun Healthcare,Analgesic,1806.44,1535.47,Out of stock,3.0,209
+PharmaOne,Atorvastatin,Global Remedies,Antihypertensive,1808.94,1628.05,In stock,4.2,83
+HealPlus,Paracetamol,Global Remedies,Antibiotic,1061.77,955.59,Out of stock,3.5,410
+PharmaOne,Metformin,Sun Healthcare,Antibiotic,64.3,61.08,Limited,4.6,365
+BioTrust,Paracetamol,ABC Pharma,Antibiotic,1026.97,924.27,Limited,3.7,171
+LifeCare,Atorvastatin,Nova Life,Antacid,1041.87,1041.87,Limited,3.3,310
+LifeCare,Omeprazole,ABC Pharma,Antidiabetic,1980.33,1782.3,In stock,2.6,290
+HealPlus,Omeprazole,Global Remedies,Analgesic,1947.62,1752.86,Limited,2.6,81
+LifeCare,Atorvastatin,ABC Pharma,Antibiotic,443.98,355.18,Out of stock,3.8,207
+Medix,Omeprazole,Sun Healthcare,Antihypertensive,289.15,289.15,In stock,3.0,481
+LifeCare,Atorvastatin,Nova Life,Antihypertensive,273.63,259.95,Out of stock,3.3,159
+HealPlus,Atorvastatin,Medicare Ltd,Analgesic,1527.27,1527.27,Out of stock,4.4,239
+PharmaOne,Metformin,Sun Healthcare,Analgesic,206.88,196.54,In stock,3.8,318
+LifeCare,Amoxicillin,Global Remedies,Antibiotic,961.63,769.3,Out of stock,4.9,86
+PharmaOne,Omeprazole,Medicare Ltd,Antidiabetic,1071.54,1071.54,Out of stock,3.5,193
+PharmaOne,Atorvastatin,ABC Pharma,Antihypertensive,1102.65,882.12,In stock,3.9,431
+LifeCare,Paracetamol,Global Remedies,Antidiabetic,50.66,43.06,Limited,3.9,244
+LifeCare,Paracetamol,Global Remedies,Antibiotic,1279.79,1023.83,Out of stock,4.7,265
+Medix,Omeprazole,Nova Life,Antacid,1801.9,1801.9,In stock,4.5,18
+HealPlus,Amoxicillin,Medicare Ltd,Antidiabetic,877.92,790.13,Limited,2.9,256
+PharmaOne,Metformin,Global Remedies,Antacid,698.32,628.49,Limited,3.4,346
+HealPlus,Metformin,ABC Pharma,Analgesic,805.82,765.53,Out of stock,4.8,411
+Medix,Paracetamol,Sun Healthcare,Analgesic,1909.15,1909.15,Out of stock,3.8,10
+Medix,Metformin,Medicare Ltd,Antidiabetic,1171.1,1112.54,In stock,4.8,279
+LifeCare,Amoxicillin,Sun Healthcare,Antihypertensive,777.09,738.24,Limited,3.6,311
+BioTrust,Atorvastatin,ABC Pharma,Analgesic,1746.36,1659.04,In stock,5.0,440
+LifeCare,Atorvastatin,Sun Healthcare,Analgesic,1523.54,1371.19,Out of stock,3.5,113
+HealPlus,Amoxicillin,Nova Life,Antidiabetic,1185.77,1067.19,In stock,4.3,353
+HealPlus,Omeprazole,Medicare Ltd,Antibiotic,388.05,368.65,Limited,3.3,198
+Medix,Omeprazole,Sun Healthcare,Antacid,983.46,983.46,Out of stock,4.3,241
+HealPlus,Atorvastatin,Sun Healthcare,Analgesic,637.39,637.39,Out of stock,3.9,463
+PharmaOne,Amoxicillin,Sun Healthcare,Antidiabetic,1411.62,1199.88,Out of stock,3.9,297
+BioTrust,Paracetamol,Global Remedies,Analgesic,653.85,588.47,In stock,3.6,197
+PharmaOne,Metformin,Medicare Ltd,Antihypertensive,777.15,738.29,Limited,3.5,30
+Medix,Atorvastatin,Nova Life,Antihypertensive,593.12,533.81,In stock,2.5,110
+Medix,Metformin,Global Remedies,Analgesic,1226.68,1226.68,In stock,4.9,42
+BioTrust,Omeprazole,Sun Healthcare,Antihypertensive,1025.86,871.98,In stock,4.2,45
+LifeCare,Amoxicillin,Nova Life,Analgesic,1248.26,1061.02,In stock,2.7,492
+BioTrust,Paracetamol,Global Remedies,Antibiotic,1035.2,1035.2,Out of stock,2.6,463
+HealPlus,Paracetamol,Medicare Ltd,Antibiotic,31.72,25.38,Out of stock,3.4,20
+BioTrust,Paracetamol,ABC Pharma,Antacid,413.43,330.74,In stock,4.0,83
+Medix,Atorvastatin,ABC Pharma,Antacid,1886.68,1509.34,Limited,3.5,154
+BioTrust,Atorvastatin,Medicare Ltd,Analgesic,1686.69,1518.02,Limited,2.8,24
+LifeCare,Amoxicillin,Nova Life,Antibiotic,463.16,440.0,In stock,4.0,321
+Medix,Atorvastatin,Sun Healthcare,Antibiotic,1169.0,935.2,Limited,4.8,284
+HealPlus,Amoxicillin,Nova Life,Antidiabetic,758.35,720.43,In stock,3.8,338
+HealPlus,Atorvastatin,Medicare Ltd,Antacid,1123.3,1010.97,Out of stock,3.0,147
+HealPlus,Atorvastatin,ABC Pharma,Antidiabetic,777.32,660.72,Out of stock,4.8,491
+Medix,Paracetamol,Medicare Ltd,Antidiabetic,694.49,659.77,Out of stock,4.3,157
+BioTrust,Metformin,Medicare Ltd,Antacid,1294.34,1229.62,Limited,3.8,489
+LifeCare,Omeprazole,ABC Pharma,Analgesic,493.73,493.73,In stock,3.9,260
+LifeCare,Atorvastatin,Sun Healthcare,Antihypertensive,1980.43,1980.43,In stock,4.7,273
+PharmaOne,Paracetamol,Global Remedies,Antibiotic,882.67,838.54,Limited,3.4,277
+PharmaOne,Paracetamol,Global Remedies,Antibiotic,213.42,170.74,Limited,2.9,346
+Medix,Omeprazole,Global Remedies,Analgesic,1570.26,1413.23,Limited,4.4,15
+HealPlus,Metformin,Nova Life,Antibiotic,336.34,319.52,Limited,3.2,438
+BioTrust,Atorvastatin,ABC Pharma,Antacid,616.83,524.31,Out of stock,3.0,346
+BioTrust,Atorvastatin,Global Remedies,Antibiotic,261.59,222.35,Out of stock,3.2,367
+HealPlus,Metformin,ABC Pharma,Antacid,1079.3,1079.3,In stock,2.8,290
+Medix,Amoxicillin,Nova Life,Antihypertensive,1521.93,1445.83,Out of stock,2.6,143
+PharmaOne,Omeprazole,ABC Pharma,Analgesic,1048.81,891.49,Limited,2.9,325
+HealPlus,Omeprazole,Sun Healthcare,Antihypertensive,1515.37,1515.37,Limited,3.6,266
+LifeCare,Amoxicillin,Global Remedies,Antacid,1961.28,1569.02,Limited,3.0,352
+Medix,Omeprazole,Sun Healthcare,Antacid,286.99,243.94,In stock,3.8,229
+BioTrust,Paracetamol,ABC Pharma,Antidiabetic,793.27,674.28,In stock,3.7,456
+HealPlus,Metformin,Medicare Ltd,Analgesic,117.92,106.13,Out of stock,3.1,313
+BioTrust,Atorvastatin,Medicare Ltd,Antibiotic,273.84,219.07,Limited,3.0,355
+PharmaOne,Metformin,ABC Pharma,Antihypertensive,235.78,235.78,Out of stock,4.2,465
+LifeCare,Omeprazole,Nova Life,Analgesic,692.55,588.67,Limited,3.9,2
+Medix,Metformin,Sun Healthcare,Antacid,1712.97,1712.97,Limited,4.6,430
+PharmaOne,Metformin,Medicare Ltd,Antihypertensive,1377.1,1239.39,Out of stock,3.0,388
+LifeCare,Amoxicillin,Global Remedies,Antibiotic,364.38,346.16,Limited,3.4,491
+HealPlus,Amoxicillin,Nova Life,Antibiotic,526.86,421.49,In stock,2.9,318
+PharmaOne,Omeprazole,ABC Pharma,Antibiotic,342.26,342.26,Limited,4.6,329
+PharmaOne,Omeprazole,Global Remedies,Antacid,475.47,427.92,Out of stock,3.2,183
+HealPlus,Metformin,ABC Pharma,Antacid,1076.49,861.19,Out of stock,4.0,284
+Medix,Paracetamol,ABC Pharma,Analgesic,906.32,815.69,Out of stock,4.3,275
+HealPlus,Paracetamol,Nova Life,Antacid,1596.5,1277.2,Out of stock,4.8,271
+HealPlus,Atorvastatin,ABC Pharma,Analgesic,1208.42,966.74,Out of stock,5.0,409
+Medix,Paracetamol,Global Remedies,Analgesic,1718.36,1632.44,Limited,3.1,216
+HealPlus,Metformin,Medicare Ltd,Analgesic,49.71,47.22,Limited,2.6,13
+PharmaOne,Amoxicillin,Global Remedies,Antacid,517.7,440.05,In stock,3.1,276
+HealPlus,Omeprazole,Global Remedies,Antihypertensive,542.67,515.54,In stock,2.6,256
+BioTrust,Atorvastatin,Medicare Ltd,Antihypertensive,1695.27,1695.27,Limited,4.9,112
+LifeCare,Atorvastatin,Sun Healthcare,Antacid,1174.58,1174.58,Out of stock,3.2,100
+LifeCare,Paracetamol,Global Remedies,Antibiotic,32.4,25.92,In stock,3.3,299
+BioTrust,Atorvastatin,Medicare Ltd,Antibiotic,975.11,828.84,Limited,2.9,294
+BioTrust,Atorvastatin,Global Remedies,Analgesic,1952.47,1854.85,In stock,4.2,361
+BioTrust,Omeprazole,Medicare Ltd,Analgesic,1321.0,1122.85,In stock,4.8,496
+BioTrust,Amoxicillin,Sun Healthcare,Antihypertensive,1305.92,1305.92,Out of stock,5.0,83
+LifeCare,Metformin,Global Remedies,Antidiabetic,1953.31,1757.98,In stock,2.7,285
+HealPlus,Paracetamol,Global Remedies,Antibiotic,799.88,799.88,Limited,3.0,297
+HealPlus,Atorvastatin,Sun Healthcare,Antidiabetic,913.12,776.15,Limited,4.4,86
+LifeCare,Metformin,Global Remedies,Antidiabetic,583.47,495.95,Limited,3.1,429
+PharmaOne,Paracetamol,Global Remedies,Antihypertensive,1717.79,1717.79,Out of stock,3.8,242
+LifeCare,Metformin,Nova Life,Antibiotic,1512.58,1210.06,Limited,4.9,68
+PharmaOne,Amoxicillin,Medicare Ltd,Analgesic,114.19,102.77,Out of stock,4.5,195
+LifeCare,Amoxicillin,ABC Pharma,Antibiotic,904.42,768.76,Limited,4.2,158
+BioTrust,Amoxicillin,ABC Pharma,Analgesic,1939.27,1745.34,In stock,3.9,193
+LifeCare,Metformin,Sun Healthcare,Antihypertensive,738.85,591.08,In stock,3.0,198
+HealPlus,Amoxicillin,Medicare Ltd,Antibiotic,1761.16,1496.99,In stock,3.2,45
+BioTrust,Omeprazole,Medicare Ltd,Analgesic,1951.07,1951.07,In stock,2.8,239
+PharmaOne,Metformin,ABC Pharma,Analgesic,921.43,829.29,Limited,4.1,224
+LifeCare,Paracetamol,ABC Pharma,Analgesic,745.29,596.23,In stock,4.7,110
+PharmaOne,Amoxicillin,Medicare Ltd,Antacid,325.84,325.84,Limited,3.6,337
+PharmaOne,Atorvastatin,Global Remedies,Antibiotic,1912.98,1912.98,Limited,3.1,142
+BioTrust,Metformin,Sun Healthcare,Antibiotic,1732.8,1559.52,In stock,4.5,35
+LifeCare,Metformin,Nova Life,Antibiotic,1314.87,1314.87,In stock,4.5,270
+Medix,Paracetamol,Nova Life,Antidiabetic,829.85,746.87,Limited,4.3,288
+BioTrust,Atorvastatin,Medicare Ltd,Antihypertensive,1492.95,1269.01,Out of stock,4.7,404
+LifeCare,Amoxicillin,Global Remedies,Antacid,838.78,712.96,In stock,3.6,472
+LifeCare,Paracetamol,Global Remedies,Antacid,390.65,312.52,Limited,3.9,161
+BioTrust,Omeprazole,Global Remedies,Antacid,781.02,624.82,In stock,3.1,442
+LifeCare,Omeprazole,Global Remedies,Analgesic,800.97,720.87,Out of stock,2.9,372
+Medix,Atorvastatin,Global Remedies,Antidiabetic,1513.3,1513.3,In stock,4.2,20
+Medix,Omeprazole,Sun Healthcare,Antidiabetic,1406.73,1406.73,In stock,4.0,270
+PharmaOne,Atorvastatin,Global Remedies,Antidiabetic,1443.19,1298.87,In stock,4.0,498
+BioTrust,Omeprazole,Medicare Ltd,Antidiabetic,241.04,241.04,In stock,4.4,7
+HealPlus,Amoxicillin,Nova Life,Analgesic,1667.06,1583.71,Out of stock,4.0,3
+LifeCare,Metformin,Medicare Ltd,Antibiotic,21.8,17.44,In stock,4.7,254
+PharmaOne,Omeprazole,Global Remedies,Antidiabetic,607.32,607.32,Limited,4.6,74
+HealPlus,Atorvastatin,Sun Healthcare,Antacid,495.05,396.04,Limited,3.8,107
+BioTrust,Metformin,Medicare Ltd,Analgesic,257.51,218.88,In stock,4.3,280
+BioTrust,Metformin,Global Remedies,Analgesic,1099.3,1099.3,In stock,3.2,20
+HealPlus,Metformin,Medicare Ltd,Antidiabetic,766.53,766.53,Out of stock,3.5,500
+PharmaOne,Amoxicillin,Medicare Ltd,Antidiabetic,479.26,431.33,Out of stock,4.7,419
+LifeCare,Atorvastatin,Global Remedies,Antibiotic,75.37,67.83,Limited,4.9,130
+LifeCare,Metformin,Sun Healthcare,Antibiotic,1769.64,1592.68,Out of stock,2.8,359
+BioTrust,Omeprazole,Nova Life,Antibiotic,1378.09,1171.38,Out of stock,2.5,147
+HealPlus,Amoxicillin,Nova Life,Analgesic,858.53,858.53,Out of stock,3.4,385
+LifeCare,Omeprazole,ABC Pharma,Antihypertensive,1355.1,1084.08,Out of stock,2.7,321
+LifeCare,Metformin,Global Remedies,Antibiotic,1964.91,1571.93,Limited,4.2,461
+HealPlus,Atorvastatin,Sun Healthcare,Antibiotic,1236.95,1051.41,Out of stock,3.5,144
+PharmaOne,Metformin,Medicare Ltd,Antacid,1226.16,1226.16,In stock,2.7,201
+PharmaOne,Metformin,ABC Pharma,Antidiabetic,748.2,635.97,Out of stock,3.6,311
+Medix,Omeprazole,Medicare Ltd,Antidiabetic,1352.65,1217.39,Out of stock,3.9,122
+PharmaOne,Amoxicillin,Medicare Ltd,Antibiotic,961.95,817.66,Out of stock,3.3,142
+PharmaOne,Amoxicillin,ABC Pharma,Antibiotic,974.87,926.13,Out of stock,4.2,473
+LifeCare,Omeprazole,Sun Healthcare,Antibiotic,466.78,466.78,Limited,4.0,148
+LifeCare,Omeprazole,Sun Healthcare,Analgesic,1347.84,1213.06,Limited,3.5,296
+BioTrust,Amoxicillin,Sun Healthcare,Antihypertensive,1396.48,1326.66,Limited,4.0,489
+Medix,Atorvastatin,Global Remedies,Antihypertensive,1105.83,995.25,Limited,2.6,285
+BioTrust,Omeprazole,Nova Life,Antibiotic,298.76,298.76,Limited,4.1,464
+HealPlus,Omeprazole,Sun Healthcare,Analgesic,298.09,268.28,Out of stock,4.0,333
+LifeCare,Paracetamol,Global Remedies,Analgesic,1958.47,1958.47,Out of stock,4.8,1
+HealPlus,Atorvastatin,Sun Healthcare,Antacid,1676.86,1676.86,Out of stock,4.2,248
+LifeCare,Paracetamol,Sun Healthcare,Antacid,1279.95,1023.96,Limited,3.2,91
+LifeCare,Atorvastatin,ABC Pharma,Antidiabetic,583.68,583.68,Out of stock,2.7,117
+HealPlus,Atorvastatin,Medicare Ltd,Antibiotic,345.51,345.51,Limited,4.9,293
+PharmaOne,Paracetamol,Global Remedies,Antacid,1454.44,1309.0,Limited,4.9,321
+Medix,Paracetamol,Medicare Ltd,Antacid,599.61,539.65,Limited,4.0,235
+BioTrust,Omeprazole,Medicare Ltd,Antihypertensive,1623.05,1379.59,In stock,4.6,114
+BioTrust,Paracetamol,Global Remedies,Antibiotic,1393.51,1184.48,In stock,2.8,216
+HealPlus,Metformin,Sun Healthcare,Antacid,1690.2,1521.18,Limited,2.9,376
+HealPlus,Omeprazole,Medicare Ltd,Antihypertensive,594.52,535.07,Out of stock,2.9,93
+Medix,Omeprazole,ABC Pharma,Antacid,679.28,645.32,Out of stock,4.9,72
+BioTrust,Amoxicillin,Global Remedies,Antacid,888.12,710.5,Out of stock,3.7,458
+LifeCare,Paracetamol,Medicare Ltd,Antacid,1029.26,1029.26,Limited,3.0,68
+HealPlus,Metformin,Global Remedies,Analgesic,1946.36,1849.04,Limited,4.3,109
+LifeCare,Metformin,Sun Healthcare,Analgesic,648.1,518.48,Limited,4.4,156
+Medix,Paracetamol,Sun Healthcare,Antidiabetic,1033.57,878.53,In stock,4.5,404
+BioTrust,Amoxicillin,Sun Healthcare,Antacid,858.09,772.28,In stock,2.6,135
+Medix,Omeprazole,Global Remedies,Antihypertensive,338.74,321.8,Out of stock,4.0,496
+LifeCare,Amoxicillin,Medicare Ltd,Analgesic,445.92,356.74,In stock,3.3,308
+Medix,Atorvastatin,Global Remedies,Antibiotic,1854.45,1576.28,Limited,2.6,17
+PharmaOne,Atorvastatin,Nova Life,Antidiabetic,1763.82,1587.44,In stock,4.9,48
+Medix,Metformin,Sun Healthcare,Antidiabetic,1167.86,1167.86,Out of stock,4.5,212
+LifeCare,Metformin,Sun Healthcare,Antihypertensive,1336.41,1069.13,Limited,4.8,166
+BioTrust,Atorvastatin,Sun Healthcare,Analgesic,290.35,232.28,Limited,3.4,125
+BioTrust,Metformin,Medicare Ltd,Antihypertensive,441.21,397.09,Limited,4.2,419
+LifeCare,Amoxicillin,ABC Pharma,Analgesic,740.22,703.21,In stock,4.6,341
+PharmaOne,Omeprazole,ABC Pharma,Antacid,1758.38,1406.7,In stock,3.8,207
+BioTrust,Amoxicillin,Sun Healthcare,Antidiabetic,759.21,645.33,In stock,4.7,466
+Medix,Paracetamol,Medicare Ltd,Antacid,922.19,829.97,In stock,4.2,35
+PharmaOne,Omeprazole,ABC Pharma,Analgesic,368.7,313.39,In stock,3.0,482
+PharmaOne,Omeprazole,ABC Pharma,Antacid,1107.69,886.15,In stock,5.0,456
+PharmaOne,Omeprazole,ABC Pharma,Antidiabetic,1461.97,1315.77,Limited,3.9,45
+BioTrust,Atorvastatin,ABC Pharma,Antibiotic,192.58,182.95,Limited,4.0,48
+HealPlus,Omeprazole,ABC Pharma,Analgesic,1110.32,999.29,Out of stock,4.6,154
+PharmaOne,Metformin,ABC Pharma,Analgesic,1911.76,1720.58,Limited,4.5,431
+LifeCare,Atorvastatin,Nova Life,Antacid,1871.17,1684.05,Out of stock,4.0,101
+LifeCare,Metformin,Global Remedies,Antihypertensive,966.42,918.1,Out of stock,3.8,227
+HealPlus,Amoxicillin,Sun Healthcare,Analgesic,1898.15,1613.43,Limited,4.0,179
+Medix,Paracetamol,Sun Healthcare,Analgesic,641.42,545.21,In stock,4.6,22
+BioTrust,Amoxicillin,Nova Life,Analgesic,543.12,461.65,Out of stock,5.0,7
+HealPlus,Paracetamol,Nova Life,Antidiabetic,617.92,617.92,Out of stock,4.7,100
+LifeCare,Metformin,Medicare Ltd,Antihypertensive,21.89,20.8,In stock,3.2,186
+BioTrust,Metformin,ABC Pharma,Antibiotic,1632.75,1306.2,Limited,3.3,217
+LifeCare,Metformin,Nova Life,Antidiabetic,702.73,597.32,Limited,2.7,8
+PharmaOne,Paracetamol,ABC Pharma,Antidiabetic,1608.09,1286.47,Limited,3.0,188
+BioTrust,Atorvastatin,Nova Life,Antidiabetic,1374.14,1168.02,Limited,5.0,465
+Medix,Paracetamol,Global Remedies,Analgesic,47.66,40.51,Out of stock,4.3,395
+Medix,Amoxicillin,Medicare Ltd,Antidiabetic,274.31,233.16,Limited,3.8,396
+BioTrust,Omeprazole,Medicare Ltd,Antihypertensive,308.2,246.56,Out of stock,2.8,155
+Medix,Atorvastatin,Global Remedies,Analgesic,1381.65,1381.65,Limited,3.2,251
+Medix,Paracetamol,Medicare Ltd,Antihypertensive,470.35,470.35,In stock,3.5,434
+LifeCare,Atorvastatin,Global Remedies,Antacid,913.51,730.81,Limited,4.0,184
+LifeCare,Metformin,ABC Pharma,Antacid,564.75,451.8,Out of stock,3.8,384
+LifeCare,Paracetamol,Nova Life,Antidiabetic,218.3,218.3,Out of stock,4.2,275
+PharmaOne,Metformin,Sun Healthcare,Antacid,947.15,852.43,Limited,3.0,311
+PharmaOne,Paracetamol,Global Remedies,Analgesic,1049.52,892.09,Limited,4.4,298
+BioTrust,Atorvastatin,Global Remedies,Antacid,503.61,503.61,Limited,4.2,186
+BioTrust,Omeprazole,Nova Life,Antihypertensive,1558.61,1324.82,Limited,2.6,96
+LifeCare,Paracetamol,Sun Healthcare,Antibiotic,1514.17,1211.34,Out of stock,3.9,304
+Medix,Atorvastatin,ABC Pharma,Antidiabetic,583.0,524.7,Out of stock,3.5,58
+LifeCare,Paracetamol,Nova Life,Antacid,322.57,258.06,In stock,3.4,109
+PharmaOne,Amoxicillin,Medicare Ltd,Antihypertensive,208.3,166.64,Out of stock,3.4,242
+BioTrust,Amoxicillin,Global Remedies,Antihypertensive,1704.64,1363.71,Limited,3.0,111
+Medix,Amoxicillin,ABC Pharma,Analgesic,1213.58,1152.9,Limited,4.7,220
+LifeCare,Atorvastatin,Global Remedies,Antihypertensive,165.31,140.51,Limited,4.8,78
+LifeCare,Paracetamol,Global Remedies,Analgesic,1704.51,1704.51,Out of stock,4.0,308
+HealPlus,Amoxicillin,ABC Pharma,Antihypertensive,948.71,806.4,Out of stock,4.8,26
+Medix,Atorvastatin,Sun Healthcare,Antidiabetic,1894.53,1515.62,Limited,4.8,184
+HealPlus,Atorvastatin,Sun Healthcare,Antihypertensive,786.06,707.45,Out of stock,5.0,238
+PharmaOne,Paracetamol,Global Remedies,Antihypertensive,1387.13,1248.42,Out of stock,5.0,439
+HealPlus,Atorvastatin,Global Remedies,Antacid,1373.47,1167.45,Limited,3.0,157
+PharmaOne,Metformin,ABC Pharma,Analgesic,458.49,366.79,Limited,2.7,447
+Medix,Atorvastatin,Medicare Ltd,Antacid,158.19,126.55,In stock,3.3,203
+PharmaOne,Omeprazole,ABC Pharma,Antibiotic,531.02,451.37,Out of stock,4.1,381
+LifeCare,Amoxicillin,Nova Life,Antibiotic,335.0,335.0,In stock,3.4,319
+BioTrust,Amoxicillin,ABC Pharma,Antidiabetic,138.54,110.83,Limited,2.6,343
+LifeCare,Metformin,Medicare Ltd,Antidiabetic,1744.03,1482.43,Limited,4.3,57
+LifeCare,Amoxicillin,Global Remedies,Antidiabetic,427.46,341.97,Out of stock,4.1,124
+BioTrust,Paracetamol,Nova Life,Antihypertensive,1450.32,1305.29,In stock,3.2,488
+PharmaOne,Metformin,Nova Life,Antihypertensive,633.57,506.86,Limited,2.9,185
+LifeCare,Atorvastatin,Sun Healthcare,Antidiabetic,116.74,99.23,Limited,4.6,171
+PharmaOne,Omeprazole,ABC Pharma,Antihypertensive,1571.09,1571.09,In stock,4.0,140
+Medix,Amoxicillin,Medicare Ltd,Antibiotic,1892.67,1798.04,Limited,2.7,256
+BioTrust,Atorvastatin,Nova Life,Antidiabetic,465.03,395.28,Limited,3.1,69
+Medix,Metformin,Medicare Ltd,Antibiotic,764.03,725.83,Limited,2.6,87
+PharmaOne,Paracetamol,ABC Pharma,Antidiabetic,398.59,378.66,In stock,3.8,238
+BioTrust,Amoxicillin,ABC Pharma,Analgesic,1466.61,1466.61,Limited,3.2,47
+LifeCare,Amoxicillin,Global Remedies,Antihypertensive,1145.85,1145.85,Limited,4.3,304
+HealPlus,Atorvastatin,Nova Life,Antibiotic,489.17,415.79,Out of stock,2.6,85
+Medix,Amoxicillin,Nova Life,Analgesic,114.43,97.27,Limited,4.0,240
+BioTrust,Amoxicillin,Global Remedies,Antacid,172.86,172.86,Out of stock,3.9,367
+BioTrust,Metformin,ABC Pharma,Analgesic,1158.97,927.18,Limited,4.7,351
+LifeCare,Amoxicillin,Nova Life,Antibiotic,1494.99,1494.99,Limited,3.2,64
+Medix,Atorvastatin,ABC Pharma,Analgesic,364.63,309.94,In stock,4.0,444
+BioTrust,Amoxicillin,Nova Life,Antibiotic,545.51,463.68,In stock,3.4,252
+BioTrust,Paracetamol,Sun Healthcare,Antibiotic,258.43,232.59,Limited,4.4,81
+HealPlus,Omeprazole,ABC Pharma,Analgesic,988.3,889.47,Limited,2.7,432
+Medix,Atorvastatin,Nova Life,Antihypertensive,312.31,312.31,Limited,4.3,161
+LifeCare,Amoxicillin,ABC Pharma,Antacid,902.52,812.27,In stock,2.9,471
+Medix,Paracetamol,Sun Healthcare,Antibiotic,1565.68,1409.11,Out of stock,4.5,452
+LifeCare,Atorvastatin,ABC Pharma,Analgesic,1934.02,1643.92,In stock,4.5,264
+HealPlus,Omeprazole,Sun Healthcare,Analgesic,634.98,634.98,Out of stock,3.1,302
+Medix,Metformin,Global Remedies,Antidiabetic,1212.86,1030.93,In stock,3.5,347
+HealPlus,Paracetamol,Medicare Ltd,Antibiotic,593.51,593.51,Out of stock,2.6,485
+Medix,Atorvastatin,Sun Healthcare,Antihypertensive,1901.44,1521.15,In stock,4.7,34
+HealPlus,Atorvastatin,Sun Healthcare,Antidiabetic,1400.54,1260.49,In stock,4.8,160
+BioTrust,Atorvastatin,Medicare Ltd,Antidiabetic,1304.35,1304.35,Out of stock,4.1,257
+PharmaOne,Paracetamol,Medicare Ltd,Antibiotic,1229.82,1106.84,Out of stock,4.6,359
+BioTrust,Amoxicillin,Global Remedies,Antihypertensive,35.88,30.5,Out of stock,3.1,351
+PharmaOne,Omeprazole,Medicare Ltd,Antacid,1333.51,1200.16,In stock,3.1,389
+LifeCare,Metformin,Global Remedies,Antidiabetic,840.17,756.15,Limited,3.2,333
+Medix,Metformin,Nova Life,Antacid,1244.81,1120.33,In stock,4.3,62
+PharmaOne,Metformin,ABC Pharma,Analgesic,973.08,827.12,Out of stock,4.0,458
+LifeCare,Paracetamol,Nova Life,Antihypertensive,1473.59,1326.23,In stock,4.7,491
+PharmaOne,Paracetamol,ABC Pharma,Antihypertensive,622.9,622.9,Limited,3.4,476
+PharmaOne,Atorvastatin,Sun Healthcare,Antihypertensive,1832.4,1832.4,Limited,2.7,410
+BioTrust,Metformin,Sun Healthcare,Analgesic,972.32,875.09,Limited,3.0,417
+Medix,Amoxicillin,ABC Pharma,Antidiabetic,491.72,417.96,Limited,3.6,389
+BioTrust,Amoxicillin,Nova Life,Antacid,1791.1,1701.54,Out of stock,4.3,402
+PharmaOne,Amoxicillin,Sun Healthcare,Antihypertensive,1620.0,1539.0,Limited,3.0,454
+LifeCare,Amoxicillin,ABC Pharma,Antacid,275.36,220.29,In stock,3.4,97
+Medix,Metformin,Nova Life,Antibiotic,477.03,405.48,Limited,4.6,469
+Medix,Paracetamol,ABC Pharma,Analgesic,722.95,686.8,Out of stock,3.0,371
+HealPlus,Paracetamol,Nova Life,Antidiabetic,1926.74,1734.07,Limited,4.7,436
+PharmaOne,Amoxicillin,Medicare Ltd,Antacid,586.18,468.94,Out of stock,4.8,374
+PharmaOne,Omeprazole,ABC Pharma,Antacid,1381.54,1381.54,Limited,4.9,356
+Medix,Amoxicillin,Sun Healthcare,Antacid,565.97,509.37,Out of stock,3.2,231
+BioTrust,Omeprazole,Medicare Ltd,Antacid,672.68,639.05,Limited,3.1,3
+Medix,Amoxicillin,Sun Healthcare,Antacid,1975.72,1975.72,Out of stock,5.0,289
+Medix,Amoxicillin,ABC Pharma,Antidiabetic,843.12,758.81,In stock,3.6,147
+HealPlus,Omeprazole,ABC Pharma,Analgesic,574.01,516.61,Out of stock,4.1,393
+HealPlus,Atorvastatin,Nova Life,Antihypertensive,119.99,101.99,Limited,3.6,386
+Medix,Metformin,Medicare Ltd,Antihypertensive,1106.03,995.43,Out of stock,3.1,142
+HealPlus,Atorvastatin,Global Remedies,Antacid,658.66,625.73,Out of stock,3.7,114
+BioTrust,Omeprazole,Global Remedies,Antidiabetic,1178.28,1119.37,Out of stock,5.0,95
+HealPlus,Metformin,ABC Pharma,Antihypertensive,469.77,375.82,Limited,3.7,126
+Medix,Omeprazole,Nova Life,Analgesic,1014.21,811.37,In stock,3.3,479
+LifeCare,Paracetamol,ABC Pharma,Antihypertensive,1072.17,964.95,Limited,3.3,384
+PharmaOne,Metformin,Medicare Ltd,Antidiabetic,1087.34,978.61,Out of stock,2.9,27
+BioTrust,Amoxicillin,Sun Healthcare,Analgesic,924.05,739.24,In stock,4.0,494
+HealPlus,Atorvastatin,Sun Healthcare,Antibiotic,201.78,161.42,In stock,4.8,91
+HealPlus,Atorvastatin,ABC Pharma,Antihypertensive,94.6,80.41,In stock,3.9,321
+HealPlus,Atorvastatin,Nova Life,Antibiotic,1219.57,1158.59,In stock,2.9,484
+BioTrust,Metformin,Global Remedies,Analgesic,1257.74,1131.97,Limited,4.3,330
+BioTrust,Paracetamol,Medicare Ltd,Analgesic,528.03,422.42,In stock,4.0,15
+HealPlus,Paracetamol,Medicare Ltd,Analgesic,329.84,329.84,Out of stock,2.9,472
+LifeCare,Metformin,Global Remedies,Antidiabetic,942.16,800.84,Out of stock,2.8,287
+BioTrust,Paracetamol,Sun Healthcare,Analgesic,279.36,223.49,In stock,2.7,384
+PharmaOne,Atorvastatin,Medicare Ltd,Antibiotic,1869.88,1776.39,In stock,4.0,403
+HealPlus,Atorvastatin,ABC Pharma,Antidiabetic,1943.0,1651.55,Out of stock,3.5,354
+PharmaOne,Amoxicillin,Global Remedies,Antihypertensive,778.11,739.2,Out of stock,4.1,467
+PharmaOne,Atorvastatin,Nova Life,Antibiotic,1285.74,1221.45,In stock,3.9,327
+BioTrust,Paracetamol,Nova Life,Antibiotic,1879.37,1503.5,Out of stock,2.5,485
+LifeCare,Omeprazole,Nova Life,Antihypertensive,539.47,512.5,Out of stock,5.0,144
+Medix,Paracetamol,Nova Life,Antidiabetic,1753.44,1753.44,Out of stock,3.9,261
+PharmaOne,Omeprazole,Nova Life,Antidiabetic,409.67,409.67,Out of stock,3.7,291
+LifeCare,Amoxicillin,Sun Healthcare,Antihypertensive,1478.14,1256.42,Out of stock,3.2,174
+BioTrust,Paracetamol,ABC Pharma,Antidiabetic,793.79,714.41,Out of stock,3.5,389
+HealPlus,Paracetamol,ABC Pharma,Antidiabetic,1843.74,1843.74,Out of stock,4.3,397
+PharmaOne,Atorvastatin,ABC Pharma,Antihypertensive,1690.85,1606.31,Out of stock,2.8,82
+PharmaOne,Omeprazole,ABC Pharma,Antihypertensive,1616.28,1535.47,Out of stock,4.8,375
+PharmaOne,Atorvastatin,ABC Pharma,Antidiabetic,1650.34,1402.79,Out of stock,3.9,282
+Medix,Metformin,ABC Pharma,Antidiabetic,718.8,575.04,Out of stock,3.8,395
+LifeCare,Paracetamol,Global Remedies,Antihypertensive,387.14,367.78,Limited,3.5,473
+BioTrust,Paracetamol,Nova Life,Antacid,1507.27,1431.91,Out of stock,3.9,381
+LifeCare,Atorvastatin,Nova Life,Analgesic,687.05,652.7,Out of stock,2.7,38
+PharmaOne,Metformin,ABC Pharma,Antihypertensive,293.72,234.98,Out of stock,4.5,334
+BioTrust,Amoxicillin,Sun Healthcare,Antibiotic,855.22,769.7,In stock,3.3,475
+PharmaOne,Paracetamol,ABC Pharma,Antihypertensive,437.67,437.67,Limited,2.8,404
+LifeCare,Paracetamol,ABC Pharma,Antibiotic,69.56,59.13,In stock,3.0,465
+HealPlus,Amoxicillin,Sun Healthcare,Analgesic,1865.48,1492.38,Limited,2.6,132
+Medix,Omeprazole,Medicare Ltd,Antihypertensive,571.19,542.63,In stock,4.9,468
+HealPlus,Atorvastatin,Medicare Ltd,Antihypertensive,386.26,366.95,Limited,3.0,157
+BioTrust,Paracetamol,Medicare Ltd,Antacid,1370.23,1096.18,Limited,4.7,35
+HealPlus,Amoxicillin,Global Remedies,Antihypertensive,1401.2,1120.96,Limited,3.3,256
+Medix,Atorvastatin,Nova Life,Analgesic,1479.14,1257.27,In stock,4.7,303
+Medix,Amoxicillin,Global Remedies,Antibiotic,1675.52,1424.19,Out of stock,4.6,227
+Medix,Atorvastatin,Medicare Ltd,Antihypertensive,721.39,577.11,In stock,2.6,303
+HealPlus,Omeprazole,Nova Life,Analgesic,1540.86,1386.77,Out of stock,4.1,110
+PharmaOne,Metformin,ABC Pharma,Antibiotic,1861.4,1768.33,Limited,4.1,375
+HealPlus,Paracetamol,Global Remedies,Antibiotic,738.02,738.02,In stock,3.9,339
+BioTrust,Atorvastatin,ABC Pharma,Antihypertensive,49.44,46.97,In stock,3.6,3
+BioTrust,Atorvastatin,ABC Pharma,Antacid,1278.41,1150.57,Limited,3.9,376
+PharmaOne,Atorvastatin,ABC Pharma,Analgesic,1025.29,922.76,Out of stock,3.5,85
+PharmaOne,Atorvastatin,Nova Life,Antacid,1797.31,1797.31,Out of stock,3.1,10
+BioTrust,Paracetamol,Global Remedies,Antibiotic,1393.58,1393.58,Out of stock,2.7,297
+HealPlus,Paracetamol,Nova Life,Antacid,1749.15,1486.78,Limited,5.0,36
+PharmaOne,Atorvastatin,Nova Life,Antihypertensive,862.11,732.79,Limited,4.6,432
+Medix,Metformin,Nova Life,Antihypertensive,41.61,35.37,Limited,4.2,465
+BioTrust,Metformin,Medicare Ltd,Antacid,579.68,521.71,Out of stock,4.4,188
+Medix,Paracetamol,Medicare Ltd,Antacid,890.36,756.81,In stock,3.8,204
+LifeCare,Paracetamol,Global Remedies,Antihypertensive,632.2,568.98,Out of stock,3.2,293
+LifeCare,Paracetamol,Nova Life,Antidiabetic,1208.65,1027.35,In stock,3.6,220
+LifeCare,Paracetamol,Sun Healthcare,Analgesic,158.32,134.57,In stock,4.2,88
+Medix,Paracetamol,Global Remedies,Antacid,925.83,833.25,In stock,4.9,80
+HealPlus,Amoxicillin,Medicare Ltd,Antacid,263.66,237.29,Out of stock,3.6,262
+PharmaOne,Metformin,ABC Pharma,Antihypertensive,375.41,375.41,Limited,4.6,47
+Medix,Paracetamol,ABC Pharma,Antibiotic,1779.38,1512.47,In stock,3.7,398
+BioTrust,Amoxicillin,Medicare Ltd,Antacid,1434.64,1147.71,In stock,3.2,463
+PharmaOne,Paracetamol,ABC Pharma,Analgesic,227.18,215.82,Limited,4.6,141
+BioTrust,Amoxicillin,Global Remedies,Analgesic,830.78,706.16,Limited,4.8,176
+BioTrust,Amoxicillin,Nova Life,Analgesic,1606.71,1606.71,In stock,4.2,76
+HealPlus,Omeprazole,Global Remedies,Analgesic,862.22,689.78,Out of stock,4.2,282
+HealPlus,Omeprazole,ABC Pharma,Antihypertensive,50.09,40.07,In stock,4.2,178
+PharmaOne,Paracetamol,ABC Pharma,Analgesic,1075.02,860.02,Out of stock,2.9,362
+HealPlus,Amoxicillin,Medicare Ltd,Antibiotic,727.27,654.54,In stock,4.3,336
+Medix,Amoxicillin,Global Remedies,Antibiotic,961.32,913.25,Out of stock,4.6,388
+PharmaOne,Paracetamol,Sun Healthcare,Antibiotic,1688.07,1519.26,Limited,2.9,269
+Medix,Paracetamol,Medicare Ltd,Antidiabetic,382.35,325.0,Out of stock,4.4,154
+BioTrust,Omeprazole,Global Remedies,Antibiotic,831.53,831.53,Out of stock,4.8,432
+Medix,Omeprazole,ABC Pharma,Antidiabetic,1162.26,1046.03,Limited,4.7,131
+HealPlus,Atorvastatin,Medicare Ltd,Antibiotic,1340.83,1072.66,In stock,2.7,247
+Medix,Metformin,ABC Pharma,Antacid,1782.86,1515.43,In stock,4.8,348
+HealPlus,Metformin,ABC Pharma,Antidiabetic,759.41,645.5,Out of stock,3.2,4
+BioTrust,Paracetamol,Sun Healthcare,Antibiotic,216.08,172.86,Limited,2.8,389
+Medix,Paracetamol,Nova Life,Antacid,1105.77,1050.48,Limited,3.3,187
+BioTrust,Atorvastatin,Nova Life,Antibiotic,1102.06,881.65,In stock,3.4,342
+PharmaOne,Omeprazole,ABC Pharma,Antihypertensive,1852.0,1481.6,Out of stock,4.1,288
+HealPlus,Metformin,Nova Life,Antacid,1518.01,1518.01,Out of stock,3.3,61
+BioTrust,Paracetamol,Nova Life,Antacid,633.23,601.57,In stock,2.9,459
+BioTrust,Atorvastatin,Sun Healthcare,Analgesic,387.45,348.7,Limited,3.3,225
+Medix,Amoxicillin,Nova Life,Antibiotic,169.99,169.99,Limited,3.1,92
+Medix,Atorvastatin,Sun Healthcare,Analgesic,1746.53,1484.55,In stock,2.8,54
+BioTrust,Paracetamol,Medicare Ltd,Analgesic,1043.7,1043.7,In stock,4.4,214
+LifeCare,Paracetamol,Sun Healthcare,Antibiotic,182.44,164.2,Limited,3.0,464
+Medix,Metformin,ABC Pharma,Antihypertensive,1640.71,1312.57,Out of stock,2.6,325
+Medix,Atorvastatin,Global Remedies,Antibiotic,507.48,482.11,Limited,4.4,154
+Medix,Amoxicillin,Sun Healthcare,Analgesic,1297.25,1167.53,Out of stock,3.7,371
+Medix,Paracetamol,Sun Healthcare,Antidiabetic,506.26,455.63,Limited,4.3,124
+PharmaOne,Omeprazole,Sun Healthcare,Antibiotic,1376.15,1100.92,In stock,4.3,317
+HealPlus,Metformin,Medicare Ltd,Antihypertensive,883.52,839.34,Out of stock,4.4,267
+PharmaOne,Paracetamol,ABC Pharma,Antihypertensive,1100.03,880.02,In stock,3.0,275
+HealPlus,Amoxicillin,Sun Healthcare,Antidiabetic,330.47,264.38,In stock,4.7,468
+Medix,Amoxicillin,Global Remedies,Antacid,305.86,290.57,Limited,4.0,329
+LifeCare,Atorvastatin,ABC Pharma,Antidiabetic,1231.12,1231.12,In stock,4.8,7
+HealPlus,Metformin,ABC Pharma,Antibiotic,53.38,53.38,In stock,2.6,154
+PharmaOne,Paracetamol,Sun Healthcare,Analgesic,933.13,746.5,Limited,4.9,119
+Medix,Atorvastatin,ABC Pharma,Antacid,746.52,634.54,In stock,2.7,81
+PharmaOne,Atorvastatin,Sun Healthcare,Antidiabetic,1746.17,1571.55,Limited,2.7,226
+PharmaOne,Paracetamol,Sun Healthcare,Analgesic,647.07,614.72,Out of stock,4.1,342
+PharmaOne,Atorvastatin,Medicare Ltd,Antibiotic,393.39,393.39,In stock,4.5,311
+Medix,Paracetamol,Sun Healthcare,Antihypertensive,1395.81,1395.81,In stock,4.7,99
+LifeCare,Omeprazole,Sun Healthcare,Antibiotic,1734.75,1387.8,Limited,4.4,360
+Medix,Metformin,Global Remedies,Antihypertensive,658.6,526.88,Limited,3.3,342
+PharmaOne,Paracetamol,ABC Pharma,Antihypertensive,1148.1,975.88,Out of stock,4.0,415
+HealPlus,Metformin,Nova Life,Antacid,1138.77,1024.89,Limited,3.3,42
+HealPlus,Metformin,Global Remedies,Antibiotic,118.66,100.86,In stock,2.8,206
+LifeCare,Omeprazole,Nova Life,Antihypertensive,1328.07,1261.67,Limited,4.4,57
+HealPlus,Amoxicillin,Nova Life,Antacid,1102.66,1102.66,In stock,4.2,60
+Medix,Atorvastatin,Global Remedies,Antihypertensive,456.13,364.9,Out of stock,3.0,136
+Medix,Amoxicillin,Sun Healthcare,Antibiotic,610.37,518.81,In stock,4.4,308
+LifeCare,Omeprazole,Nova Life,Antacid,990.39,841.83,In stock,2.8,238
+PharmaOne,Amoxicillin,Sun Healthcare,Antacid,1469.23,1395.77,In stock,3.8,390
+BioTrust,Amoxicillin,Global Remedies,Analgesic,317.75,301.86,In stock,4.6,305
+PharmaOne,Metformin,ABC Pharma,Antihypertensive,1524.65,1524.65,In stock,3.8,170
+PharmaOne,Metformin,ABC Pharma,Analgesic,503.53,503.53,Out of stock,2.9,126
+PharmaOne,Paracetamol,Global Remedies,Antihypertensive,829.37,663.5,Out of stock,4.6,291
+Medix,Atorvastatin,ABC Pharma,Analgesic,630.46,567.41,Out of stock,3.3,55
+HealPlus,Metformin,Sun Healthcare,Antacid,195.45,166.13,In stock,4.8,248
+LifeCare,Atorvastatin,Sun Healthcare,Antacid,758.78,758.78,Limited,4.2,416
+HealPlus,Metformin,Nova Life,Antidiabetic,28.15,22.52,In stock,5.0,191
+Medix,Omeprazole,ABC Pharma,Antibiotic,257.08,244.23,In stock,3.4,362
+Medix,Amoxicillin,ABC Pharma,Antidiabetic,1197.58,1077.82,Limited,3.4,376
+BioTrust,Paracetamol,ABC Pharma,Antihypertensive,1050.4,997.88,In stock,3.3,119
+HealPlus,Amoxicillin,Nova Life,Antidiabetic,1705.7,1620.41,Out of stock,4.3,174
+BioTrust,Atorvastatin,Global Remedies,Analgesic,1073.44,966.1,Out of stock,4.6,253
+BioTrust,Paracetamol,Medicare Ltd,Analgesic,1231.84,1108.66,Out of stock,4.0,62
+Medix,Paracetamol,ABC Pharma,Antibiotic,1822.94,1458.35,In stock,3.0,113
+PharmaOne,Amoxicillin,Global Remedies,Antibiotic,1288.87,1288.87,Limited,4.0,10
+BioTrust,Metformin,Global Remedies,Antidiabetic,964.21,867.79,Limited,3.3,50
+HealPlus,Atorvastatin,Medicare Ltd,Antihypertensive,730.88,621.25,Limited,4.0,462
+PharmaOne,Amoxicillin,Global Remedies,Antacid,1005.15,1005.15,Limited,2.9,190
+LifeCare,Paracetamol,Global Remedies,Antihypertensive,187.24,159.15,Limited,3.1,421
+Medix,Amoxicillin,ABC Pharma,Antihypertensive,1832.13,1465.7,In stock,3.5,196
+LifeCare,Atorvastatin,ABC Pharma,Antacid,1079.74,971.77,Out of stock,4.8,415
+LifeCare,Metformin,Global Remedies,Analgesic,418.9,335.12,In stock,4.9,199
+PharmaOne,Omeprazole,Nova Life,Antacid,70.3,59.75,In stock,3.0,89
+LifeCare,Amoxicillin,Sun Healthcare,Antidiabetic,1605.4,1364.59,Out of stock,4.8,214
+LifeCare,Omeprazole,Sun Healthcare,Antibiotic,1459.3,1167.44,Out of stock,4.4,94
+HealPlus,Amoxicillin,Global Remedies,Antihypertensive,513.87,411.1,Out of stock,3.1,141
+PharmaOne,Omeprazole,Sun Healthcare,Antacid,576.79,576.79,In stock,3.2,218
+LifeCare,Omeprazole,ABC Pharma,Antidiabetic,849.75,807.26,In stock,3.8,388
+Medix,Metformin,Sun Healthcare,Antidiabetic,1308.64,1112.34,In stock,4.7,146
+Medix,Paracetamol,Sun Healthcare,Analgesic,1924.27,1828.06,Out of stock,3.4,267
+HealPlus,Atorvastatin,Nova Life,Antidiabetic,470.44,399.87,Limited,3.0,9
+BioTrust,Atorvastatin,Nova Life,Analgesic,56.95,56.95,Limited,2.7,211
+Medix,Omeprazole,Nova Life,Antacid,1490.57,1341.51,Limited,4.1,109
+BioTrust,Atorvastatin,Sun Healthcare,Antacid,1014.33,912.9,Out of stock,4.5,131
+LifeCare,Atorvastatin,Nova Life,Analgesic,22.89,21.75,Out of stock,2.8,187
+HealPlus,Metformin,Sun Healthcare,Antidiabetic,986.22,838.29,Out of stock,4.0,408
+BioTrust,Amoxicillin,Nova Life,Antibiotic,486.1,461.8,Out of stock,3.3,302
+HealPlus,Amoxicillin,ABC Pharma,Antihypertensive,1665.28,1332.22,Limited,4.2,42
+LifeCare,Omeprazole,Global Remedies,Antihypertensive,1827.99,1736.59,Out of stock,3.4,454
+LifeCare,Omeprazole,ABC Pharma,Antihypertensive,136.74,136.74,In stock,3.2,490
+HealPlus,Omeprazole,Nova Life,Antacid,1820.51,1820.51,Out of stock,4.9,433
+LifeCare,Paracetamol,Global Remedies,Antidiabetic,635.37,508.3,In stock,4.0,163
+BioTrust,Atorvastatin,Sun Healthcare,Antihypertensive,986.73,838.72,In stock,3.5,51
+Medix,Amoxicillin,Global Remedies,Antidiabetic,815.35,693.05,Limited,2.6,69
+HealPlus,Paracetamol,ABC Pharma,Analgesic,589.12,500.75,Out of stock,4.1,460
+BioTrust,Omeprazole,Sun Healthcare,Antibiotic,847.77,847.77,Out of stock,4.1,331
+Medix,Metformin,Sun Healthcare,Antihypertensive,916.88,916.88,Out of stock,4.3,193
+PharmaOne,Metformin,Medicare Ltd,Antacid,571.25,542.69,Limited,4.4,90
+PharmaOne,Metformin,Global Remedies,Antacid,1957.59,1663.95,Limited,4.5,23
+Medix,Omeprazole,Nova Life,Antibiotic,1132.84,1076.2,Limited,3.9,75
+BioTrust,Metformin,Sun Healthcare,Antihypertensive,1502.89,1427.75,Out of stock,4.7,292
+HealPlus,Atorvastatin,Medicare Ltd,Antacid,934.39,794.23,Limited,3.7,156
+HealPlus,Paracetamol,Nova Life,Antihypertensive,1937.85,1840.96,Limited,2.5,370
+PharmaOne,Metformin,Medicare Ltd,Antibiotic,363.68,363.68,Limited,3.0,201
+BioTrust,Paracetamol,Global Remedies,Antihypertensive,1289.44,1031.55,Limited,4.8,52
+PharmaOne,Amoxicillin,ABC Pharma,Antidiabetic,1528.78,1223.02,In stock,4.6,198
+BioTrust,Omeprazole,Medicare Ltd,Antidiabetic,1919.62,1727.66,Out of stock,4.7,274
+PharmaOne,Paracetamol,Medicare Ltd,Antacid,403.54,403.54,Limited,3.2,442
+PharmaOne,Metformin,Medicare Ltd,Analgesic,1911.43,1529.14,Limited,4.1,151
+Medix,Atorvastatin,Global Remedies,Analgesic,1726.26,1381.01,In stock,4.1,39
+BioTrust,Amoxicillin,ABC Pharma,Antacid,623.52,561.17,Limited,2.9,16
+BioTrust,Amoxicillin,Medicare Ltd,Antibiotic,1956.13,1858.32,Out of stock,3.5,386
+BioTrust,Metformin,ABC Pharma,Antidiabetic,1922.31,1537.85,Limited,4.0,340
+BioTrust,Metformin,Medicare Ltd,Analgesic,917.43,733.94,Limited,3.4,98
+BioTrust,Amoxicillin,ABC Pharma,Antihypertensive,492.49,467.87,Limited,3.3,32
+BioTrust,Metformin,ABC Pharma,Antidiabetic,1471.43,1397.86,In stock,4.4,58
+PharmaOne,Omeprazole,Sun Healthcare,Antidiabetic,1682.83,1682.83,In stock,3.8,297
+LifeCare,Metformin,ABC Pharma,Antacid,736.86,589.49,In stock,2.6,236
+LifeCare,Omeprazole,Medicare Ltd,Antibiotic,864.16,820.95,Out of stock,3.5,479
+LifeCare,Amoxicillin,Nova Life,Antidiabetic,475.01,427.51,In stock,3.1,329
+HealPlus,Paracetamol,Medicare Ltd,Antacid,1445.12,1228.35,Limited,4.0,27
+BioTrust,Amoxicillin,Sun Healthcare,Antacid,194.27,155.42,Limited,2.6,170
+PharmaOne,Metformin,Medicare Ltd,Antibiotic,1603.01,1362.56,Limited,4.5,273
+HealPlus,Paracetamol,ABC Pharma,Antidiabetic,1136.01,1136.01,In stock,3.5,390
+BioTrust,Paracetamol,Global Remedies,Antihypertensive,424.88,361.15,In stock,2.7,409
+LifeCare,Atorvastatin,Sun Healthcare,Antacid,726.77,690.43,Out of stock,3.4,238
+Medix,Omeprazole,Sun Healthcare,Antidiabetic,1918.83,1535.06,Limited,4.5,8
+LifeCare,Amoxicillin,ABC Pharma,Analgesic,83.88,79.69,Limited,2.7,450
+LifeCare,Omeprazole,Nova Life,Antihypertensive,1433.06,1433.06,Limited,3.0,96
+HealPlus,Omeprazole,Medicare Ltd,Antihypertensive,82.39,74.15,Limited,3.2,481
+LifeCare,Metformin,ABC Pharma,Antidiabetic,882.09,837.99,Out of stock,4.4,107
+BioTrust,Metformin,Nova Life,Antacid,200.4,190.38,Limited,2.9,128
+LifeCare,Paracetamol,Global Remedies,Analgesic,357.45,321.7,Out of stock,3.1,65
+HealPlus,Paracetamol,Medicare Ltd,Antihypertensive,1085.85,1085.85,Limited,3.2,458
+BioTrust,Omeprazole,Nova Life,Antibiotic,1383.61,1106.89,Out of stock,3.5,172
+Medix,Atorvastatin,Medicare Ltd,Antibiotic,1450.78,1233.16,In stock,3.2,224
+PharmaOne,Amoxicillin,Medicare Ltd,Antidiabetic,918.74,918.74,In stock,3.0,54
+BioTrust,Atorvastatin,Nova Life,Antidiabetic,1613.57,1613.57,Limited,4.1,285
+LifeCare,Metformin,ABC Pharma,Analgesic,36.91,36.91,Out of stock,3.1,183
+LifeCare,Metformin,ABC Pharma,Antidiabetic,1783.87,1694.68,Limited,4.0,77
+HealPlus,Atorvastatin,Medicare Ltd,Antidiabetic,1440.73,1296.66,Limited,4.3,379
+BioTrust,Paracetamol,Sun Healthcare,Analgesic,269.27,242.34,In stock,4.0,145
+Medix,Metformin,Sun Healthcare,Antidiabetic,1465.53,1465.53,Limited,3.9,24
+Medix,Atorvastatin,Medicare Ltd,Antidiabetic,1820.17,1456.14,Out of stock,3.5,70
+HealPlus,Amoxicillin,Sun Healthcare,Analgesic,92.39,73.91,Out of stock,4.5,445
+LifeCare,Metformin,Global Remedies,Antihypertensive,995.9,946.11,Out of stock,4.2,271
+BioTrust,Amoxicillin,Nova Life,Antacid,1330.08,1130.57,Out of stock,4.2,361
+BioTrust,Amoxicillin,ABC Pharma,Antihypertensive,453.89,363.11,In stock,4.7,369
+HealPlus,Paracetamol,Nova Life,Antihypertensive,1578.67,1341.87,Limited,3.9,356
+PharmaOne,Atorvastatin,Sun Healthcare,Antihypertensive,682.68,648.55,In stock,3.9,13
+BioTrust,Metformin,Sun Healthcare,Antibiotic,1121.5,1009.35,Out of stock,2.9,348
+Medix,Atorvastatin,Sun Healthcare,Antihypertensive,928.14,788.92,Out of stock,4.4,409
+PharmaOne,Omeprazole,ABC Pharma,Antidiabetic,681.23,681.23,Out of stock,2.6,371
+BioTrust,Amoxicillin,Medicare Ltd,Antacid,1788.15,1519.93,Out of stock,4.0,72
+BioTrust,Omeprazole,ABC Pharma,Antacid,1137.88,910.3,Out of stock,2.7,243
+HealPlus,Omeprazole,Sun Healthcare,Antihypertensive,1442.1,1297.89,Out of stock,5.0,2
+BioTrust,Metformin,Sun Healthcare,Antibiotic,94.54,80.36,In stock,4.4,337
+PharmaOne,Paracetamol,Sun Healthcare,Analgesic,1795.4,1705.63,In stock,3.4,87
+BioTrust,Paracetamol,ABC Pharma,Antidiabetic,1706.82,1706.82,Limited,4.2,473
+HealPlus,Amoxicillin,Sun Healthcare,Antihypertensive,1702.75,1447.34,Out of stock,3.4,246
+PharmaOne,Amoxicillin,Sun Healthcare,Analgesic,1975.3,1679.0,In stock,4.0,35
+LifeCare,Atorvastatin,Medicare Ltd,Antacid,570.77,513.69,In stock,3.6,122
+HealPlus,Atorvastatin,Sun Healthcare,Analgesic,1346.08,1278.78,Out of stock,3.1,295
+BioTrust,Atorvastatin,ABC Pharma,Antidiabetic,214.57,214.57,Out of stock,4.5,196
+LifeCare,Metformin,ABC Pharma,Antidiabetic,768.23,614.58,Limited,3.7,437
+PharmaOne,Atorvastatin,ABC Pharma,Antihypertensive,1805.46,1715.19,Limited,3.5,267
+PharmaOne,Omeprazole,Global Remedies,Antihypertensive,1533.92,1303.83,Out of stock,3.3,318
+HealPlus,Amoxicillin,Global Remedies,Antidiabetic,1012.13,961.52,Limited,4.4,194
+PharmaOne,Amoxicillin,Sun Healthcare,Antidiabetic,871.65,828.07,Out of stock,4.0,477
+HealPlus,Atorvastatin,ABC Pharma,Antihypertensive,410.15,410.15,Out of stock,4.3,375
+HealPlus,Amoxicillin,Global Remedies,Antibiotic,854.77,769.29,In stock,4.2,300
+HealPlus,Amoxicillin,ABC Pharma,Antihypertensive,404.24,363.82,Limited,3.4,179
+BioTrust,Omeprazole,Medicare Ltd,Antidiabetic,1064.48,1064.48,In stock,2.8,364
+LifeCare,Omeprazole,Medicare Ltd,Antacid,118.69,112.76,Limited,3.0,325
+PharmaOne,Metformin,Medicare Ltd,Antihypertensive,72.49,72.49,Out of stock,3.4,148
+Medix,Metformin,Medicare Ltd,Antihypertensive,1572.72,1336.81,In stock,2.8,14
+PharmaOne,Metformin,Sun Healthcare,Antibiotic,1605.45,1444.9,Limited,2.9,230
+LifeCare,Metformin,Medicare Ltd,Analgesic,35.25,28.2,Limited,3.0,426
+LifeCare,Paracetamol,Global Remedies,Antibiotic,1030.6,824.48,Limited,2.9,198
+PharmaOne,Omeprazole,Nova Life,Antidiabetic,977.29,977.29,Out of stock,4.3,469
+BioTrust,Omeprazole,Global Remedies,Antibiotic,329.43,263.54,Out of stock,3.2,149
+HealPlus,Metformin,ABC Pharma,Antacid,785.36,667.56,Limited,3.9,246
+PharmaOne,Metformin,ABC Pharma,Analgesic,156.65,140.99,Out of stock,3.8,58
+BioTrust,Atorvastatin,Sun Healthcare,Antihypertensive,1316.85,1119.32,Out of stock,4.5,99
+Medix,Omeprazole,Global Remedies,Antihypertensive,1645.38,1563.11,Limited,3.5,239
+PharmaOne,Atorvastatin,Global Remedies,Antidiabetic,1628.33,1465.5,Out of stock,2.8,396
+HealPlus,Omeprazole,ABC Pharma,Antibiotic,1311.6,1114.86,In stock,3.8,132
+BioTrust,Amoxicillin,Nova Life,Antihypertensive,915.37,823.83,In stock,4.5,357
+HealPlus,Amoxicillin,Sun Healthcare,Antacid,726.66,617.66,Limited,4.8,180
+PharmaOne,Paracetamol,Nova Life,Antibiotic,1919.75,1631.79,In stock,4.3,435
+PharmaOne,Omeprazole,ABC Pharma,Antidiabetic,591.91,473.53,Limited,4.4,485
+PharmaOne,Amoxicillin,Nova Life,Antacid,1624.87,1381.14,In stock,2.6,97
+LifeCare,Amoxicillin,Nova Life,Antihypertensive,1919.33,1919.33,Out of stock,2.8,18
+Medix,Omeprazole,ABC Pharma,Antidiabetic,1477.73,1329.96,Out of stock,4.4,396
+PharmaOne,Amoxicillin,Medicare Ltd,Antacid,1381.67,1312.59,In stock,3.6,61
+BioTrust,Paracetamol,Global Remedies,Antidiabetic,656.87,591.18,Limited,4.9,269
+LifeCare,Amoxicillin,Sun Healthcare,Antidiabetic,1999.92,1999.92,Out of stock,2.9,337
+Medix,Metformin,Medicare Ltd,Antidiabetic,868.67,781.8,In stock,2.6,132
+PharmaOne,Atorvastatin,ABC Pharma,Antibiotic,83.32,83.32,Limited,2.7,149
+HealPlus,Paracetamol,Sun Healthcare,Antibiotic,233.48,198.46,Limited,3.2,403
+Medix,Metformin,Global Remedies,Antacid,878.36,834.44,In stock,3.8,18
+PharmaOne,Omeprazole,Sun Healthcare,Analgesic,752.3,714.68,Limited,4.5,459
+HealPlus,Atorvastatin,Global Remedies,Antacid,946.2,946.2,Out of stock,2.9,296
+Medix,Amoxicillin,Sun Healthcare,Antidiabetic,504.73,479.49,Limited,3.0,180
+LifeCare,Atorvastatin,Sun Healthcare,Antidiabetic,984.2,885.78,In stock,3.3,38
+Medix,Paracetamol,ABC Pharma,Antibiotic,1258.95,1133.06,In stock,2.7,107
+LifeCare,Atorvastatin,ABC Pharma,Antibiotic,823.13,740.82,Out of stock,3.4,403
+PharmaOne,Paracetamol,Nova Life,Antacid,247.64,247.64,In stock,2.8,230
+LifeCare,Atorvastatin,Global Remedies,Antibiotic,1749.62,1487.18,Limited,4.5,440
+Medix,Metformin,Global Remedies,Analgesic,331.53,281.8,Out of stock,3.3,274
+BioTrust,Atorvastatin,ABC Pharma,Antibiotic,62.75,56.48,Limited,3.3,383
+LifeCare,Atorvastatin,ABC Pharma,Antidiabetic,701.62,701.62,Limited,2.7,208
+Medix,Amoxicillin,ABC Pharma,Antidiabetic,1011.0,1011.0,In stock,3.7,205
+HealPlus,Paracetamol,Medicare Ltd,Antacid,557.7,501.93,In stock,4.4,230
+BioTrust,Atorvastatin,Nova Life,Antibiotic,1191.47,1131.9,Out of stock,3.5,463
+HealPlus,Amoxicillin,Global Remedies,Antihypertensive,1962.95,1766.65,In stock,4.3,343
+HealPlus,Amoxicillin,Sun Healthcare,Antacid,954.78,811.56,Out of stock,3.1,347
+HealPlus,Amoxicillin,Medicare Ltd,Antibiotic,1231.28,1108.15,Limited,2.9,336
+LifeCare,Atorvastatin,Sun Healthcare,Antidiabetic,408.88,347.55,In stock,3.2,476
+PharmaOne,Amoxicillin,ABC Pharma,Antibiotic,157.59,157.59,Limited,3.7,468
+PharmaOne,Metformin,Nova Life,Antidiabetic,1934.5,1547.6,In stock,3.8,60
+Medix,Paracetamol,Nova Life,Antihypertensive,1824.62,1642.16,In stock,2.8,430
+HealPlus,Atorvastatin,Nova Life,Antacid,548.84,521.4,In stock,4.2,294
+HealPlus,Atorvastatin,Global Remedies,Analgesic,1724.01,1551.61,Limited,3.6,299
+Medix,Omeprazole,Global Remedies,Antihypertensive,502.66,452.39,Out of stock,3.9,130
+PharmaOne,Atorvastatin,Sun Healthcare,Antihypertensive,1507.63,1432.25,In stock,5.0,178
+Medix,Metformin,Global Remedies,Antidiabetic,1799.61,1529.67,In stock,3.9,194
+HealPlus,Paracetamol,Sun Healthcare,Antacid,79.18,71.26,Limited,2.7,317
+LifeCare,Metformin,Nova Life,Antibiotic,672.4,605.16,Limited,3.2,309
+LifeCare,Omeprazole,Medicare Ltd,Analgesic,28.05,26.65,Limited,4.2,225
+BioTrust,Amoxicillin,Sun Healthcare,Antibiotic,835.47,751.92,In stock,3.2,120
+HealPlus,Omeprazole,Nova Life,Antacid,115.41,103.87,In stock,2.8,40
+Medix,Amoxicillin,Nova Life,Antibiotic,534.02,480.62,In stock,3.5,153
+BioTrust,Omeprazole,Sun Healthcare,Antidiabetic,691.79,553.43,Out of stock,2.6,8
+LifeCare,Metformin,Medicare Ltd,Antidiabetic,1882.06,1882.06,Limited,3.6,88
+Medix,Paracetamol,Global Remedies,Analgesic,194.48,194.48,In stock,4.6,465
+LifeCare,Metformin,Nova Life,Antacid,751.03,675.93,Out of stock,3.0,232
+BioTrust,Metformin,ABC Pharma,Antihypertensive,793.54,634.83,Limited,3.8,158
+LifeCare,Atorvastatin,Global Remedies,Antihypertensive,639.97,511.98,In stock,4.4,321
+Medix,Omeprazole,Medicare Ltd,Analgesic,893.74,804.37,In stock,3.6,54
+BioTrust,Metformin,ABC Pharma,Antidiabetic,328.79,295.91,In stock,3.4,491
+BioTrust,Omeprazole,Sun Healthcare,Antibiotic,516.4,516.4,Out of stock,4.1,427
+BioTrust,Atorvastatin,Medicare Ltd,Analgesic,1454.34,1163.47,Out of stock,2.9,486
+LifeCare,Atorvastatin,Nova Life,Antacid,1711.37,1454.66,Limited,3.4,334
+Medix,Amoxicillin,Nova Life,Analgesic,1130.89,1074.35,In stock,2.6,332
+LifeCare,Amoxicillin,Sun Healthcare,Antibiotic,1669.23,1585.77,Out of stock,4.4,118
+PharmaOne,Atorvastatin,Medicare Ltd,Antibiotic,596.74,566.9,Limited,3.0,317
+HealPlus,Omeprazole,ABC Pharma,Antacid,182.28,164.05,Limited,3.1,454
+Medix,Paracetamol,Sun Healthcare,Antacid,1970.48,1970.48,In stock,2.6,171
+LifeCare,Amoxicillin,Sun Healthcare,Analgesic,931.85,885.26,Out of stock,3.1,286
+PharmaOne,Omeprazole,Sun Healthcare,Antihypertensive,1606.42,1445.78,Out of stock,3.4,500
+PharmaOne,Omeprazole,ABC Pharma,Antidiabetic,842.87,674.3,Out of stock,3.8,294
+HealPlus,Paracetamol,Sun Healthcare,Antacid,1319.03,1055.22,Out of stock,3.8,371
+HealPlus,Metformin,ABC Pharma,Antihypertensive,1577.17,1419.45,Out of stock,4.9,472
+LifeCare,Metformin,ABC Pharma,Antidiabetic,1888.12,1793.71,Limited,4.1,457
+LifeCare,Amoxicillin,Global Remedies,Analgesic,796.6,756.77,Out of stock,3.4,412
+Medix,Paracetamol,Nova Life,Antibiotic,1577.44,1261.95,In stock,3.5,147
+PharmaOne,Atorvastatin,Sun Healthcare,Analgesic,1078.38,970.54,In stock,4.3,185
+PharmaOne,Metformin,Global Remedies,Antacid,126.52,126.52,Limited,4.3,246
+BioTrust,Omeprazole,Global Remedies,Antidiabetic,339.01,305.11,Out of stock,4.9,286
+Medix,Metformin,Medicare Ltd,Antibiotic,937.16,937.16,Limited,3.8,42
+LifeCare,Amoxicillin,ABC Pharma,Analgesic,900.13,765.11,In stock,2.8,182
+PharmaOne,Atorvastatin,Global Remedies,Antacid,1548.15,1393.34,In stock,4.1,388
+PharmaOne,Omeprazole,Nova Life,Analgesic,426.94,341.55,In stock,4.7,145
+HealPlus,Omeprazole,Sun Healthcare,Analgesic,1295.36,1295.36,In stock,2.8,42
+HealPlus,Paracetamol,ABC Pharma,Antibiotic,855.42,855.42,In stock,3.8,144
+PharmaOne,Amoxicillin,Nova Life,Antacid,1525.98,1449.68,In stock,3.6,50
+PharmaOne,Atorvastatin,Medicare Ltd,Antacid,758.96,758.96,Out of stock,3.6,448
+PharmaOne,Atorvastatin,Sun Healthcare,Antihypertensive,1333.44,1333.44,In stock,3.2,30
+PharmaOne,Atorvastatin,Sun Healthcare,Antihypertensive,1530.44,1224.35,Limited,3.9,500
+Medix,Metformin,ABC Pharma,Antacid,135.41,108.33,In stock,2.6,77
+PharmaOne,Amoxicillin,ABC Pharma,Antacid,1113.41,1002.07,Out of stock,3.0,239
+HealPlus,Paracetamol,Nova Life,Antibiotic,1571.67,1493.09,In stock,4.5,444
+HealPlus,Metformin,Sun Healthcare,Antibiotic,339.75,305.77,In stock,3.4,85
+BioTrust,Metformin,Global Remedies,Antacid,285.94,257.35,Out of stock,3.0,41
+HealPlus,Omeprazole,Global Remedies,Antibiotic,1990.98,1592.78,In stock,2.8,428
+Medix,Amoxicillin,Global Remedies,Antihypertensive,81.62,73.46,Out of stock,3.9,431
+LifeCare,Omeprazole,ABC Pharma,Antibiotic,919.58,735.66,Out of stock,2.6,284
+HealPlus,Metformin,Medicare Ltd,Analgesic,1526.87,1221.5,Limited,4.4,204
+Medix,Paracetamol,Medicare Ltd,Antacid,1155.21,981.93,Out of stock,3.1,367
+BioTrust,Omeprazole,Medicare Ltd,Analgesic,219.96,175.97,Limited,2.9,248
+HealPlus,Paracetamol,Sun Healthcare,Antibiotic,952.85,762.28,Out of stock,2.9,479
+BioTrust,Omeprazole,Sun Healthcare,Antacid,357.78,322.0,Limited,3.8,251
+HealPlus,Metformin,Sun Healthcare,Analgesic,1374.32,1168.17,Out of stock,3.6,39
+HealPlus,Omeprazole,Nova Life,Antihypertensive,980.15,784.12,Limited,2.5,488
+HealPlus,Omeprazole,Nova Life,Antihypertensive,732.68,586.14,Limited,2.7,32
+BioTrust,Amoxicillin,Global Remedies,Antidiabetic,1458.16,1239.44,Limited,3.9,39
+LifeCare,Metformin,Nova Life,Antibiotic,495.58,470.8,Limited,2.9,86
+LifeCare,Paracetamol,ABC Pharma,Antacid,383.75,345.38,In stock,2.9,111
+BioTrust,Atorvastatin,ABC Pharma,Antihypertensive,175.52,140.42,Limited,4.0,325
+LifeCare,Omeprazole,ABC Pharma,Antibiotic,1225.64,1103.08,Out of stock,3.2,326
+LifeCare,Metformin,Global Remedies,Antacid,845.46,803.19,Limited,3.2,393
+PharmaOne,Paracetamol,Nova Life,Antacid,869.04,738.68,Out of stock,2.8,374
+BioTrust,Metformin,Nova Life,Antibiotic,1434.35,1290.91,In stock,3.0,356
+PharmaOne,Atorvastatin,Medicare Ltd,Analgesic,1639.19,1475.27,Out of stock,3.1,39
+LifeCare,Metformin,Nova Life,Analgesic,1228.16,1228.16,Out of stock,3.1,438
+Medix,Amoxicillin,Medicare Ltd,Antidiabetic,695.03,695.03,In stock,4.5,388
+BioTrust,Atorvastatin,Global Remedies,Antidiabetic,1699.07,1444.21,Limited,4.1,372
+BioTrust,Atorvastatin,Nova Life,Analgesic,886.69,842.36,Out of stock,4.6,66
+HealPlus,Amoxicillin,Global Remedies,Antidiabetic,1626.21,1463.59,Limited,4.2,435
+BioTrust,Amoxicillin,Global Remedies,Antihypertensive,1077.03,861.62,Limited,4.3,429
+LifeCare,Atorvastatin,ABC Pharma,Analgesic,1104.93,883.94,Limited,4.1,210
+BioTrust,Paracetamol,Sun Healthcare,Antihypertensive,769.81,731.32,In stock,4.6,66
+Medix,Omeprazole,Medicare Ltd,Antihypertensive,1701.69,1531.52,Out of stock,3.9,177
+HealPlus,Paracetamol,Global Remedies,Antidiabetic,668.89,635.45,Out of stock,4.7,9
+HealPlus,Omeprazole,Global Remedies,Antihypertensive,1202.44,1022.07,Limited,2.8,496
+HealPlus,Amoxicillin,Nova Life,Antacid,1676.5,1592.67,Limited,3.0,400
+HealPlus,Amoxicillin,Nova Life,Antidiabetic,1194.33,1194.33,Limited,3.0,260
+LifeCare,Metformin,Medicare Ltd,Antidiabetic,529.42,423.54,In stock,3.6,275
+HealPlus,Metformin,ABC Pharma,Antihypertensive,707.54,707.54,Out of stock,2.8,319
+PharmaOne,Paracetamol,Sun Healthcare,Antibiotic,1637.32,1555.45,Out of stock,3.5,302
+HealPlus,Paracetamol,Sun Healthcare,Antacid,1504.99,1354.49,Limited,2.9,36
+PharmaOne,Paracetamol,Medicare Ltd,Antibiotic,1491.12,1192.9,In stock,2.6,309
+Medix,Metformin,Sun Healthcare,Antibiotic,463.88,394.3,Out of stock,3.5,434
+Medix,Omeprazole,Sun Healthcare,Antidiabetic,1430.69,1430.69,Limited,2.9,294
+HealPlus,Amoxicillin,Medicare Ltd,Antidiabetic,1205.24,1084.72,Limited,4.9,410
+HealPlus,Amoxicillin,Sun Healthcare,Antihypertensive,602.69,542.42,Limited,4.5,358
+HealPlus,Atorvastatin,Nova Life,Antidiabetic,440.22,352.18,Limited,3.0,426
+LifeCare,Amoxicillin,Medicare Ltd,Antidiabetic,563.78,479.21,In stock,4.9,442
+HealPlus,Atorvastatin,Nova Life,Antacid,654.95,556.71,Out of stock,4.9,428
+PharmaOne,Metformin,Medicare Ltd,Antidiabetic,1389.22,1250.3,Out of stock,4.1,94
+LifeCare,Omeprazole,ABC Pharma,Analgesic,1892.31,1513.85,Out of stock,2.5,215
+HealPlus,Omeprazole,Sun Healthcare,Analgesic,1944.38,1944.38,In stock,4.0,302
+Medix,Paracetamol,ABC Pharma,Antihypertensive,798.97,679.12,Out of stock,4.1,334
+HealPlus,Atorvastatin,ABC Pharma,Antacid,1226.21,1164.9,Out of stock,3.0,97
+Medix,Metformin,Medicare Ltd,Analgesic,1532.52,1455.89,Out of stock,4.6,127
+PharmaOne,Paracetamol,Sun Healthcare,Antibiotic,1370.16,1370.16,In stock,3.2,141
+BioTrust,Metformin,ABC Pharma,Antihypertensive,695.25,556.2,Out of stock,3.0,56
+Medix,Omeprazole,Nova Life,Analgesic,340.49,306.44,Limited,5.0,435
+LifeCare,Metformin,Nova Life,Analgesic,403.22,362.9,Limited,3.4,476
+BioTrust,Amoxicillin,Global Remedies,Antidiabetic,239.01,227.06,In stock,3.0,26
+Medix,Omeprazole,ABC Pharma,Antidiabetic,980.24,980.24,Limited,3.1,375
+Medix,Atorvastatin,Global Remedies,Antacid,1956.07,1564.86,Limited,3.7,238
+BioTrust,Amoxicillin,Sun Healthcare,Antidiabetic,1871.31,1497.05,Out of stock,4.8,498
+LifeCare,Atorvastatin,ABC Pharma,Antibiotic,66.52,66.52,Limited,4.8,63
+BioTrust,Amoxicillin,Nova Life,Antibiotic,1323.44,1191.1,Out of stock,2.6,351
+PharmaOne,Paracetamol,Sun Healthcare,Antihypertensive,857.91,815.01,Limited,2.7,378
+Medix,Paracetamol,Global Remedies,Analgesic,811.64,689.89,Limited,4.0,199
+LifeCare,Omeprazole,Global Remedies,Antihypertensive,802.19,802.19,Limited,2.5,268
+LifeCare,Atorvastatin,Sun Healthcare,Antidiabetic,1401.41,1191.2,Limited,4.1,304
+LifeCare,Paracetamol,Global Remedies,Antibiotic,1399.08,1189.22,Limited,4.6,78
+LifeCare,Paracetamol,Global Remedies,Antidiabetic,289.55,260.6,Limited,3.5,456
+BioTrust,Atorvastatin,Nova Life,Antidiabetic,1011.76,809.41,In stock,4.7,81
+HealPlus,Amoxicillin,Nova Life,Antihypertensive,1076.17,1022.36,In stock,3.8,155
+HealPlus,Metformin,Nova Life,Analgesic,1694.69,1525.22,Limited,4.7,76
+HealPlus,Metformin,Global Remedies,Antibiotic,1460.94,1460.94,Out of stock,4.2,408
+Medix,Atorvastatin,Sun Healthcare,Antacid,865.19,865.19,Out of stock,2.8,418
+BioTrust,Amoxicillin,ABC Pharma,Antidiabetic,40.48,32.38,In stock,4.4,152
+BioTrust,Atorvastatin,Medicare Ltd,Antacid,1463.19,1390.03,Out of stock,4.3,393
+HealPlus,Atorvastatin,Medicare Ltd,Antacid,1166.43,1049.79,Out of stock,3.3,100
+BioTrust,Omeprazole,Sun Healthcare,Analgesic,380.8,380.8,In stock,2.7,214
+LifeCare,Paracetamol,Nova Life,Antacid,80.9,76.86,Limited,4.5,65
+BioTrust,Atorvastatin,Medicare Ltd,Antidiabetic,1774.6,1597.14,Limited,2.8,458
+LifeCare,Atorvastatin,ABC Pharma,Antacid,308.58,246.86,Limited,4.9,354
+BioTrust,Paracetamol,ABC Pharma,Antidiabetic,93.18,74.54,Limited,4.0,281
+PharmaOne,Omeprazole,Nova Life,Antihypertensive,562.12,505.91,In stock,2.6,384
+Medix,Paracetamol,Medicare Ltd,Antidiabetic,658.29,526.63,Out of stock,4.7,241
+PharmaOne,Metformin,Sun Healthcare,Antacid,1740.94,1653.89,Out of stock,3.4,135
+LifeCare,Amoxicillin,Medicare Ltd,Analgesic,768.15,768.15,In stock,2.7,189
+Medix,Omeprazole,Sun Healthcare,Antihypertensive,1749.64,1574.68,Limited,2.9,260
+BioTrust,Atorvastatin,Sun Healthcare,Antihypertensive,464.27,464.27,Out of stock,3.0,398
+BioTrust,Metformin,Medicare Ltd,Antacid,1990.27,1990.27,Limited,2.7,439
+HealPlus,Amoxicillin,ABC Pharma,Antibiotic,1090.98,1036.43,In stock,2.8,43
+PharmaOne,Omeprazole,Global Remedies,Antihypertensive,1037.1,1037.1,Out of stock,2.8,411
+HealPlus,Omeprazole,ABC Pharma,Antacid,160.59,160.59,Limited,2.6,489
+BioTrust,Metformin,Medicare Ltd,Antidiabetic,1832.49,1832.49,In stock,3.4,282
+PharmaOne,Omeprazole,Sun Healthcare,Antihypertensive,1818.09,1636.28,In stock,3.9,365
+HealPlus,Amoxicillin,Nova Life,Antihypertensive,630.09,504.07,In stock,4.9,140
+Medix,Amoxicillin,Global Remedies,Antacid,1008.35,857.1,Out of stock,3.4,381
+BioTrust,Atorvastatin,Sun Healthcare,Antacid,1618.39,1537.47,Limited,4.4,167
+Medix,Metformin,Sun Healthcare,Antidiabetic,1720.7,1720.7,Limited,4.0,11
+LifeCare,Paracetamol,ABC Pharma,Antibiotic,1648.06,1565.66,Limited,4.2,137
+Medix,Atorvastatin,Medicare Ltd,Antihypertensive,1290.24,1225.73,In stock,4.2,257
+LifeCare,Metformin,Nova Life,Antacid,1082.06,973.85,In stock,4.8,247
+Medix,Metformin,Medicare Ltd,Antihypertensive,935.77,748.62,Limited,3.0,137
+LifeCare,Metformin,Medicare Ltd,Analgesic,1270.56,1016.45,Out of stock,3.3,304
+HealPlus,Paracetamol,Sun Healthcare,Antihypertensive,177.24,168.38,Limited,2.8,14
+BioTrust,Metformin,Medicare Ltd,Analgesic,1123.86,899.09,In stock,5.0,347
+Medix,Atorvastatin,Nova Life,Antibiotic,242.61,242.61,Out of stock,3.6,377
+LifeCare,Amoxicillin,Nova Life,Antidiabetic,978.23,929.32,In stock,3.6,12
+HealPlus,Paracetamol,Global Remedies,Antihypertensive,1516.65,1440.82,Out of stock,3.7,107
+LifeCare,Metformin,Sun Healthcare,Antibiotic,1133.18,906.54,In stock,3.3,150
+PharmaOne,Metformin,Medicare Ltd,Antacid,1754.51,1754.51,Out of stock,4.1,456
+Medix,Omeprazole,Nova Life,Antibiotic,695.29,660.53,In stock,5.0,364
+PharmaOne,Omeprazole,Medicare Ltd,Analgesic,983.72,983.72,In stock,4.5,371
+PharmaOne,Omeprazole,Medicare Ltd,Analgesic,1134.25,1134.25,Out of stock,3.6,134
+HealPlus,Amoxicillin,Nova Life,Antibiotic,188.25,178.84,Out of stock,3.3,406
+HealPlus,Amoxicillin,Global Remedies,Antidiabetic,1357.11,1153.54,In stock,3.6,462
+BioTrust,Omeprazole,Nova Life,Antacid,825.87,743.28,In stock,4.0,245
+Medix,Amoxicillin,Sun Healthcare,Antacid,573.69,487.64,Limited,2.6,303
+LifeCare,Omeprazole,Nova Life,Analgesic,1733.1,1733.1,Out of stock,4.9,337
+PharmaOne,Paracetamol,ABC Pharma,Antidiabetic,223.79,212.6,Out of stock,4.7,186
+HealPlus,Metformin,Global Remedies,Antacid,491.7,417.94,Limited,4.3,146
+Medix,Metformin,Sun Healthcare,Antibiotic,1430.91,1287.82,Limited,4.6,106
+BioTrust,Amoxicillin,Global Remedies,Antihypertensive,382.08,343.87,Out of stock,3.6,224
+LifeCare,Metformin,ABC Pharma,Antihypertensive,844.15,844.15,Out of stock,3.5,81
+PharmaOne,Omeprazole,Medicare Ltd,Antacid,1054.87,896.64,In stock,3.0,485
+LifeCare,Amoxicillin,Medicare Ltd,Antibiotic,1503.28,1352.95,Limited,4.8,392
+BioTrust,Atorvastatin,Sun Healthcare,Antacid,1245.54,1183.26,In stock,4.7,429
+LifeCare,Metformin,Nova Life,Antacid,186.92,186.92,Out of stock,2.6,268
+HealPlus,Omeprazole,Sun Healthcare,Analgesic,1936.29,1742.66,Out of stock,5.0,329
+PharmaOne,Amoxicillin,Medicare Ltd,Antihypertensive,799.28,679.39,Out of stock,4.9,179
+LifeCare,Metformin,Medicare Ltd,Antidiabetic,316.07,316.07,Out of stock,4.9,154
+LifeCare,Amoxicillin,Medicare Ltd,Analgesic,1251.74,1189.15,Limited,4.6,235
+BioTrust,Amoxicillin,Medicare Ltd,Antacid,908.89,863.45,Limited,3.0,306
+LifeCare,Omeprazole,Global Remedies,Antidiabetic,173.41,156.07,In stock,4.9,335
+Medix,Omeprazole,ABC Pharma,Analgesic,1198.74,1198.74,Limited,4.5,184
+Medix,Atorvastatin,Global Remedies,Antacid,1794.25,1794.25,Out of stock,3.5,482
+LifeCare,Metformin,ABC Pharma,Antibiotic,1470.33,1396.81,Out of stock,4.0,407
+PharmaOne,Paracetamol,Medicare Ltd,Antihypertensive,59.39,47.51,Out of stock,3.9,475
+LifeCare,Paracetamol,ABC Pharma,Antacid,1164.88,1164.88,Out of stock,4.1,466
+PharmaOne,Atorvastatin,Medicare Ltd,Antidiabetic,832.25,832.25,Out of stock,4.0,333
+HealPlus,Metformin,ABC Pharma,Antibiotic,1293.76,1229.07,Out of stock,3.7,407
+LifeCare,Metformin,Sun Healthcare,Analgesic,1330.86,1197.77,Limited,4.0,243
+Medix,Omeprazole,Global Remedies,Antihypertensive,784.06,627.25,Limited,3.5,25
+BioTrust,Omeprazole,ABC Pharma,Analgesic,290.7,261.63,Limited,3.7,491
+Medix,Amoxicillin,Nova Life,Antidiabetic,722.75,686.61,Out of stock,4.3,29
+HealPlus,Omeprazole,ABC Pharma,Antihypertensive,519.72,519.72,Limited,4.9,330
+LifeCare,Atorvastatin,Global Remedies,Antihypertensive,1502.03,1276.73,Out of stock,4.7,192
+LifeCare,Atorvastatin,Medicare Ltd,Analgesic,1828.72,1462.98,Out of stock,3.5,328
+Medix,Omeprazole,Nova Life,Antacid,542.77,488.49,In stock,3.3,126
+Medix,Metformin,Global Remedies,Antihypertensive,1257.7,1194.82,Out of stock,4.1,16
+Medix,Amoxicillin,ABC Pharma,Antidiabetic,590.01,590.01,Limited,4.9,457
+BioTrust,Amoxicillin,Nova Life,Antibiotic,351.53,298.8,In stock,3.5,280
+HealPlus,Atorvastatin,ABC Pharma,Antidiabetic,1389.11,1389.11,In stock,2.7,109
+LifeCare,Omeprazole,ABC Pharma,Antidiabetic,58.33,52.5,Limited,3.0,430
+BioTrust,Atorvastatin,Sun Healthcare,Antibiotic,1648.16,1318.53,In stock,4.5,132
+BioTrust,Paracetamol,Medicare Ltd,Antibiotic,1032.9,826.32,Limited,3.7,461
+LifeCare,Paracetamol,Global Remedies,Antibiotic,58.46,49.69,Out of stock,4.3,204
+Medix,Metformin,Nova Life,Antihypertensive,1833.03,1833.03,In stock,3.5,147
+PharmaOne,Omeprazole,ABC Pharma,Antidiabetic,1900.4,1710.36,Limited,3.4,427
+PharmaOne,Paracetamol,Global Remedies,Antacid,194.04,155.23,Limited,2.9,399
+BioTrust,Atorvastatin,Medicare Ltd,Antibiotic,556.61,445.29,Out of stock,3.0,410
+HealPlus,Metformin,Medicare Ltd,Antibiotic,1666.49,1666.49,Limited,5.0,53
+PharmaOne,Amoxicillin,Sun Healthcare,Antidiabetic,767.28,728.92,Limited,4.7,369
+PharmaOne,Amoxicillin,Global Remedies,Antacid,1657.77,1326.22,Limited,4.0,238
+PharmaOne,Atorvastatin,Medicare Ltd,Antidiabetic,188.79,169.91,Out of stock,3.4,122
+PharmaOne,Metformin,Global Remedies,Antacid,1434.86,1434.86,Out of stock,4.6,222
+LifeCare,Atorvastatin,Sun Healthcare,Antihypertensive,492.58,394.06,In stock,4.5,199
+Medix,Paracetamol,Medicare Ltd,Antihypertensive,113.36,107.69,In stock,3.6,135
+LifeCare,Metformin,ABC Pharma,Antidiabetic,1439.77,1151.82,Limited,2.7,323
+HealPlus,Omeprazole,Sun Healthcare,Antibiotic,1619.01,1538.06,Out of stock,4.4,276
+Medix,Metformin,Nova Life,Antidiabetic,760.27,722.26,Out of stock,2.5,466
+LifeCare,Atorvastatin,Sun Healthcare,Antibiotic,636.04,636.04,Limited,3.5,4
+PharmaOne,Amoxicillin,Sun Healthcare,Antibiotic,1927.44,1831.07,Out of stock,5.0,184
+HealPlus,Omeprazole,Sun Healthcare,Antidiabetic,289.0,274.55,Limited,3.7,349
+BioTrust,Metformin,Medicare Ltd,Antidiabetic,359.36,359.36,Out of stock,3.1,319
+Medix,Paracetamol,Global Remedies,Analgesic,1611.46,1450.31,In stock,3.7,177
+LifeCare,Metformin,ABC Pharma,Analgesic,295.79,266.21,Limited,4.6,218
+LifeCare,Omeprazole,Global Remedies,Antacid,48.35,48.35,Limited,3.1,67
+HealPlus,Atorvastatin,ABC Pharma,Analgesic,1504.83,1429.59,In stock,3.9,230
+PharmaOne,Omeprazole,Global Remedies,Antidiabetic,857.92,815.02,Limited,4.0,332
+HealPlus,Paracetamol,ABC Pharma,Antidiabetic,27.14,24.43,Limited,3.3,404
+LifeCare,Omeprazole,Global Remedies,Antacid,430.3,430.3,In stock,4.9,243
+PharmaOne,Atorvastatin,Global Remedies,Analgesic,903.23,722.58,Limited,3.6,376
+HealPlus,Amoxicillin,Nova Life,Antidiabetic,46.51,44.18,Out of stock,3.9,479
+BioTrust,Atorvastatin,Sun Healthcare,Antacid,272.56,245.3,In stock,4.4,142
+HealPlus,Atorvastatin,Nova Life,Antihypertensive,551.63,551.63,In stock,3.3,130
+BioTrust,Metformin,Global Remedies,Antibiotic,685.66,685.66,Limited,4.4,34
+Medix,Metformin,Global Remedies,Analgesic,1973.22,1973.22,Limited,3.4,117
+BioTrust,Amoxicillin,Sun Healthcare,Antidiabetic,1190.78,1071.7,In stock,2.9,428
+LifeCare,Paracetamol,Medicare Ltd,Analgesic,1668.14,1668.14,Limited,4.4,87
+BioTrust,Metformin,Nova Life,Antidiabetic,1408.73,1126.98,In stock,3.8,452
+PharmaOne,Atorvastatin,Nova Life,Analgesic,145.92,116.74,Out of stock,3.6,74
+PharmaOne,Metformin,Nova Life,Antibiotic,1748.43,1748.43,In stock,4.4,67
+LifeCare,Amoxicillin,Nova Life,Antidiabetic,103.03,87.58,In stock,3.5,314
+Medix,Amoxicillin,Medicare Ltd,Antihypertensive,490.08,465.58,Limited,3.0,194
+LifeCare,Omeprazole,Nova Life,Antibiotic,973.28,875.95,In stock,4.4,151
+PharmaOne,Amoxicillin,ABC Pharma,Antacid,1042.77,834.22,Out of stock,3.9,360
+HealPlus,Atorvastatin,Sun Healthcare,Antacid,1054.86,1054.86,In stock,2.7,216
+LifeCare,Paracetamol,Global Remedies,Antacid,481.27,409.08,Limited,3.3,372
+HealPlus,Atorvastatin,Global Remedies,Antihypertensive,238.55,202.77,Limited,4.0,201
+PharmaOne,Metformin,Global Remedies,Antihypertensive,499.28,449.35,In stock,5.0,403
+LifeCare,Atorvastatin,Global Remedies,Analgesic,1218.46,974.77,In stock,4.5,166
+BioTrust,Omeprazole,Sun Healthcare,Analgesic,436.65,436.65,Out of stock,4.1,391
+Medix,Omeprazole,Nova Life,Antacid,503.83,428.26,Limited,4.2,370
+PharmaOne,Atorvastatin,Sun Healthcare,Antihypertensive,1088.14,1088.14,Limited,4.0,390
+Medix,Amoxicillin,ABC Pharma,Antibiotic,776.14,698.53,Out of stock,2.8,390
+BioTrust,Omeprazole,Nova Life,Antacid,1000.6,950.57,In stock,2.7,232
+BioTrust,Omeprazole,Sun Healthcare,Antacid,620.39,527.33,Limited,5.0,416
+HealPlus,Paracetamol,Sun Healthcare,Analgesic,1972.83,1972.83,Limited,2.6,105
+LifeCare,Omeprazole,Sun Healthcare,Antibiotic,1788.77,1788.77,Limited,4.1,264
+Medix,Omeprazole,Nova Life,Antibiotic,229.03,229.03,In stock,2.5,314
+HealPlus,Amoxicillin,Sun Healthcare,Antihypertensive,78.21,78.21,Out of stock,4.5,108
+HealPlus,Atorvastatin,Nova Life,Antacid,1166.75,1050.08,In stock,3.5,175
+BioTrust,Omeprazole,Sun Healthcare,Antibiotic,1858.49,1765.57,In stock,3.4,445
+HealPlus,Atorvastatin,Global Remedies,Antidiabetic,1685.41,1432.6,Limited,4.0,307
+LifeCare,Omeprazole,Nova Life,Antibiotic,827.95,745.16,Out of stock,2.5,428
+Medix,Atorvastatin,ABC Pharma,Antibiotic,583.55,554.37,In stock,3.4,499
+LifeCare,Atorvastatin,Nova Life,Antihypertensive,248.61,248.61,Out of stock,4.3,494
+LifeCare,Amoxicillin,Sun Healthcare,Analgesic,1551.08,1551.08,In stock,4.1,284
+PharmaOne,Atorvastatin,Global Remedies,Analgesic,55.67,47.32,Out of stock,2.8,14
+Medix,Atorvastatin,Sun Healthcare,Antibiotic,716.75,716.75,Limited,4.4,252
+LifeCare,Omeprazole,ABC Pharma,Analgesic,1343.02,1275.87,Out of stock,3.4,26
+BioTrust,Metformin,Sun Healthcare,Antihypertensive,1556.4,1478.58,Limited,4.0,228
+Medix,Amoxicillin,Nova Life,Antidiabetic,972.93,875.64,Limited,2.7,249
+LifeCare,Amoxicillin,Sun Healthcare,Analgesic,1423.14,1423.14,Out of stock,4.1,423
+LifeCare,Metformin,Sun Healthcare,Antidiabetic,689.14,585.77,Out of stock,4.3,281
+HealPlus,Paracetamol,Nova Life,Analgesic,762.24,609.79,Out of stock,2.5,18
+HealPlus,Amoxicillin,Global Remedies,Analgesic,865.1,692.08,Limited,3.2,478
+BioTrust,Paracetamol,Global Remedies,Antidiabetic,1271.4,1271.4,In stock,3.0,264
+BioTrust,Paracetamol,Medicare Ltd,Antihypertensive,254.07,241.37,In stock,4.4,275
+LifeCare,Atorvastatin,ABC Pharma,Analgesic,639.09,543.23,Out of stock,3.7,84
+LifeCare,Metformin,ABC Pharma,Antidiabetic,1751.53,1751.53,Limited,3.8,147
+Medix,Amoxicillin,Global Remedies,Antihypertensive,669.97,535.98,Out of stock,4.3,443
+PharmaOne,Atorvastatin,Sun Healthcare,Antihypertensive,1768.14,1502.92,In stock,3.6,253
+PharmaOne,Paracetamol,ABC Pharma,Antacid,235.94,224.14,Out of stock,3.9,194
+Medix,Paracetamol,ABC Pharma,Analgesic,1787.65,1608.89,Limited,2.6,436
+Medix,Paracetamol,Global Remedies,Antidiabetic,92.55,74.04,In stock,2.8,401
+BioTrust,Amoxicillin,ABC Pharma,Antihypertensive,1169.43,994.02,Out of stock,4.0,454
+LifeCare,Atorvastatin,ABC Pharma,Antihypertensive,1851.52,1481.22,In stock,3.3,330
+Medix,Amoxicillin,ABC Pharma,Antidiabetic,1987.4,1589.92,Out of stock,4.5,195
+Medix,Atorvastatin,Sun Healthcare,Antidiabetic,1997.17,1797.45,Limited,2.6,66
+HealPlus,Metformin,Global Remedies,Antibiotic,447.1,424.75,Out of stock,3.0,158
+HealPlus,Metformin,Global Remedies,Antidiabetic,1404.06,1263.65,In stock,4.9,141
+BioTrust,Omeprazole,Sun Healthcare,Antihypertensive,1633.25,1388.26,Out of stock,2.8,426
+Medix,Metformin,Medicare Ltd,Analgesic,1438.85,1151.08,Out of stock,4.9,272
+PharmaOne,Atorvastatin,Nova Life,Antibiotic,1864.25,1771.04,Limited,4.6,461
+BioTrust,Metformin,Nova Life,Analgesic,1175.07,940.06,Limited,2.5,166
+BioTrust,Metformin,Nova Life,Antihypertensive,1083.82,975.44,Out of stock,3.2,394
+Medix,Metformin,Sun Healthcare,Antidiabetic,828.04,662.43,Out of stock,3.4,302
+BioTrust,Atorvastatin,Medicare Ltd,Antidiabetic,1357.68,1154.03,Limited,4.8,311
+PharmaOne,Atorvastatin,Nova Life,Antihypertensive,1395.93,1395.93,In stock,2.7,86
+LifeCare,Omeprazole,Nova Life,Antibiotic,1565.51,1330.68,Limited,3.5,332
+HealPlus,Atorvastatin,Nova Life,Antidiabetic,1613.49,1532.82,Limited,4.6,131
+BioTrust,Paracetamol,Sun Healthcare,Antibiotic,539.74,431.79,In stock,4.4,85
+LifeCare,Atorvastatin,Nova Life,Analgesic,933.18,839.86,Limited,3.1,213
+PharmaOne,Metformin,Sun Healthcare,Antihypertensive,1935.72,1742.15,Out of stock,4.7,481
+LifeCare,Omeprazole,ABC Pharma,Analgesic,1192.43,1013.57,Limited,4.1,386
+BioTrust,Amoxicillin,Nova Life,Antihypertensive,1174.09,1115.39,Limited,4.3,354
+PharmaOne,Paracetamol,Nova Life,Antidiabetic,1815.78,1452.62,Limited,2.6,172
+LifeCare,Metformin,Sun Healthcare,Analgesic,1131.57,1131.57,Limited,3.5,349
+LifeCare,Atorvastatin,Nova Life,Antihypertensive,1734.73,1387.78,Out of stock,3.6,217
+PharmaOne,Paracetamol,ABC Pharma,Antibiotic,1567.13,1567.13,Out of stock,4.4,373
+Medix,Paracetamol,Nova Life,Analgesic,832.63,791.0,Limited,3.5,46
+Medix,Metformin,ABC Pharma,Antidiabetic,717.82,610.15,Limited,3.8,96
+HealPlus,Amoxicillin,Global Remedies,Antibiotic,1551.57,1318.83,Out of stock,3.0,57
+PharmaOne,Metformin,Nova Life,Antidiabetic,540.68,459.58,Limited,2.6,176
+LifeCare,Omeprazole,Sun Healthcare,Antidiabetic,302.14,302.14,Limited,2.9,61
+Medix,Atorvastatin,Nova Life,Antibiotic,470.75,423.68,Out of stock,2.8,130
+Medix,Paracetamol,ABC Pharma,Antacid,847.32,762.59,Out of stock,4.5,32
+BioTrust,Atorvastatin,Nova Life,Antibiotic,1771.46,1682.89,In stock,3.4,431
+Medix,Omeprazole,Medicare Ltd,Antidiabetic,969.97,872.97,Out of stock,2.9,119
+BioTrust,Atorvastatin,Nova Life,Analgesic,484.16,435.74,Limited,2.9,396
+HealPlus,Amoxicillin,Sun Healthcare,Analgesic,1948.09,1558.47,Out of stock,3.8,467
+Medix,Metformin,Medicare Ltd,Antacid,52.56,44.68,Limited,3.6,285
+BioTrust,Amoxicillin,Medicare Ltd,Antihypertensive,517.04,439.48,Limited,3.9,278
+HealPlus,Amoxicillin,Sun Healthcare,Antidiabetic,1251.45,1001.16,Out of stock,3.6,137
+PharmaOne,Atorvastatin,Nova Life,Antidiabetic,1627.58,1546.2,Limited,3.7,245
+LifeCare,Metformin,Global Remedies,Antacid,326.87,277.84,Limited,3.3,360
+PharmaOne,Metformin,Global Remedies,Antidiabetic,494.81,420.59,Limited,2.7,405
+Medix,Amoxicillin,Medicare Ltd,Antihypertensive,1465.92,1319.33,Limited,3.5,386
+PharmaOne,Atorvastatin,Sun Healthcare,Analgesic,1430.8,1216.18,Limited,3.7,260
+Medix,Metformin,Global Remedies,Analgesic,1485.46,1411.19,Limited,3.5,57
+HealPlus,Omeprazole,Sun Healthcare,Antidiabetic,1384.06,1245.65,Out of stock,4.6,125
+PharmaOne,Atorvastatin,Nova Life,Antacid,50.52,42.94,Out of stock,4.9,127
+HealPlus,Paracetamol,Sun Healthcare,Antacid,1438.44,1222.67,Out of stock,4.5,145
+HealPlus,Amoxicillin,ABC Pharma,Antidiabetic,695.53,556.42,Out of stock,4.7,391
+LifeCare,Atorvastatin,Global Remedies,Antidiabetic,122.37,122.37,In stock,4.2,431
+BioTrust,Paracetamol,Medicare Ltd,Antibiotic,730.79,657.71,Out of stock,3.9,127
+LifeCare,Paracetamol,Global Remedies,Analgesic,645.41,645.41,Out of stock,4.1,204
+BioTrust,Atorvastatin,Medicare Ltd,Antidiabetic,935.62,935.62,Out of stock,2.7,378
+PharmaOne,Paracetamol,ABC Pharma,Antihypertensive,820.95,820.95,In stock,4.6,55
+LifeCare,Omeprazole,Sun Healthcare,Antacid,1107.65,1107.65,Out of stock,4.3,446
+Medix,Metformin,ABC Pharma,Analgesic,614.23,522.1,Out of stock,4.8,366
+Medix,Metformin,Nova Life,Antidiabetic,1545.69,1468.41,In stock,3.7,434
+PharmaOne,Metformin,Medicare Ltd,Antacid,1792.73,1792.73,Out of stock,3.8,89
+BioTrust,Paracetamol,ABC Pharma,Antacid,1481.18,1481.18,Limited,4.3,189
+HealPlus,Metformin,Global Remedies,Antidiabetic,1854.09,1854.09,In stock,3.9,123
+LifeCare,Omeprazole,Nova Life,Antibiotic,1280.71,1088.6,Limited,3.8,302
+BioTrust,Paracetamol,Nova Life,Antacid,665.47,665.47,In stock,2.7,134
+PharmaOne,Amoxicillin,Medicare Ltd,Antidiabetic,1298.76,1103.95,Out of stock,2.6,192
+BioTrust,Paracetamol,Sun Healthcare,Analgesic,815.79,775.0,Limited,3.8,280
+LifeCare,Omeprazole,Medicare Ltd,Antacid,799.98,719.98,In stock,2.7,462
+LifeCare,Omeprazole,Nova Life,Analgesic,1041.63,833.3,In stock,4.0,88
+PharmaOne,Omeprazole,ABC Pharma,Antihypertensive,1280.21,1152.19,In stock,4.1,16
+BioTrust,Atorvastatin,Sun Healthcare,Antihypertensive,1769.77,1769.77,Out of stock,4.6,186
+Medix,Metformin,ABC Pharma,Antibiotic,1427.4,1427.4,Limited,2.8,427
+BioTrust,Omeprazole,Global Remedies,Antacid,1991.3,1692.61,In stock,4.0,144
+Medix,Omeprazole,ABC Pharma,Antihypertensive,1820.16,1729.15,In stock,4.2,456
+LifeCare,Metformin,Medicare Ltd,Antibiotic,1996.39,1597.11,Out of stock,3.7,487
+BioTrust,Amoxicillin,ABC Pharma,Antihypertensive,1247.56,1247.56,Out of stock,2.6,130
+HealPlus,Metformin,Medicare Ltd,Antidiabetic,427.49,406.12,In stock,2.5,358
+BioTrust,Metformin,Medicare Ltd,Analgesic,1763.08,1498.62,In stock,3.7,338
+PharmaOne,Amoxicillin,Sun Healthcare,Antidiabetic,1367.1,1230.39,Out of stock,4.6,120
+BioTrust,Atorvastatin,ABC Pharma,Antihypertensive,1460.2,1387.19,Out of stock,3.2,276
+HealPlus,Atorvastatin,Medicare Ltd,Antacid,869.72,869.72,In stock,5.0,57
+Medix,Amoxicillin,Medicare Ltd,Antibiotic,1728.73,1555.86,In stock,4.5,500
+HealPlus,Omeprazole,Global Remedies,Antihypertensive,1458.33,1458.33,Limited,4.4,498
+HealPlus,Atorvastatin,ABC Pharma,Antihypertensive,542.6,488.34,Limited,3.7,415
+BioTrust,Paracetamol,ABC Pharma,Antihypertensive,1539.78,1462.79,Out of stock,2.8,310
+HealPlus,Amoxicillin,Global Remedies,Analgesic,269.24,215.39,In stock,3.7,403
+BioTrust,Atorvastatin,ABC Pharma,Antibiotic,1498.54,1498.54,In stock,4.3,490
+PharmaOne,Metformin,Sun Healthcare,Antacid,198.87,198.87,In stock,5.0,478
+LifeCare,Omeprazole,Medicare Ltd,Antacid,1982.53,1685.15,In stock,3.3,25
+PharmaOne,Amoxicillin,Medicare Ltd,Analgesic,1071.94,1018.34,Out of stock,3.6,114
+LifeCare,Metformin,Global Remedies,Analgesic,562.85,562.85,In stock,3.2,291
+LifeCare,Omeprazole,Global Remedies,Antibiotic,623.48,498.78,In stock,2.7,113
+HealPlus,Metformin,Global Remedies,Antidiabetic,1655.34,1407.04,Limited,4.6,30
+HealPlus,Amoxicillin,Global Remedies,Antibiotic,1886.22,1603.29,Limited,4.3,28
+BioTrust,Amoxicillin,ABC Pharma,Antidiabetic,1835.99,1652.39,Limited,3.4,424
+BioTrust,Metformin,Medicare Ltd,Analgesic,546.1,546.1,Out of stock,3.8,251
+HealPlus,Paracetamol,Medicare Ltd,Antidiabetic,1735.25,1735.25,Limited,4.9,397
+Medix,Metformin,Sun Healthcare,Antacid,826.43,702.47,Out of stock,4.6,233
+Medix,Metformin,Global Remedies,Antacid,1421.4,1279.26,Out of stock,4.6,296
+LifeCare,Amoxicillin,Sun Healthcare,Antihypertensive,484.33,411.68,Limited,3.8,370
+LifeCare,Paracetamol,Global Remedies,Antacid,865.72,692.58,In stock,3.2,123
+Medix,Atorvastatin,Nova Life,Antibiotic,1246.05,1121.44,Limited,4.5,165
+BioTrust,Atorvastatin,Medicare Ltd,Antihypertensive,1982.27,1585.82,Out of stock,4.9,105
+HealPlus,Metformin,Global Remedies,Antidiabetic,67.36,67.36,Out of stock,5.0,149
+HealPlus,Atorvastatin,Medicare Ltd,Analgesic,1409.61,1409.61,Out of stock,3.8,180
+Medix,Omeprazole,Sun Healthcare,Antidiabetic,1135.76,1135.76,Out of stock,3.9,197
+HealPlus,Paracetamol,Global Remedies,Antacid,316.69,269.19,In stock,3.5,154
+LifeCare,Omeprazole,Nova Life,Antibiotic,386.52,328.54,In stock,2.9,39
+BioTrust,Omeprazole,Nova Life,Antacid,67.61,60.85,Limited,3.6,493
+BioTrust,Metformin,Global Remedies,Antidiabetic,1522.5,1446.38,In stock,3.5,466
+LifeCare,Amoxicillin,Sun Healthcare,Antacid,1611.14,1530.58,In stock,4.6,303
+Medix,Atorvastatin,Nova Life,Antidiabetic,559.59,559.59,Limited,4.1,475
+BioTrust,Atorvastatin,Sun Healthcare,Antibiotic,1271.28,1080.59,In stock,3.8,277
+HealPlus,Omeprazole,Medicare Ltd,Antacid,1983.11,1883.95,Limited,4.1,328
+PharmaOne,Paracetamol,Medicare Ltd,Antidiabetic,1754.14,1754.14,In stock,4.8,384
+HealPlus,Omeprazole,ABC Pharma,Antibiotic,1300.79,1235.75,In stock,2.6,238
+PharmaOne,Paracetamol,Sun Healthcare,Antacid,76.57,72.74,In stock,3.3,99
+BioTrust,Atorvastatin,Nova Life,Antacid,911.08,774.42,Out of stock,4.0,412
+BioTrust,Omeprazole,ABC Pharma,Antibiotic,1695.61,1441.27,Limited,2.7,31
+BioTrust,Amoxicillin,Sun Healthcare,Antacid,1859.36,1487.49,Limited,2.8,94
+PharmaOne,Amoxicillin,Medicare Ltd,Antibiotic,1393.96,1254.56,Out of stock,4.4,290
+Medix,Omeprazole,Nova Life,Antibiotic,587.5,470.0,Limited,3.2,83
+Medix,Atorvastatin,Medicare Ltd,Antidiabetic,264.9,211.92,In stock,3.4,215
+LifeCare,Amoxicillin,Global Remedies,Analgesic,379.63,303.7,In stock,2.7,196
+HealPlus,Metformin,Global Remedies,Antihypertensive,1560.8,1482.76,Limited,4.0,168
+PharmaOne,Atorvastatin,Nova Life,Antidiabetic,233.52,221.84,In stock,3.1,33
+LifeCare,Amoxicillin,Nova Life,Antibiotic,1798.04,1528.33,Limited,2.6,350
+LifeCare,Amoxicillin,Global Remedies,Antibiotic,1632.21,1550.6,Limited,2.9,105
+LifeCare,Amoxicillin,Global Remedies,Antacid,1299.56,1169.6,Limited,4.1,61
+Medix,Paracetamol,Medicare Ltd,Antihypertensive,1217.75,1156.86,Out of stock,5.0,99
+HealPlus,Omeprazole,ABC Pharma,Antihypertensive,177.08,141.66,Out of stock,5.0,478
+BioTrust,Amoxicillin,Medicare Ltd,Antacid,881.37,793.23,Out of stock,3.6,34
+BioTrust,Paracetamol,ABC Pharma,Antacid,234.83,211.35,In stock,2.8,235
+LifeCare,Amoxicillin,Medicare Ltd,Antidiabetic,1352.09,1284.49,In stock,4.6,478
+BioTrust,Omeprazole,ABC Pharma,Antibiotic,1343.19,1141.71,In stock,3.2,429
+Medix,Metformin,Sun Healthcare,Antihypertensive,55.24,55.24,Limited,2.9,481
+HealPlus,Paracetamol,ABC Pharma,Antidiabetic,1124.25,1011.83,Limited,3.9,408
+BioTrust,Atorvastatin,ABC Pharma,Antihypertensive,340.6,289.51,In stock,4.3,136
+BioTrust,Metformin,Global Remedies,Analgesic,368.86,368.86,Out of stock,4.8,1
+Medix,Paracetamol,ABC Pharma,Antacid,625.05,625.05,In stock,2.6,300
+BioTrust,Omeprazole,Global Remedies,Antibiotic,223.71,178.97,In stock,3.1,289
+LifeCare,Metformin,Medicare Ltd,Antibiotic,218.47,196.62,In stock,4.7,87
+PharmaOne,Amoxicillin,ABC Pharma,Antihypertensive,1698.26,1358.61,Out of stock,2.5,370
+HealPlus,Atorvastatin,Global Remedies,Antihypertensive,415.21,332.17,Limited,4.0,452
+BioTrust,Metformin,Sun Healthcare,Antacid,1402.01,1191.71,Limited,4.2,146
+HealPlus,Paracetamol,Medicare Ltd,Analgesic,1667.66,1584.28,Limited,3.4,261
+PharmaOne,Amoxicillin,Medicare Ltd,Antihypertensive,925.68,786.83,Limited,3.8,68
+HealPlus,Paracetamol,Nova Life,Analgesic,1934.96,1741.46,Out of stock,2.5,399
+PharmaOne,Paracetamol,Sun Healthcare,Antihypertensive,1336.29,1336.29,Limited,4.2,400
+BioTrust,Paracetamol,Medicare Ltd,Antibiotic,79.11,75.15,In stock,3.5,357
+PharmaOne,Atorvastatin,Medicare Ltd,Antacid,1265.89,1265.89,In stock,4.5,472
+PharmaOne,Amoxicillin,Medicare Ltd,Analgesic,657.14,624.28,Limited,4.6,314
+BioTrust,Amoxicillin,Global Remedies,Antidiabetic,1953.74,1953.74,Limited,3.0,159
+BioTrust,Atorvastatin,ABC Pharma,Antidiabetic,243.58,207.04,In stock,4.8,427
+Medix,Omeprazole,Sun Healthcare,Analgesic,34.47,34.47,Out of stock,4.6,331
+PharmaOne,Omeprazole,Medicare Ltd,Analgesic,999.7,899.73,In stock,3.3,373
+LifeCare,Amoxicillin,Nova Life,Antihypertensive,1205.76,964.61,Out of stock,4.0,283
+PharmaOne,Amoxicillin,Medicare Ltd,Antacid,996.74,946.9,Limited,4.8,358
+LifeCare,Metformin,Global Remedies,Antacid,672.66,538.13,Limited,4.3,128
+HealPlus,Atorvastatin,Sun Healthcare,Antidiabetic,712.89,677.25,Out of stock,4.5,20
+LifeCare,Atorvastatin,ABC Pharma,Antihypertensive,647.65,615.27,Out of stock,4.1,325
+PharmaOne,Atorvastatin,Sun Healthcare,Antihypertensive,1865.41,1492.33,In stock,2.9,113
+HealPlus,Atorvastatin,Nova Life,Antidiabetic,206.88,206.88,Limited,4.8,17
+Medix,Paracetamol,Medicare Ltd,Antibiotic,1841.44,1841.44,In stock,3.2,322
+Medix,Amoxicillin,Medicare Ltd,Antidiabetic,477.54,453.66,In stock,3.6,388
+LifeCare,Metformin,ABC Pharma,Antidiabetic,1568.38,1489.96,In stock,2.7,263
+HealPlus,Omeprazole,Sun Healthcare,Antidiabetic,1992.39,1892.77,In stock,2.9,29
+HealPlus,Omeprazole,Global Remedies,Antihypertensive,1372.47,1166.6,Out of stock,3.3,288
+Medix,Metformin,Medicare Ltd,Antidiabetic,1619.33,1457.4,In stock,2.6,187
+PharmaOne,Omeprazole,Sun Healthcare,Antacid,1414.81,1131.85,Out of stock,3.1,464
+PharmaOne,Omeprazole,ABC Pharma,Antibiotic,1622.04,1622.04,In stock,3.5,492
+HealPlus,Amoxicillin,Nova Life,Antacid,656.9,525.52,Out of stock,3.9,173
+LifeCare,Omeprazole,ABC Pharma,Antihypertensive,1296.55,1037.24,In stock,4.3,107
+LifeCare,Omeprazole,Sun Healthcare,Analgesic,1218.57,1218.57,In stock,3.6,311
+BioTrust,Omeprazole,Medicare Ltd,Antidiabetic,805.66,644.53,Out of stock,4.2,79
+Medix,Amoxicillin,Sun Healthcare,Antihypertensive,1444.26,1372.05,Limited,2.9,187
+LifeCare,Omeprazole,Medicare Ltd,Antibiotic,1186.08,1186.08,In stock,4.8,176
+BioTrust,Metformin,Medicare Ltd,Antidiabetic,510.36,510.36,Out of stock,4.5,429
+PharmaOne,Amoxicillin,Global Remedies,Antibiotic,1727.46,1727.46,In stock,4.5,368
+PharmaOne,Paracetamol,Sun Healthcare,Antihypertensive,1862.22,1862.22,Out of stock,4.6,453
+LifeCare,Omeprazole,Global Remedies,Antihypertensive,647.22,550.14,Out of stock,4.9,451
+Medix,Amoxicillin,Medicare Ltd,Analgesic,747.1,747.1,Limited,3.2,170
+BioTrust,Metformin,Nova Life,Antihypertensive,462.98,393.53,Limited,2.7,402
+LifeCare,Metformin,Global Remedies,Antihypertensive,231.28,219.72,Limited,4.8,121
+HealPlus,Omeprazole,Global Remedies,Antidiabetic,561.45,561.45,In stock,3.4,197
+Medix,Amoxicillin,Nova Life,Analgesic,1972.94,1677.0,Out of stock,4.3,101
+Medix,Metformin,Global Remedies,Antibiotic,122.85,122.85,In stock,2.6,37
+PharmaOne,Omeprazole,Nova Life,Antihypertensive,1645.39,1563.12,In stock,4.8,92
+BioTrust,Amoxicillin,Global Remedies,Antacid,1074.73,967.26,Limited,4.4,473
+Medix,Metformin,Sun Healthcare,Antibiotic,1166.77,991.75,Out of stock,3.6,246
+PharmaOne,Omeprazole,Medicare Ltd,Antihypertensive,1599.73,1599.73,In stock,5.0,73
+HealPlus,Omeprazole,Nova Life,Antacid,1760.7,1408.56,Out of stock,3.0,258
+BioTrust,Omeprazole,Global Remedies,Antihypertensive,515.12,515.12,In stock,4.5,60
+BioTrust,Paracetamol,Sun Healthcare,Antidiabetic,762.3,762.3,Limited,4.3,348
+BioTrust,Amoxicillin,Global Remedies,Antihypertensive,1367.14,1162.07,In stock,3.8,203
+PharmaOne,Amoxicillin,ABC Pharma,Antidiabetic,1344.84,1075.87,In stock,4.1,195
+Medix,Amoxicillin,Sun Healthcare,Antidiabetic,1964.34,1866.12,In stock,3.4,332
+LifeCare,Metformin,ABC Pharma,Antidiabetic,561.2,505.08,In stock,3.9,216
+HealPlus,Paracetamol,Sun Healthcare,Antibiotic,1380.43,1242.39,Out of stock,2.8,326
+PharmaOne,Paracetamol,Medicare Ltd,Antidiabetic,567.97,482.77,Limited,3.1,348
+BioTrust,Amoxicillin,Medicare Ltd,Antidiabetic,595.63,476.5,Limited,4.4,463
+LifeCare,Amoxicillin,Nova Life,Antidiabetic,780.13,780.13,In stock,3.7,308
+LifeCare,Paracetamol,Nova Life,Antibiotic,1563.95,1329.36,Limited,4.0,318
+Medix,Atorvastatin,ABC Pharma,Analgesic,286.4,286.4,In stock,4.2,5
+BioTrust,Paracetamol,Global Remedies,Antacid,356.58,320.92,Limited,4.2,432
+HealPlus,Omeprazole,Global Remedies,Antibiotic,1996.56,1796.9,In stock,4.7,421
+LifeCare,Metformin,Nova Life,Antacid,1278.98,1278.98,Out of stock,2.6,182
+Medix,Metformin,Medicare Ltd,Antacid,364.38,364.38,Limited,3.3,189
+Medix,Amoxicillin,ABC Pharma,Antihypertensive,142.17,135.06,In stock,3.8,481
+Medix,Paracetamol,Nova Life,Antihypertensive,1674.48,1674.48,Limited,4.6,31
+Medix,Atorvastatin,Medicare Ltd,Antacid,1038.77,831.02,Out of stock,3.4,495
+BioTrust,Paracetamol,Sun Healthcare,Antihypertensive,895.44,761.12,In stock,4.4,387
+BioTrust,Omeprazole,Nova Life,Antacid,416.68,395.85,Out of stock,3.9,388
+Medix,Atorvastatin,Medicare Ltd,Antacid,1717.86,1546.07,Limited,3.6,429
+LifeCare,Atorvastatin,Medicare Ltd,Antihypertensive,1791.74,1433.39,Limited,3.0,407
+HealPlus,Omeprazole,Nova Life,Antibiotic,588.45,559.03,Out of stock,4.0,345
+BioTrust,Omeprazole,Nova Life,Antidiabetic,663.59,663.59,Limited,2.8,465
+LifeCare,Omeprazole,Nova Life,Antihypertensive,1387.56,1179.43,Out of stock,3.5,281
+HealPlus,Atorvastatin,ABC Pharma,Antidiabetic,1672.77,1505.49,In stock,2.5,496
+LifeCare,Metformin,Sun Healthcare,Antidiabetic,1027.57,873.43,Limited,3.6,311
+Medix,Metformin,ABC Pharma,Antibiotic,1032.69,981.06,Limited,4.1,479
+LifeCare,Amoxicillin,Nova Life,Analgesic,1780.7,1424.56,In stock,2.8,271
+PharmaOne,Paracetamol,Nova Life,Antihypertensive,1614.23,1452.81,Out of stock,2.9,80
+PharmaOne,Omeprazole,Global Remedies,Analgesic,622.8,560.52,In stock,4.3,119
+LifeCare,Omeprazole,Sun Healthcare,Antidiabetic,224.95,191.21,Limited,4.5,451
+HealPlus,Omeprazole,Medicare Ltd,Antacid,835.24,751.72,In stock,2.7,18
+LifeCare,Paracetamol,Global Remedies,Antihypertensive,141.51,127.36,Out of stock,2.9,256
+PharmaOne,Metformin,Global Remedies,Antihypertensive,1405.66,1265.09,Limited,3.8,56
+HealPlus,Omeprazole,Nova Life,Antibiotic,303.83,273.45,In stock,3.9,386
+BioTrust,Atorvastatin,Sun Healthcare,Analgesic,1966.93,1573.54,In stock,4.5,487
+HealPlus,Atorvastatin,Sun Healthcare,Antidiabetic,600.72,570.68,Limited,3.9,248
+LifeCare,Omeprazole,Medicare Ltd,Antihypertensive,1397.23,1397.23,In stock,4.0,117
+Medix,Paracetamol,Medicare Ltd,Antihypertensive,1541.67,1541.67,Out of stock,3.5,155
+Medix,Amoxicillin,ABC Pharma,Antacid,460.88,368.7,In stock,3.4,187
+BioTrust,Amoxicillin,ABC Pharma,Antihypertensive,1540.27,1386.24,Out of stock,4.2,287
+PharmaOne,Atorvastatin,Sun Healthcare,Antihypertensive,1964.08,1964.08,Out of stock,4.8,349
+Medix,Omeprazole,Medicare Ltd,Antidiabetic,1596.36,1277.09,Out of stock,3.3,359
+PharmaOne,Atorvastatin,Medicare Ltd,Analgesic,1286.63,1029.3,In stock,3.0,236
+HealPlus,Omeprazole,Global Remedies,Antibiotic,541.87,433.5,In stock,4.9,440
+HealPlus,Paracetamol,Sun Healthcare,Antacid,1015.41,812.33,Limited,3.3,329
+PharmaOne,Metformin,ABC Pharma,Antibiotic,1875.89,1688.3,Limited,3.9,473
+PharmaOne,Omeprazole,Global Remedies,Analgesic,1860.15,1674.14,Out of stock,4.3,416
+HealPlus,Atorvastatin,ABC Pharma,Analgesic,1330.25,1197.22,In stock,3.1,369
+LifeCare,Metformin,Sun Healthcare,Analgesic,534.51,534.51,Limited,4.3,12
+HealPlus,Paracetamol,Nova Life,Antihypertensive,960.09,864.08,Limited,2.6,437
+BioTrust,Amoxicillin,Sun Healthcare,Antibiotic,1407.33,1407.33,Out of stock,2.7,445
+PharmaOne,Omeprazole,ABC Pharma,Analgesic,521.76,417.41,Limited,2.9,274
+LifeCare,Paracetamol,Sun Healthcare,Antihypertensive,412.97,371.67,Limited,4.9,58
+LifeCare,Atorvastatin,ABC Pharma,Antihypertensive,136.75,123.08,In stock,3.8,38
+PharmaOne,Atorvastatin,Global Remedies,Antidiabetic,926.98,926.98,Limited,3.0,137
+Medix,Atorvastatin,Sun Healthcare,Antihypertensive,181.27,154.08,Out of stock,2.6,289
+Medix,Omeprazole,Medicare Ltd,Analgesic,581.09,464.87,In stock,4.7,246
+BioTrust,Paracetamol,Global Remedies,Antacid,1366.69,1161.69,In stock,4.7,65
+PharmaOne,Paracetamol,Medicare Ltd,Antihypertensive,1781.08,1424.86,Limited,3.0,218
+Medix,Omeprazole,Medicare Ltd,Antihypertensive,411.71,329.37,In stock,2.7,345
+BioTrust,Amoxicillin,Sun Healthcare,Antihypertensive,431.11,431.11,Out of stock,3.9,415
+Medix,Atorvastatin,Global Remedies,Antacid,982.17,834.84,In stock,3.7,260
+Medix,Atorvastatin,ABC Pharma,Antihypertensive,536.91,429.53,In stock,3.2,139
+HealPlus,Paracetamol,Medicare Ltd,Analgesic,416.73,395.89,Out of stock,2.9,168
+LifeCare,Omeprazole,Global Remedies,Antacid,457.42,365.94,Limited,2.7,129
+BioTrust,Paracetamol,ABC Pharma,Analgesic,1935.04,1644.78,Out of stock,3.6,301
+Medix,Omeprazole,Nova Life,Antacid,1698.97,1698.97,Limited,3.7,188
+PharmaOne,Paracetamol,ABC Pharma,Antihypertensive,1799.09,1439.27,Limited,3.2,254
+PharmaOne,Amoxicillin,Medicare Ltd,Antibiotic,1675.35,1424.05,Limited,3.6,355
+Medix,Amoxicillin,Nova Life,Analgesic,821.82,780.73,Limited,2.8,73
+PharmaOne,Atorvastatin,Nova Life,Antihypertensive,311.36,280.22,Limited,3.2,353
+Medix,Metformin,Sun Healthcare,Antibiotic,1456.38,1383.56,Limited,2.6,479
+Medix,Amoxicillin,Global Remedies,Antacid,1567.0,1253.6,In stock,4.8,211
+HealPlus,Metformin,Nova Life,Antidiabetic,1494.85,1494.85,Limited,3.4,432
+Medix,Amoxicillin,Nova Life,Antibiotic,900.8,855.76,Limited,3.7,97
+HealPlus,Omeprazole,Sun Healthcare,Antidiabetic,1105.15,884.12,Out of stock,4.7,493
+BioTrust,Atorvastatin,Nova Life,Antibiotic,1107.9,997.11,Out of stock,4.3,199
+LifeCare,Paracetamol,Global Remedies,Antihypertensive,853.98,725.88,In stock,2.6,399
+LifeCare,Omeprazole,Nova Life,Analgesic,515.09,489.34,Limited,4.4,282
+Medix,Atorvastatin,ABC Pharma,Antibiotic,349.2,279.36,Limited,2.8,369
+Medix,Omeprazole,ABC Pharma,Antihypertensive,931.37,745.1,Out of stock,4.0,469
+LifeCare,Paracetamol,Nova Life,Antidiabetic,499.6,449.64,In stock,2.8,306
+HealPlus,Paracetamol,ABC Pharma,Antacid,706.45,600.48,Out of stock,4.3,264
+PharmaOne,Atorvastatin,Global Remedies,Analgesic,35.85,28.68,Out of stock,3.5,306
+BioTrust,Paracetamol,Global Remedies,Analgesic,1749.87,1487.39,In stock,3.8,458
+Medix,Metformin,Nova Life,Antihypertensive,543.98,435.18,Limited,3.2,301
+Medix,Omeprazole,ABC Pharma,Antidiabetic,1699.11,1614.15,Limited,3.7,116
+BioTrust,Atorvastatin,Medicare Ltd,Antidiabetic,615.31,523.01,Out of stock,2.9,217
+BioTrust,Atorvastatin,Nova Life,Antacid,199.83,169.86,Out of stock,3.3,322
+BioTrust,Metformin,Nova Life,Analgesic,1690.92,1352.74,Limited,3.3,495
+LifeCare,Atorvastatin,Sun Healthcare,Antacid,128.77,122.33,In stock,2.9,260
+BioTrust,Atorvastatin,ABC Pharma,Antihypertensive,1345.02,1076.02,Limited,3.1,77
+BioTrust,Paracetamol,ABC Pharma,Antacid,620.7,620.7,Limited,2.8,138
+HealPlus,Metformin,Nova Life,Antihypertensive,1029.98,926.98,In stock,3.4,201
+Medix,Paracetamol,Medicare Ltd,Antidiabetic,852.49,809.87,Limited,2.6,338
+Medix,Omeprazole,Global Remedies,Antibiotic,1809.27,1628.34,In stock,4.3,275
+PharmaOne,Metformin,Medicare Ltd,Analgesic,321.14,272.97,Out of stock,4.5,329
+BioTrust,Amoxicillin,Medicare Ltd,Antibiotic,540.12,432.1,Out of stock,4.7,232
+HealPlus,Paracetamol,Sun Healthcare,Antihypertensive,1940.45,1843.43,Limited,3.3,296
+HealPlus,Atorvastatin,Sun Healthcare,Analgesic,1036.18,828.94,In stock,4.1,161
+Medix,Metformin,Medicare Ltd,Antihypertensive,1215.92,1215.92,Out of stock,2.8,312
+LifeCare,Omeprazole,Sun Healthcare,Antibiotic,1463.79,1317.41,In stock,3.2,457
+LifeCare,Omeprazole,Medicare Ltd,Analgesic,1238.63,1114.77,In stock,2.9,78
+HealPlus,Amoxicillin,Medicare Ltd,Antihypertensive,515.68,438.33,Limited,3.3,350
+PharmaOne,Paracetamol,Global Remedies,Antidiabetic,1551.16,1473.6,Limited,2.6,151
+LifeCare,Atorvastatin,Nova Life,Analgesic,312.26,296.65,Limited,2.7,401
+LifeCare,Metformin,Nova Life,Antibiotic,744.73,595.78,Out of stock,3.3,240
+LifeCare,Paracetamol,Sun Healthcare,Antihypertensive,1197.94,1138.04,Out of stock,4.1,465
+BioTrust,Omeprazole,Global Remedies,Antibiotic,1548.85,1393.96,Limited,3.2,339
+BioTrust,Omeprazole,Medicare Ltd,Antibiotic,1235.58,1173.8,Limited,4.7,190
+PharmaOne,Paracetamol,Medicare Ltd,Antihypertensive,1194.41,1194.41,In stock,3.7,137
+HealPlus,Amoxicillin,Nova Life,Antihypertensive,1333.64,1200.28,Limited,4.0,180
+LifeCare,Paracetamol,Sun Healthcare,Antacid,1884.97,1696.47,Limited,3.6,336
+LifeCare,Metformin,Sun Healthcare,Antacid,614.42,491.54,Limited,4.2,330
+HealPlus,Omeprazole,Global Remedies,Antacid,281.5,253.35,Out of stock,3.6,428
+PharmaOne,Omeprazole,ABC Pharma,Antibiotic,1851.96,1759.36,Out of stock,3.5,306
+LifeCare,Amoxicillin,Nova Life,Antidiabetic,1442.65,1298.39,Out of stock,2.6,133
+Medix,Atorvastatin,Nova Life,Antihypertensive,437.97,416.07,In stock,2.8,409
+BioTrust,Atorvastatin,Global Remedies,Antidiabetic,1278.11,1086.39,Out of stock,5.0,319
+HealPlus,Amoxicillin,Sun Healthcare,Antihypertensive,770.01,731.51,In stock,4.9,28
+PharmaOne,Atorvastatin,Medicare Ltd,Antidiabetic,80.27,64.22,In stock,3.6,489
+BioTrust,Metformin,Medicare Ltd,Antihypertensive,217.81,206.92,Out of stock,3.4,209
+HealPlus,Omeprazole,Sun Healthcare,Antacid,1725.08,1552.57,In stock,3.5,198
+BioTrust,Metformin,Medicare Ltd,Antacid,1598.17,1598.17,Limited,4.1,148
+BioTrust,Amoxicillin,Sun Healthcare,Antidiabetic,1457.82,1312.04,Out of stock,3.1,84
+PharmaOne,Amoxicillin,Global Remedies,Antihypertensive,642.8,642.8,Limited,3.9,239
+HealPlus,Atorvastatin,Global Remedies,Analgesic,520.18,520.18,Limited,3.5,497
+Medix,Atorvastatin,Medicare Ltd,Antidiabetic,1355.6,1084.48,In stock,4.5,6
+BioTrust,Omeprazole,Global Remedies,Antidiabetic,428.31,342.65,Limited,4.9,407
+HealPlus,Amoxicillin,Medicare Ltd,Antibiotic,1616.37,1616.37,Limited,4.7,10
+Medix,Omeprazole,Sun Healthcare,Analgesic,51.75,41.4,Out of stock,2.8,336
+Medix,Paracetamol,Sun Healthcare,Analgesic,1654.89,1323.91,Out of stock,3.7,278
+Medix,Metformin,Nova Life,Antidiabetic,674.72,674.72,Out of stock,4.7,226
+HealPlus,Amoxicillin,ABC Pharma,Antibiotic,1550.08,1550.08,Out of stock,4.0,80
+Medix,Atorvastatin,Sun Healthcare,Antacid,449.1,449.1,In stock,4.3,490
+BioTrust,Amoxicillin,Medicare Ltd,Antacid,1774.18,1774.18,Limited,3.7,451
+PharmaOne,Amoxicillin,Global Remedies,Antihypertensive,210.83,210.83,In stock,3.5,492
+PharmaOne,Metformin,ABC Pharma,Antidiabetic,407.78,326.22,Limited,4.6,126
+Medix,Atorvastatin,Medicare Ltd,Analgesic,173.89,139.11,Out of stock,3.5,192
+HealPlus,Amoxicillin,Medicare Ltd,Antidiabetic,764.04,687.64,In stock,4.4,141
+PharmaOne,Atorvastatin,Nova Life,Antidiabetic,113.11,101.8,In stock,4.5,153
+PharmaOne,Paracetamol,ABC Pharma,Antidiabetic,1858.48,1579.71,In stock,3.6,338
+Medix,Omeprazole,Sun Healthcare,Antacid,1778.74,1422.99,Limited,3.8,499
+LifeCare,Omeprazole,Sun Healthcare,Antihypertensive,91.26,73.01,Out of stock,4.6,226
+LifeCare,Atorvastatin,Nova Life,Antibiotic,1415.94,1345.14,Out of stock,4.6,176
+BioTrust,Atorvastatin,ABC Pharma,Antacid,577.75,462.2,In stock,3.9,211
+LifeCare,Metformin,Sun Healthcare,Antacid,296.24,266.62,Limited,2.8,322
+PharmaOne,Metformin,Sun Healthcare,Antidiabetic,1479.01,1479.01,In stock,3.6,348
+PharmaOne,Atorvastatin,Sun Healthcare,Antihypertensive,448.55,358.84,Out of stock,2.6,184
+Medix,Omeprazole,ABC Pharma,Antihypertensive,916.36,733.09,In stock,4.3,399
+Medix,Paracetamol,ABC Pharma,Analgesic,1242.76,1056.35,Limited,5.0,384
+Medix,Atorvastatin,Sun Healthcare,Antacid,1184.49,1006.82,In stock,3.2,417
+HealPlus,Amoxicillin,Sun Healthcare,Antibiotic,1475.58,1475.58,Out of stock,4.2,241
+PharmaOne,Metformin,Nova Life,Analgesic,1072.75,911.84,In stock,3.0,238
+Medix,Metformin,Medicare Ltd,Antibiotic,594.47,505.3,In stock,3.9,28
+PharmaOne,Metformin,Global Remedies,Antibiotic,1203.04,1082.74,In stock,3.1,254
+Medix,Atorvastatin,Medicare Ltd,Antacid,1506.03,1204.82,In stock,4.6,222
+Medix,Metformin,Medicare Ltd,Antidiabetic,440.93,396.84,Out of stock,3.3,471
+Medix,Atorvastatin,Sun Healthcare,Analgesic,420.59,399.56,In stock,4.8,296
+Medix,Metformin,ABC Pharma,Analgesic,1700.16,1700.16,Out of stock,3.7,316
+PharmaOne,Metformin,ABC Pharma,Antibiotic,1068.96,1015.51,Limited,3.7,47
+HealPlus,Atorvastatin,Sun Healthcare,Antacid,1026.23,1026.23,In stock,4.5,92
+Medix,Atorvastatin,Medicare Ltd,Analgesic,1801.02,1440.82,In stock,2.8,343
+HealPlus,Omeprazole,ABC Pharma,Antacid,1154.65,1096.92,Out of stock,4.8,49
+BioTrust,Paracetamol,ABC Pharma,Antihypertensive,89.07,75.71,In stock,4.1,238
+Medix,Atorvastatin,Medicare Ltd,Analgesic,640.88,608.84,Out of stock,4.2,126
+BioTrust,Amoxicillin,Nova Life,Antidiabetic,1999.29,1899.33,In stock,4.5,231
+Medix,Paracetamol,Nova Life,Analgesic,1762.51,1410.01,Out of stock,4.2,281
+BioTrust,Omeprazole,ABC Pharma,Antihypertensive,143.35,121.85,Out of stock,3.1,159
+HealPlus,Amoxicillin,Medicare Ltd,Antidiabetic,986.72,888.05,Limited,3.8,29
+Medix,Omeprazole,Medicare Ltd,Antidiabetic,466.0,419.4,Limited,3.1,160
+Medix,Metformin,Sun Healthcare,Antibiotic,870.17,826.66,Limited,4.0,286
+LifeCare,Metformin,Nova Life,Analgesic,400.48,340.41,In stock,4.7,180
+PharmaOne,Atorvastatin,ABC Pharma,Antacid,1571.1,1335.43,Out of stock,2.8,172
+HealPlus,Atorvastatin,ABC Pharma,Antibiotic,1820.86,1820.86,In stock,3.8,47
+BioTrust,Amoxicillin,Global Remedies,Antibiotic,157.12,149.26,In stock,2.6,21
+LifeCare,Metformin,Sun Healthcare,Antihypertensive,1229.61,1229.61,Out of stock,4.1,13
+BioTrust,Omeprazole,ABC Pharma,Analgesic,119.97,101.97,Out of stock,4.7,387
+BioTrust,Omeprazole,Medicare Ltd,Antihypertensive,30.61,26.02,In stock,3.5,486
+PharmaOne,Amoxicillin,Nova Life,Analgesic,843.73,801.54,Out of stock,3.0,243
+HealPlus,Metformin,Sun Healthcare,Antacid,250.77,225.69,In stock,2.7,113
+HealPlus,Metformin,Nova Life,Antihypertensive,1798.06,1438.45,In stock,2.6,63
+BioTrust,Paracetamol,Sun Healthcare,Antacid,951.44,951.44,In stock,2.7,421
+Medix,Paracetamol,Global Remedies,Antidiabetic,1636.24,1308.99,Out of stock,2.9,270
+PharmaOne,Atorvastatin,ABC Pharma,Antibiotic,1826.16,1826.16,Out of stock,3.0,42
+LifeCare,Metformin,Sun Healthcare,Antacid,810.71,648.57,Out of stock,2.9,163
+Medix,Amoxicillin,Sun Healthcare,Analgesic,1255.79,1255.79,Limited,4.5,70
+HealPlus,Paracetamol,Nova Life,Analgesic,607.16,576.8,Out of stock,2.8,195
+HealPlus,Atorvastatin,ABC Pharma,Antidiabetic,445.24,400.72,In stock,3.9,145
+PharmaOne,Metformin,Global Remedies,Antacid,789.29,789.29,In stock,3.2,288
+BioTrust,Amoxicillin,Nova Life,Antacid,1511.87,1209.5,In stock,4.5,379
+BioTrust,Omeprazole,Medicare Ltd,Analgesic,699.73,594.77,Out of stock,4.4,23
+HealPlus,Metformin,Medicare Ltd,Analgesic,1304.14,1238.93,Limited,4.4,382
+HealPlus,Atorvastatin,Sun Healthcare,Antidiabetic,1623.87,1299.1,Limited,4.9,193
+BioTrust,Metformin,Medicare Ltd,Antidiabetic,1867.92,1494.34,Out of stock,4.8,193
+HealPlus,Paracetamol,ABC Pharma,Analgesic,1898.67,1613.87,Out of stock,3.3,185
+BioTrust,Metformin,Medicare Ltd,Antidiabetic,827.76,703.6,Out of stock,2.8,450
+Medix,Atorvastatin,ABC Pharma,Analgesic,1855.97,1763.17,In stock,4.1,119
+HealPlus,Amoxicillin,Medicare Ltd,Antacid,62.81,53.39,In stock,5.0,483
+PharmaOne,Paracetamol,Sun Healthcare,Antibiotic,273.22,218.58,Out of stock,3.0,104
+HealPlus,Atorvastatin,ABC Pharma,Antidiabetic,539.22,512.26,In stock,3.7,40
+BioTrust,Omeprazole,Global Remedies,Antihypertensive,1168.12,992.9,Out of stock,5.0,348
+Medix,Paracetamol,Medicare Ltd,Antibiotic,367.45,312.33,Limited,4.3,112
+LifeCare,Omeprazole,Sun Healthcare,Antibiotic,504.88,403.9,In stock,3.3,426
+HealPlus,Omeprazole,ABC Pharma,Antihypertensive,1324.73,1324.73,In stock,4.8,421
+HealPlus,Paracetamol,Sun Healthcare,Antacid,145.54,123.71,Limited,4.7,407
+HealPlus,Atorvastatin,Global Remedies,Antihypertensive,484.06,387.25,Limited,4.6,90
+Medix,Amoxicillin,Nova Life,Antacid,1035.03,828.02,Out of stock,3.7,236
+HealPlus,Amoxicillin,Global Remedies,Antidiabetic,768.57,768.57,In stock,3.0,368
+LifeCare,Omeprazole,Sun Healthcare,Analgesic,371.63,315.89,Limited,2.7,42
+Medix,Paracetamol,ABC Pharma,Antihypertensive,1954.21,1758.79,Out of stock,4.6,233
+HealPlus,Amoxicillin,Medicare Ltd,Antihypertensive,1531.79,1531.79,In stock,4.3,247
+Medix,Omeprazole,Nova Life,Antacid,735.73,735.73,Out of stock,2.9,290
+BioTrust,Paracetamol,ABC Pharma,Antacid,1550.88,1395.79,Limited,4.2,120
+BioTrust,Paracetamol,Sun Healthcare,Antidiabetic,632.09,568.88,In stock,3.3,443
+BioTrust,Paracetamol,Global Remedies,Antacid,514.88,437.65,In stock,4.3,10
+Medix,Atorvastatin,Nova Life,Antidiabetic,570.33,456.26,Limited,4.7,177
+Medix,Metformin,Medicare Ltd,Antacid,1769.38,1680.91,Limited,4.4,402
+Medix,Paracetamol,Medicare Ltd,Antidiabetic,1770.75,1416.6,Limited,3.0,190
+Medix,Omeprazole,Nova Life,Analgesic,1770.21,1770.21,Out of stock,3.0,219
+LifeCare,Omeprazole,Sun Healthcare,Antacid,1660.06,1494.05,Out of stock,3.3,140
+PharmaOne,Omeprazole,ABC Pharma,Analgesic,716.97,716.97,Out of stock,4.0,203
+BioTrust,Omeprazole,Medicare Ltd,Analgesic,741.85,704.76,Limited,5.0,231
+HealPlus,Atorvastatin,Nova Life,Antibiotic,1671.35,1587.78,In stock,4.5,302
+LifeCare,Metformin,Medicare Ltd,Antacid,1497.23,1497.23,In stock,4.4,448
+LifeCare,Metformin,Nova Life,Antacid,897.69,807.92,Limited,3.0,1
+HealPlus,Paracetamol,Nova Life,Antacid,1730.09,1643.59,In stock,3.2,306
+LifeCare,Amoxicillin,Medicare Ltd,Antidiabetic,310.77,248.62,Out of stock,4.0,193
+LifeCare,Atorvastatin,Sun Healthcare,Antihypertensive,734.38,587.5,Out of stock,3.5,110
+LifeCare,Omeprazole,Nova Life,Antidiabetic,70.56,70.56,Limited,3.1,186
+HealPlus,Paracetamol,ABC Pharma,Analgesic,111.84,106.25,Limited,3.8,282
+Medix,Omeprazole,ABC Pharma,Analgesic,422.15,401.04,In stock,3.9,228
+LifeCare,Omeprazole,Medicare Ltd,Antidiabetic,1560.7,1560.7,Limited,4.8,422
+LifeCare,Paracetamol,ABC Pharma,Antihypertensive,62.02,58.92,Out of stock,4.3,13
+BioTrust,Omeprazole,Global Remedies,Analgesic,869.63,869.63,Limited,3.4,224
+PharmaOne,Amoxicillin,Sun Healthcare,Antihypertensive,482.8,410.38,Out of stock,3.7,235
+LifeCare,Omeprazole,ABC Pharma,Antibiotic,1201.27,961.02,Limited,2.7,7
+HealPlus,Amoxicillin,Medicare Ltd,Analgesic,57.19,48.61,Out of stock,3.5,242
+HealPlus,Atorvastatin,Medicare Ltd,Antacid,933.6,933.6,Limited,4.2,273
+BioTrust,Amoxicillin,Global Remedies,Antidiabetic,750.35,637.8,Out of stock,3.2,415
+PharmaOne,Metformin,ABC Pharma,Antibiotic,1273.05,1018.44,In stock,2.7,39
+HealPlus,Omeprazole,ABC Pharma,Antibiotic,689.68,689.68,In stock,4.2,49
+Medix,Amoxicillin,Sun Healthcare,Antacid,1347.03,1279.68,Out of stock,4.1,342
+PharmaOne,Atorvastatin,Sun Healthcare,Analgesic,1010.66,859.06,Out of stock,2.6,20
+BioTrust,Metformin,ABC Pharma,Antacid,1964.74,1964.74,Limited,3.1,392
+PharmaOne,Atorvastatin,ABC Pharma,Antacid,792.14,673.32,Out of stock,4.3,353
+PharmaOne,Omeprazole,ABC Pharma,Antibiotic,1113.79,891.03,Out of stock,2.7,145
+BioTrust,Paracetamol,Sun Healthcare,Antidiabetic,884.48,796.03,Limited,3.4,58
+LifeCare,Omeprazole,ABC Pharma,Antihypertensive,1531.42,1454.85,Limited,3.8,241
+Medix,Paracetamol,Nova Life,Antihypertensive,267.1,253.75,In stock,3.9,279
+HealPlus,Amoxicillin,Sun Healthcare,Analgesic,1289.43,1160.49,Out of stock,3.5,138
+PharmaOne,Metformin,Global Remedies,Antihypertensive,1714.14,1714.14,In stock,3.9,456
+HealPlus,Paracetamol,Global Remedies,Antibiotic,1156.62,1098.79,In stock,4.8,195
+BioTrust,Omeprazole,Medicare Ltd,Antihypertensive,1217.79,1035.12,Out of stock,4.2,120
+LifeCare,Amoxicillin,ABC Pharma,Antihypertensive,110.63,94.04,In stock,4.5,75
+BioTrust,Metformin,Global Remedies,Antibiotic,157.31,149.44,Limited,4.8,204
+LifeCare,Amoxicillin,Medicare Ltd,Antidiabetic,1780.81,1780.81,Limited,4.6,466
+LifeCare,Atorvastatin,Global Remedies,Antibiotic,1664.7,1415.0,Limited,4.8,344
+PharmaOne,Atorvastatin,Global Remedies,Antacid,342.64,308.38,Limited,3.0,385
+HealPlus,Paracetamol,Nova Life,Antacid,1702.79,1702.79,Limited,4.4,407
+BioTrust,Amoxicillin,Global Remedies,Antidiabetic,758.11,758.11,In stock,3.8,426
+Medix,Paracetamol,Medicare Ltd,Antibiotic,570.78,513.7,Limited,3.7,78
+BioTrust,Metformin,Global Remedies,Antibiotic,566.84,481.81,Limited,4.7,49
+BioTrust,Amoxicillin,Global Remedies,Antihypertensive,1887.86,1793.47,Limited,4.0,394
+LifeCare,Atorvastatin,Global Remedies,Antibiotic,267.37,227.26,In stock,4.1,346
+HealPlus,Metformin,Medicare Ltd,Antacid,1239.38,1177.41,Out of stock,4.3,135
+BioTrust,Omeprazole,Sun Healthcare,Antihypertensive,1770.31,1416.25,Limited,4.8,286
+Medix,Atorvastatin,Global Remedies,Antihypertensive,621.72,497.38,In stock,2.8,453
+HealPlus,Metformin,Sun Healthcare,Analgesic,1524.98,1524.98,Out of stock,4.6,144
+BioTrust,Atorvastatin,Global Remedies,Antidiabetic,1945.2,1945.2,Out of stock,2.7,76
+HealPlus,Paracetamol,ABC Pharma,Antacid,1562.45,1406.2,Limited,2.8,197
+LifeCare,Amoxicillin,ABC Pharma,Antacid,566.22,537.91,Out of stock,4.5,256
+Medix,Amoxicillin,ABC Pharma,Antacid,1261.57,1009.26,Out of stock,4.6,314
+LifeCare,Atorvastatin,Sun Healthcare,Antihypertensive,1353.99,1083.19,In stock,4.4,97
+LifeCare,Atorvastatin,Medicare Ltd,Antihypertensive,1513.32,1210.66,Out of stock,3.6,305
+BioTrust,Paracetamol,ABC Pharma,Analgesic,487.88,463.49,In stock,4.9,426
+PharmaOne,Paracetamol,Nova Life,Antidiabetic,110.69,94.09,Limited,3.2,423
+PharmaOne,Amoxicillin,Nova Life,Analgesic,1189.72,1130.23,Out of stock,3.4,418
+PharmaOne,Amoxicillin,Nova Life,Antidiabetic,621.81,528.54,Out of stock,4.9,377
+Medix,Amoxicillin,Sun Healthcare,Antacid,1987.76,1888.37,In stock,2.7,293
+BioTrust,Paracetamol,Medicare Ltd,Antidiabetic,1063.79,957.41,In stock,2.5,268
+HealPlus,Omeprazole,Global Remedies,Antacid,1805.54,1624.99,In stock,3.8,109
+PharmaOne,Atorvastatin,Sun Healthcare,Antidiabetic,639.3,575.37,Limited,3.3,3
+LifeCare,Metformin,Medicare Ltd,Antibiotic,1770.01,1681.51,Out of stock,4.3,477
+LifeCare,Amoxicillin,Global Remedies,Analgesic,100.23,90.21,Limited,4.8,83
+Medix,Omeprazole,Nova Life,Analgesic,1325.84,1126.96,Out of stock,4.7,418
+LifeCare,Paracetamol,Global Remedies,Antihypertensive,1669.46,1585.99,Out of stock,3.9,295
+BioTrust,Omeprazole,Sun Healthcare,Antihypertensive,1411.78,1200.01,Out of stock,4.3,33
+Medix,Atorvastatin,Medicare Ltd,Antihypertensive,1428.32,1428.32,In stock,4.9,82
+BioTrust,Paracetamol,Global Remedies,Antihypertensive,1501.84,1426.75,Limited,2.6,139
+BioTrust,Metformin,Global Remedies,Antihypertensive,1251.7,1063.95,In stock,5.0,129
+LifeCare,Paracetamol,Medicare Ltd,Antidiabetic,197.65,187.77,In stock,3.2,16
+PharmaOne,Amoxicillin,Global Remedies,Antidiabetic,469.67,469.67,In stock,4.5,140
+HealPlus,Atorvastatin,Medicare Ltd,Antibiotic,1030.73,824.58,In stock,4.9,393
+HealPlus,Atorvastatin,Nova Life,Analgesic,1531.51,1301.78,Out of stock,4.7,273
+LifeCare,Atorvastatin,Global Remedies,Antacid,1454.86,1236.63,In stock,4.4,427
+HealPlus,Metformin,Nova Life,Antidiabetic,1896.54,1801.71,Out of stock,3.9,439
+BioTrust,Omeprazole,Nova Life,Antidiabetic,1131.61,1131.61,In stock,3.0,30
+BioTrust,Omeprazole,Nova Life,Antidiabetic,992.48,893.23,Limited,4.7,426
+HealPlus,Metformin,Sun Healthcare,Analgesic,257.8,219.13,Limited,4.7,459
+PharmaOne,Amoxicillin,Sun Healthcare,Antibiotic,1377.99,1377.99,In stock,4.3,12
+PharmaOne,Omeprazole,Nova Life,Analgesic,325.79,293.21,In stock,4.6,406
+PharmaOne,Metformin,Nova Life,Antidiabetic,1038.58,986.65,In stock,3.0,306
+LifeCare,Amoxicillin,Medicare Ltd,Antidiabetic,1420.13,1207.11,Limited,2.9,244
+HealPlus,Metformin,Nova Life,Analgesic,757.57,681.81,Out of stock,3.5,109
+Medix,Omeprazole,Global Remedies,Antihypertensive,256.11,204.89,Limited,2.6,337
+HealPlus,Metformin,Global Remedies,Analgesic,1547.74,1238.19,In stock,3.7,74
+Medix,Paracetamol,Sun Healthcare,Antihypertensive,959.07,815.21,In stock,4.5,237
+LifeCare,Omeprazole,Global Remedies,Antibiotic,606.15,484.92,Out of stock,3.8,302
+HealPlus,Amoxicillin,Sun Healthcare,Antacid,1745.7,1745.7,In stock,3.7,152
+Medix,Omeprazole,Medicare Ltd,Antacid,1266.33,1013.06,In stock,2.7,236
+HealPlus,Metformin,Sun Healthcare,Antacid,476.53,452.7,Limited,2.6,353
+PharmaOne,Atorvastatin,Sun Healthcare,Antibiotic,1523.01,1523.01,Limited,4.4,472
+BioTrust,Atorvastatin,Global Remedies,Analgesic,619.98,588.98,Out of stock,3.8,148
+LifeCare,Atorvastatin,Sun Healthcare,Antibiotic,1308.08,1308.08,In stock,4.6,30
+HealPlus,Paracetamol,Sun Healthcare,Analgesic,1675.71,1591.92,In stock,4.2,354
+LifeCare,Paracetamol,Nova Life,Analgesic,831.24,789.68,Out of stock,4.6,300
+BioTrust,Metformin,Nova Life,Antacid,384.06,384.06,Limited,4.2,45
+LifeCare,Paracetamol,Medicare Ltd,Analgesic,1901.4,1901.4,In stock,4.3,267
+LifeCare,Paracetamol,ABC Pharma,Antihypertensive,866.93,736.89,Out of stock,4.8,92
+LifeCare,Metformin,Global Remedies,Antibiotic,1920.06,1632.05,In stock,4.3,273
+LifeCare,Metformin,ABC Pharma,Antibiotic,1257.7,1131.93,Out of stock,3.3,485
+BioTrust,Omeprazole,Nova Life,Analgesic,179.05,152.19,Out of stock,2.6,118
+HealPlus,Amoxicillin,Global Remedies,Antacid,1506.54,1280.56,In stock,2.8,100
+PharmaOne,Metformin,Medicare Ltd,Analgesic,72.35,68.73,Limited,2.6,480
+Medix,Omeprazole,Global Remedies,Antacid,789.22,710.3,Out of stock,4.3,126
+LifeCare,Amoxicillin,ABC Pharma,Antibiotic,69.74,66.25,In stock,3.5,92
+PharmaOne,Atorvastatin,Sun Healthcare,Antibiotic,1910.67,1719.6,Limited,4.6,77
+Medix,Paracetamol,ABC Pharma,Antidiabetic,1136.9,1136.9,Out of stock,4.1,353
+Medix,Atorvastatin,Global Remedies,Antacid,1944.6,1652.91,In stock,3.0,110
+HealPlus,Metformin,Medicare Ltd,Antidiabetic,1929.31,1929.31,Out of stock,2.9,435
+BioTrust,Metformin,Global Remedies,Antidiabetic,583.57,525.21,In stock,4.9,91
+LifeCare,Paracetamol,Medicare Ltd,Antibiotic,414.07,331.26,In stock,3.7,206
+BioTrust,Atorvastatin,ABC Pharma,Analgesic,334.85,301.37,Out of stock,4.2,293
+Medix,Atorvastatin,Medicare Ltd,Antacid,75.07,75.07,In stock,4.1,168
+HealPlus,Amoxicillin,ABC Pharma,Antihypertensive,1510.82,1435.28,Out of stock,4.7,18
+LifeCare,Metformin,Sun Healthcare,Antacid,904.54,904.54,Out of stock,3.0,344
+Medix,Atorvastatin,Medicare Ltd,Antibiotic,1337.82,1337.82,Out of stock,4.8,440
+HealPlus,Paracetamol,ABC Pharma,Antibiotic,366.09,311.18,Limited,3.2,358
+Medix,Metformin,Global Remedies,Antidiabetic,1674.12,1506.71,Out of stock,3.5,318
+HealPlus,Omeprazole,Global Remedies,Antibiotic,413.36,413.36,Limited,3.8,452
+HealPlus,Amoxicillin,Nova Life,Antihypertensive,1309.75,1113.29,Out of stock,2.6,118
+HealPlus,Amoxicillin,Sun Healthcare,Antihypertensive,361.63,289.3,In stock,4.2,180
+HealPlus,Omeprazole,ABC Pharma,Antidiabetic,462.31,439.19,Out of stock,4.3,269
+PharmaOne,Atorvastatin,ABC Pharma,Analgesic,1810.09,1719.59,In stock,2.8,313
+HealPlus,Metformin,Global Remedies,Antibiotic,771.76,694.58,Limited,3.7,349
+LifeCare,Amoxicillin,Global Remedies,Antibiotic,1188.76,1010.45,Out of stock,3.5,162
+BioTrust,Atorvastatin,Sun Healthcare,Antidiabetic,1809.24,1537.85,In stock,3.5,431
+PharmaOne,Omeprazole,Global Remedies,Antibiotic,379.51,303.61,Limited,3.5,250
+PharmaOne,Atorvastatin,Medicare Ltd,Analgesic,1504.94,1429.69,Out of stock,3.5,310
+LifeCare,Paracetamol,Global Remedies,Antacid,220.7,198.63,In stock,3.2,221
+Medix,Paracetamol,Medicare Ltd,Antibiotic,1267.39,1077.28,Limited,4.5,120
+HealPlus,Metformin,Nova Life,Analgesic,21.69,19.52,Limited,3.1,362
+HealPlus,Paracetamol,Global Remedies,Antibiotic,1278.76,1214.82,Out of stock,4.7,282
+LifeCare,Metformin,ABC Pharma,Antibiotic,1986.19,1986.19,Limited,4.8,48
+BioTrust,Amoxicillin,Sun Healthcare,Antihypertensive,1939.12,1939.12,Limited,4.4,344
+LifeCare,Amoxicillin,Medicare Ltd,Antibiotic,1730.2,1730.2,In stock,4.1,25
+BioTrust,Omeprazole,ABC Pharma,Antidiabetic,288.57,288.57,Limited,3.3,274
+LifeCare,Metformin,ABC Pharma,Analgesic,1434.65,1219.45,Out of stock,4.3,385
+PharmaOne,Metformin,Medicare Ltd,Antidiabetic,1164.79,1106.55,Limited,2.9,6
+HealPlus,Metformin,Sun Healthcare,Analgesic,540.38,540.38,In stock,4.8,224
+HealPlus,Atorvastatin,Global Remedies,Antacid,1888.13,1604.91,Out of stock,2.6,318
+Medix,Atorvastatin,Global Remedies,Antidiabetic,1380.16,1242.14,In stock,3.0,397
+PharmaOne,Metformin,Medicare Ltd,Antacid,390.36,370.84,Out of stock,3.9,385
+HealPlus,Atorvastatin,Medicare Ltd,Antacid,598.7,568.77,Limited,5.0,126
+PharmaOne,Atorvastatin,Sun Healthcare,Antibiotic,1983.21,1884.05,In stock,3.9,358
+HealPlus,Atorvastatin,Medicare Ltd,Antihypertensive,1724.07,1637.87,Out of stock,2.8,353
+LifeCare,Omeprazole,ABC Pharma,Antacid,674.92,539.94,Out of stock,3.4,480
+Medix,Omeprazole,Global Remedies,Antibiotic,1424.83,1282.35,In stock,3.3,130
+HealPlus,Omeprazole,Sun Healthcare,Antacid,919.69,735.75,Limited,3.5,306
+HealPlus,Metformin,Global Remedies,Antidiabetic,1007.14,956.78,In stock,3.2,446
+LifeCare,Metformin,Nova Life,Antidiabetic,381.08,362.03,Out of stock,3.9,88
+LifeCare,Omeprazole,Medicare Ltd,Analgesic,607.59,516.45,Out of stock,3.7,178
+BioTrust,Amoxicillin,Nova Life,Antidiabetic,1089.45,1089.45,In stock,2.8,389
+Medix,Paracetamol,Sun Healthcare,Antibiotic,1145.49,973.67,In stock,4.9,271
+LifeCare,Omeprazole,Global Remedies,Antidiabetic,780.6,663.51,Limited,3.1,330
+BioTrust,Metformin,Global Remedies,Antidiabetic,190.76,162.15,Limited,3.1,494
+PharmaOne,Omeprazole,Nova Life,Antihypertensive,892.25,713.8,Out of stock,3.5,20
+LifeCare,Amoxicillin,ABC Pharma,Antihypertensive,1917.05,1821.2,Out of stock,4.4,116
+LifeCare,Metformin,Sun Healthcare,Analgesic,1394.12,1324.41,Limited,4.8,199
+BioTrust,Metformin,ABC Pharma,Antihypertensive,1585.94,1585.94,Limited,4.3,421
+LifeCare,Metformin,ABC Pharma,Antidiabetic,1562.78,1406.5,In stock,3.5,166
+LifeCare,Metformin,Medicare Ltd,Antidiabetic,482.36,458.24,Out of stock,4.5,429
+HealPlus,Omeprazole,ABC Pharma,Analgesic,1094.7,930.5,In stock,3.6,282
+Medix,Metformin,Sun Healthcare,Antihypertensive,1602.05,1602.05,In stock,4.2,460
+PharmaOne,Paracetamol,Global Remedies,Antidiabetic,638.39,510.71,Limited,4.6,231
+PharmaOne,Atorvastatin,Medicare Ltd,Antacid,1125.1,956.33,Out of stock,3.0,134
+LifeCare,Metformin,Medicare Ltd,Antihypertensive,1379.01,1172.16,In stock,2.6,117
+HealPlus,Amoxicillin,Nova Life,Analgesic,1285.68,1157.11,Limited,4.3,356
+BioTrust,Paracetamol,Nova Life,Analgesic,1191.14,1191.14,In stock,3.4,373
+BioTrust,Amoxicillin,Nova Life,Analgesic,1671.56,1587.98,In stock,4.6,349
+LifeCare,Paracetamol,Nova Life,Antibiotic,1132.55,1019.29,Limited,3.7,16
+BioTrust,Paracetamol,Nova Life,Antidiabetic,1943.56,1846.38,Limited,4.0,367
+HealPlus,Atorvastatin,Nova Life,Analgesic,1447.42,1447.42,Limited,4.3,279
+PharmaOne,Metformin,ABC Pharma,Antihypertensive,1792.53,1792.53,Limited,4.8,1
+PharmaOne,Atorvastatin,Medicare Ltd,Analgesic,559.11,503.2,In stock,4.0,279
+PharmaOne,Atorvastatin,Sun Healthcare,Antacid,1142.1,970.78,Out of stock,4.4,248
+LifeCare,Paracetamol,Sun Healthcare,Antihypertensive,600.95,570.9,Limited,4.1,228
+Medix,Omeprazole,Medicare Ltd,Analgesic,1381.68,1105.34,In stock,3.8,162
+BioTrust,Paracetamol,Sun Healthcare,Antidiabetic,152.37,129.51,In stock,4.9,42
+BioTrust,Metformin,Nova Life,Antihypertensive,1855.97,1670.37,Out of stock,3.8,200
+LifeCare,Atorvastatin,Sun Healthcare,Antibiotic,1734.81,1561.33,Out of stock,3.7,28
+HealPlus,Paracetamol,Global Remedies,Antihypertensive,1368.04,1162.83,Limited,3.4,214
+PharmaOne,Omeprazole,Global Remedies,Antacid,936.87,749.5,In stock,2.7,327
+Medix,Omeprazole,ABC Pharma,Antihypertensive,621.8,559.62,Out of stock,2.6,445
+BioTrust,Metformin,Global Remedies,Analgesic,1670.49,1419.92,Out of stock,2.6,490
+HealPlus,Metformin,ABC Pharma,Antacid,1591.35,1511.78,Out of stock,4.5,322
+LifeCare,Amoxicillin,Nova Life,Antibiotic,1902.66,1712.39,Out of stock,3.2,316
+BioTrust,Atorvastatin,Global Remedies,Antidiabetic,1051.88,946.69,Out of stock,4.8,335
+BioTrust,Atorvastatin,Global Remedies,Antibiotic,1124.14,1124.14,Limited,2.5,281
+LifeCare,Amoxicillin,Sun Healthcare,Antacid,1015.58,812.46,Limited,4.1,9
+PharmaOne,Atorvastatin,ABC Pharma,Antibiotic,1155.25,1097.49,In stock,4.0,236
+HealPlus,Atorvastatin,Global Remedies,Antidiabetic,1080.13,864.1,In stock,2.6,444
+Medix,Amoxicillin,Medicare Ltd,Antacid,1237.64,1175.76,In stock,3.7,272
+PharmaOne,Atorvastatin,Global Remedies,Analgesic,737.15,663.43,Out of stock,4.4,364
+LifeCare,Omeprazole,Global Remedies,Antihypertensive,892.34,758.49,Limited,2.8,91
+LifeCare,Amoxicillin,Nova Life,Antibiotic,1394.41,1324.69,Out of stock,2.9,301
+HealPlus,Atorvastatin,Global Remedies,Antibiotic,1256.27,1005.02,Limited,4.1,307
+LifeCare,Metformin,ABC Pharma,Antidiabetic,419.74,419.74,Out of stock,4.2,34
+BioTrust,Atorvastatin,Nova Life,Antihypertensive,752.26,677.03,Out of stock,4.0,60
+HealPlus,Paracetamol,Global Remedies,Antacid,1649.06,1566.61,Out of stock,3.3,460
+HealPlus,Atorvastatin,Medicare Ltd,Antidiabetic,549.47,439.58,In stock,3.2,112
+HealPlus,Omeprazole,Global Remedies,Antibiotic,1355.2,1151.92,Limited,4.2,189
+PharmaOne,Omeprazole,Sun Healthcare,Antacid,1373.4,1304.73,Out of stock,4.7,8
+LifeCare,Metformin,Medicare Ltd,Antibiotic,1991.39,1891.82,Out of stock,4.6,476
+Medix,Omeprazole,Global Remedies,Analgesic,540.37,432.3,In stock,3.5,300
+BioTrust,Atorvastatin,Medicare Ltd,Antacid,488.18,414.95,In stock,4.4,82
+BioTrust,Paracetamol,Medicare Ltd,Analgesic,142.81,128.53,Out of stock,4.5,496
+BioTrust,Paracetamol,Medicare Ltd,Antidiabetic,1555.51,1399.96,In stock,2.7,466
+HealPlus,Atorvastatin,Medicare Ltd,Antibiotic,620.18,527.15,In stock,3.9,323
+PharmaOne,Metformin,Medicare Ltd,Analgesic,168.45,151.6,In stock,3.8,82
+BioTrust,Atorvastatin,Medicare Ltd,Antihypertensive,1887.86,1604.68,Limited,3.7,301
+PharmaOne,Metformin,Sun Healthcare,Antibiotic,606.62,515.63,Limited,4.4,218
+Medix,Paracetamol,Global Remedies,Antacid,1890.61,1512.49,In stock,4.8,203
+BioTrust,Paracetamol,Nova Life,Antibiotic,1491.9,1491.9,Out of stock,3.0,162
+PharmaOne,Amoxicillin,ABC Pharma,Antihypertensive,1105.11,994.6,Out of stock,4.3,25
+PharmaOne,Paracetamol,Sun Healthcare,Antacid,776.5,660.02,In stock,3.1,141
+Medix,Amoxicillin,Sun Healthcare,Antibiotic,1411.94,1270.75,Out of stock,3.9,63
+BioTrust,Paracetamol,Global Remedies,Analgesic,108.69,97.82,In stock,3.5,423
+LifeCare,Atorvastatin,Medicare Ltd,Antacid,1319.05,1253.1,Limited,3.0,234
+PharmaOne,Paracetamol,ABC Pharma,Antihypertensive,568.16,539.75,Limited,4.4,425
+PharmaOne,Metformin,Medicare Ltd,Antibiotic,578.15,462.52,In stock,2.8,141
+BioTrust,Amoxicillin,Sun Healthcare,Antibiotic,911.38,729.1,In stock,3.4,264
+HealPlus,Omeprazole,Global Remedies,Antacid,90.65,90.65,In stock,2.6,328
+LifeCare,Paracetamol,Global Remedies,Antibiotic,501.73,501.73,In stock,4.2,337
+LifeCare,Metformin,Global Remedies,Antibiotic,1196.09,1076.48,In stock,4.6,95
+PharmaOne,Amoxicillin,Medicare Ltd,Antihypertensive,1165.53,932.42,In stock,2.5,231
+HealPlus,Metformin,Global Remedies,Antihypertensive,63.79,51.03,In stock,2.9,39
+PharmaOne,Omeprazole,Nova Life,Analgesic,1829.89,1646.9,In stock,3.8,222
+Medix,Metformin,ABC Pharma,Antibiotic,814.91,733.42,Out of stock,2.7,273
+HealPlus,Metformin,Global Remedies,Antacid,1937.9,1841.01,Out of stock,3.3,234
+HealPlus,Atorvastatin,Global Remedies,Analgesic,1901.98,1806.88,Limited,3.3,339
+BioTrust,Amoxicillin,Nova Life,Analgesic,801.17,801.17,In stock,4.5,307
+LifeCare,Amoxicillin,Nova Life,Analgesic,1396.45,1117.16,In stock,3.6,276
+PharmaOne,Omeprazole,Medicare Ltd,Antacid,1275.85,1275.85,Out of stock,2.7,32
+Medix,Amoxicillin,Nova Life,Antibiotic,1530.71,1454.17,Limited,3.3,186
+HealPlus,Metformin,Nova Life,Analgesic,1649.19,1649.19,In stock,4.2,293
+Medix,Omeprazole,Medicare Ltd,Antacid,1537.75,1537.75,In stock,4.3,414
+PharmaOne,Omeprazole,ABC Pharma,Analgesic,504.96,479.71,In stock,3.0,282
+Medix,Omeprazole,Sun Healthcare,Analgesic,1750.65,1663.12,Limited,4.8,124
+BioTrust,Amoxicillin,ABC Pharma,Analgesic,1707.01,1365.61,Limited,3.5,158
+BioTrust,Atorvastatin,Nova Life,Antihypertensive,1612.17,1612.17,Limited,3.7,149
+BioTrust,Amoxicillin,Nova Life,Antibiotic,1743.26,1394.61,Out of stock,3.2,286
+Medix,Omeprazole,ABC Pharma,Antacid,68.28,54.62,Out of stock,2.7,496
+LifeCare,Amoxicillin,ABC Pharma,Antacid,1847.38,1847.38,Out of stock,3.3,434
+Medix,Omeprazole,Global Remedies,Antihypertensive,82.21,73.99,Limited,3.9,256
+LifeCare,Omeprazole,Medicare Ltd,Analgesic,543.92,435.14,In stock,4.9,251
+HealPlus,Amoxicillin,Nova Life,Antacid,1671.13,1420.46,Out of stock,4.1,55
+BioTrust,Paracetamol,Sun Healthcare,Antihypertensive,1575.02,1417.52,In stock,4.6,301
+PharmaOne,Amoxicillin,Sun Healthcare,Antacid,1535.42,1381.88,Out of stock,4.8,91
+BioTrust,Metformin,Medicare Ltd,Antibiotic,1087.62,978.86,In stock,3.5,269
+BioTrust,Omeprazole,Nova Life,Analgesic,667.02,533.62,Out of stock,4.2,370
+Medix,Amoxicillin,Medicare Ltd,Antihypertensive,765.09,765.09,In stock,2.8,190
+LifeCare,Paracetamol,Sun Healthcare,Antihypertensive,1735.34,1475.04,In stock,2.7,32
+Medix,Metformin,Nova Life,Antibiotic,1970.77,1675.15,Out of stock,4.4,170
+Medix,Metformin,ABC Pharma,Analgesic,1420.14,1278.13,In stock,4.3,228
+LifeCare,Omeprazole,Medicare Ltd,Antibiotic,1130.97,961.32,In stock,4.6,60
+PharmaOne,Omeprazole,Nova Life,Antacid,1913.45,1913.45,Limited,3.1,445
+HealPlus,Atorvastatin,Global Remedies,Antibiotic,869.17,869.17,Limited,4.7,56
+HealPlus,Omeprazole,Nova Life,Antihypertensive,1791.08,1701.53,In stock,2.9,75
+PharmaOne,Paracetamol,Sun Healthcare,Analgesic,279.69,237.74,Limited,4.4,427
+HealPlus,Metformin,ABC Pharma,Antidiabetic,581.47,523.32,In stock,3.7,89
+PharmaOne,Omeprazole,Sun Healthcare,Antacid,642.17,642.17,In stock,4.3,34
+BioTrust,Metformin,Sun Healthcare,Antidiabetic,1930.03,1544.02,Out of stock,3.2,6
+HealPlus,Omeprazole,Sun Healthcare,Antibiotic,161.26,161.26,Limited,2.9,132
+HealPlus,Paracetamol,Nova Life,Analgesic,1260.97,1134.87,In stock,4.6,218
+Medix,Paracetamol,Nova Life,Antibiotic,1818.27,1727.36,Out of stock,2.9,410
+Medix,Amoxicillin,Nova Life,Antidiabetic,891.94,758.15,In stock,3.8,440
+Medix,Omeprazole,Global Remedies,Antacid,1240.41,992.33,Out of stock,3.0,310
+Medix,Amoxicillin,Global Remedies,Antidiabetic,796.08,716.47,Limited,3.4,430
+Medix,Metformin,Nova Life,Antacid,278.51,236.73,Out of stock,4.2,383
+Medix,Amoxicillin,Global Remedies,Antacid,1275.67,1084.32,In stock,4.7,143
+PharmaOne,Metformin,Nova Life,Antidiabetic,1443.73,1154.98,Limited,3.4,126
+LifeCare,Atorvastatin,Sun Healthcare,Antibiotic,1026.77,1026.77,Out of stock,2.5,81
+BioTrust,Omeprazole,ABC Pharma,Antibiotic,1576.46,1418.81,Limited,4.2,338
+HealPlus,Atorvastatin,ABC Pharma,Antibiotic,975.57,780.46,Out of stock,3.1,144
+Medix,Metformin,Nova Life,Antibiotic,1102.88,882.3,In stock,2.6,176
+LifeCare,Atorvastatin,Sun Healthcare,Antacid,1736.5,1562.85,In stock,4.7,307
+HealPlus,Metformin,Medicare Ltd,Antibiotic,1052.82,894.9,In stock,4.4,370
+LifeCare,Omeprazole,Nova Life,Antidiabetic,404.96,384.71,Limited,4.8,320
+BioTrust,Amoxicillin,Nova Life,Antibiotic,288.8,259.92,In stock,3.3,299
+Medix,Paracetamol,Nova Life,Antacid,35.09,28.07,In stock,4.8,74
+HealPlus,Omeprazole,ABC Pharma,Antacid,1769.48,1681.01,In stock,4.8,34
+BioTrust,Atorvastatin,Nova Life,Antacid,1955.16,1857.4,Out of stock,5.0,44
+Medix,Omeprazole,Global Remedies,Antacid,1322.24,1322.24,Out of stock,3.8,371
+PharmaOne,Amoxicillin,ABC Pharma,Analgesic,736.78,699.94,Limited,4.0,463
+HealPlus,Atorvastatin,Global Remedies,Antihypertensive,1650.79,1650.79,In stock,3.1,126
+PharmaOne,Metformin,Global Remedies,Antacid,921.72,921.72,In stock,4.3,344
+PharmaOne,Atorvastatin,Nova Life,Analgesic,1207.95,1207.95,In stock,4.2,146
+LifeCare,Atorvastatin,ABC Pharma,Antidiabetic,1546.74,1469.4,In stock,3.4,307
+LifeCare,Atorvastatin,Global Remedies,Antibiotic,359.37,305.46,Limited,3.3,407
+BioTrust,Metformin,Global Remedies,Antacid,646.41,646.41,In stock,3.7,496
+LifeCare,Omeprazole,Nova Life,Antacid,346.18,311.56,Out of stock,3.9,232
+Medix,Omeprazole,Nova Life,Antibiotic,1573.1,1573.1,In stock,2.9,56
+LifeCare,Amoxicillin,Medicare Ltd,Antibiotic,401.2,361.08,Limited,3.6,178
+PharmaOne,Amoxicillin,ABC Pharma,Antacid,304.92,243.94,Out of stock,3.4,261
+Medix,Omeprazole,Global Remedies,Analgesic,756.23,680.61,Out of stock,4.3,227
+Medix,Omeprazole,ABC Pharma,Analgesic,1606.17,1445.55,Limited,3.0,19
+HealPlus,Atorvastatin,Sun Healthcare,Antihypertensive,1710.25,1624.74,Limited,3.9,150
+PharmaOne,Atorvastatin,Nova Life,Analgesic,826.41,702.45,In stock,2.9,252
+Medix,Atorvastatin,ABC Pharma,Analgesic,322.04,273.73,Limited,3.3,34
+Medix,Paracetamol,Medicare Ltd,Antacid,1704.56,1363.65,In stock,3.5,101
+Medix,Atorvastatin,Medicare Ltd,Antibiotic,1619.48,1538.51,In stock,3.0,270
+BioTrust,Metformin,Sun Healthcare,Antihypertensive,1611.37,1611.37,Out of stock,3.0,408
+HealPlus,Atorvastatin,Nova Life,Antihypertensive,1181.83,1181.83,In stock,4.1,221
+Medix,Omeprazole,Nova Life,Antacid,674.34,539.47,In stock,3.1,367
+Medix,Omeprazole,ABC Pharma,Antihypertensive,1550.31,1550.31,In stock,3.5,314
+BioTrust,Metformin,Medicare Ltd,Antibiotic,1340.76,1206.68,Out of stock,4.7,92
+PharmaOne,Atorvastatin,Global Remedies,Analgesic,372.93,316.99,Out of stock,2.9,287
+LifeCare,Metformin,Sun Healthcare,Antacid,1129.95,1016.96,Out of stock,3.9,407
+PharmaOne,Paracetamol,Sun Healthcare,Antacid,1208.13,1147.72,Out of stock,2.9,405
+HealPlus,Atorvastatin,Global Remedies,Antihypertensive,1008.13,907.32,Out of stock,4.2,86
+Medix,Amoxicillin,Sun Healthcare,Antihypertensive,1012.46,809.97,In stock,3.8,388
+LifeCare,Amoxicillin,Nova Life,Antihypertensive,1711.87,1369.5,Out of stock,4.0,65
+BioTrust,Atorvastatin,Medicare Ltd,Antibiotic,141.58,141.58,In stock,4.5,278
+BioTrust,Metformin,Global Remedies,Antihypertensive,1795.62,1795.62,Out of stock,3.5,395
+LifeCare,Omeprazole,Global Remedies,Antacid,297.41,267.67,In stock,3.8,117
+HealPlus,Omeprazole,Global Remedies,Antibiotic,1032.53,1032.53,Limited,3.5,258
+HealPlus,Atorvastatin,Nova Life,Antihypertensive,56.66,45.33,Limited,2.7,244
+LifeCare,Atorvastatin,Sun Healthcare,Analgesic,1260.59,1071.5,In stock,3.5,81
+LifeCare,Metformin,ABC Pharma,Antihypertensive,1480.71,1332.64,Limited,3.8,410
+PharmaOne,Atorvastatin,ABC Pharma,Antihypertensive,195.12,175.61,Limited,3.2,10
+Medix,Omeprazole,Medicare Ltd,Analgesic,614.3,614.3,Out of stock,4.4,81
+LifeCare,Metformin,ABC Pharma,Antihypertensive,120.16,114.15,In stock,3.9,7
+PharmaOne,Atorvastatin,Global Remedies,Analgesic,694.84,625.36,In stock,4.9,60
+BioTrust,Amoxicillin,Nova Life,Antihypertensive,997.77,848.1,In stock,4.7,362
+LifeCare,Paracetamol,Global Remedies,Analgesic,1389.8,1181.33,In stock,2.6,427
+PharmaOne,Amoxicillin,ABC Pharma,Antibiotic,1330.45,1263.93,Out of stock,4.0,443
+LifeCare,Paracetamol,Medicare Ltd,Antihypertensive,937.66,750.13,In stock,2.6,54
+HealPlus,Omeprazole,Medicare Ltd,Antihypertensive,836.32,669.06,In stock,4.7,464
+PharmaOne,Omeprazole,Global Remedies,Antihypertensive,143.64,122.09,Out of stock,4.5,41
+Medix,Amoxicillin,Global Remedies,Antibiotic,755.3,755.3,In stock,2.7,111
+PharmaOne,Omeprazole,Sun Healthcare,Antihypertensive,626.77,501.42,In stock,2.8,244
+Medix,Atorvastatin,ABC Pharma,Antidiabetic,1647.18,1647.18,In stock,4.4,313
+Medix,Paracetamol,Sun Healthcare,Antacid,1040.13,1040.13,In stock,4.0,406
+PharmaOne,Omeprazole,Nova Life,Antacid,1880.48,1880.48,Out of stock,4.0,42
+LifeCare,Atorvastatin,Global Remedies,Analgesic,772.16,656.34,Out of stock,4.6,403
+PharmaOne,Omeprazole,Sun Healthcare,Antihypertensive,1019.75,917.77,In stock,4.3,80
+PharmaOne,Omeprazole,Nova Life,Analgesic,1051.08,840.86,Limited,4.9,500
