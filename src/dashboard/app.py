@@ -4,6 +4,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import matplotlib.pyplot as plt
 
 #loading model files
 model = joblib.load("models/demand_forecasting_model.pkl")
@@ -74,11 +75,11 @@ if page == "Home":
     
     st.subheader("Project Highlights")
 
-    st.success("AI-Powered Demand Forecasting")
+    st.success("📈 AI-Powered Demand Forecasting")
 
-    st.success("Real-Time Inventory Monitoring")
+    st.success("📦 Real-Time Inventory Monitoring")
 
-    st.success("Medicine Product Intelligence")
+    st.success("💊 Medicine Product Intelligence")
 
 #Demand Forecasting
 elif page == "Demand Forecasting":
@@ -158,8 +159,9 @@ elif page == "Demand Forecasting":
             ]]
         )
 
-        st.success(
-            f"Predicted Quantity Sold: {prediction[0]:.2f}"
+        st.metric(
+            "Predicted Demand:",
+            f"{prediction[0]:.2f}"
         )
 
 #Inventory Monitoring
@@ -179,7 +181,7 @@ elif page == "Inventory Monitoring":
     )
 
     st.metric(
-        "Critical Inventory Alerts",
+        "🚨 Critical Inventory Alerts",
         critical_count
     )
 
@@ -189,6 +191,27 @@ elif page == "Inventory Monitoring":
         inventory_df,
         use_container_width=True
     )
+
+    status_counts =inventory_df["Inventory_Status"].value_counts()
+
+    fig, ax = plt.subplots(figsize=(3,3))
+
+    ax.pie(
+        status_counts,
+        labels=status_counts.index,
+        autopct="%1.1f%%"
+    )
+
+    ax.set_title("Inventory Status Distribution")
+
+    st.pyplot(fig)
+
+    location_status = pd.crosstab(
+        inventory_df["location"],
+        inventory_df["Inventory_Status"]
+    )
+
+    st.bar_chart(location_status)
 
     
 
@@ -208,20 +231,46 @@ elif page == "Product Intelligence":
         use_container_width=True
     )
 
-    medicine_name = st.text_input("Search Medicine by Brandname")
+    medicine_name = st.text_input("Search Product Brand ")
 
     if medicine_name:
+        
         filtered_df=product_df[
-            product_df[
-                "brand_name"
-            ].str.contains(
+            product_df["brand_name"].str.contains(
                 medicine_name,
                 case=False,
                 na=False
             )
         ]
 
-        st.dataframe(
-            filtered_df,
-            use_container_width=True
-        )
+        if len(filtered_df)>0:
+            st.dataframe(
+                filtered_df,
+                use_container_width=True
+            )
+
+            availability = (
+                filtered_df["availability_status"]
+                .value_counts()
+            )
+
+            st.bar_chart(availability)
+
+            fig, ax=plt.subplots()
+
+            ax.hist(
+                filtered_df["rating"],
+                bins=10
+            )
+
+            ax.set_title(
+                "Rating Distribution"
+            )
+
+            st.pyplot(fig)
+
+        else:
+
+            st.warning(
+                "No medicine found. Please enter correct data"
+            )        
