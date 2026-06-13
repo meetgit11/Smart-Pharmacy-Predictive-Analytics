@@ -44,44 +44,78 @@ page = st.sidebar.radio(
 #Home Page
 if page == "Home":
 
-    st.header("Project Overview")
+    st.header(" 🏥 Project Overview")
 
-    st.write("""
-    Smart Pharmacy Predictive Analytics System uses
-    Machine Learning and Inventory Analytics
-    to improve pharmacy inventory management.
+    st.markdown("""
+    Smart Pharmacy Predictive Analytics System helps pharmacies
+    predict medicine demand, monitor inventory levels, and analyze 
+    medicine products using Machine Learning.
     """)
 
-    st.subheader("Modules")
+    #st.subheader("Modules")
+
+    st.divider()
 
     col1, col2, col3 = st.columns(3)
     with col1:
         st.metric(
-            "Forecast Accuracy",
-            "99.97%"
+            label="📈 Forecast Accuracy",
+            value="99.97%"
         )
 
     with col2:
         st.metric(
-            "Critical Alerts",
-            "1607"
+            label="Critical Alerts",
+            value="1607"
         )
     
     with col3:
         st.metric(
-            "Products Available",
-            "2000"
+            label="💊 Products Available",
+            value="2000"
         )
     
-    st.subheader("Project Highlights")
+    st.divider()
 
-    st.success("📈 AI-Powered Demand Forecasting")
+    st.subheader("🎯 Core Modules")
 
-    st.success("📦 Real-Time Inventory Monitoring")
+    col1, col2, col3 = st.columns(3)
 
-    st.success("💊 Medicine Product Intelligence")
+    with col1:
+        st.info("""
+        Demand Forecasting
+                
+        Predict future medicine demand using ML.
+        """)
+    
+    with col2:
+        st.warning("""
+        Inventory Monitoring
+                   
+        Detect low stock and critical inventory.
+        """)
 
-#Demand Forecasting
+    with col3:
+        st.success("""
+        Product Intelligence
+                   
+        Analyse medicines, ratings and availability.
+        """)
+    
+    st.divider()
+
+    st.subheader("📋 Project Highlights")
+
+    st.success("📈 AI-Powered Demand Forecasting model deployed")
+
+    st.success("📦 Real-Time Inventory Monitoring dashboard")
+
+    st.success("💊 Medicine Product Intelligence search engine")
+
+    st.success("Interactive analytics dashboard")
+
+#=============================================================
+#Demand Forecasting Module
 elif page == "Demand Forecasting":
 
     st.header("Demand Forecasting Module")
@@ -158,12 +192,28 @@ elif page == "Demand Forecasting":
                 risk_encoded
             ]]
         )
+        predicted_qty=round(prediction[0],2)
 
         st.metric(
-            "Predicted Demand:",
-            f"{prediction[0]:.2f}"
+            "Predicted Quantity Sold",
+            predicted_qty
         )
 
+        if predicted_qty<8:
+            st.warning(
+                "Low demand expected. Avoid overstocking."
+            )
+        
+        elif predicted_qty<18:
+            st.success(
+                "Normal demand expected."
+            )
+        
+        else:
+            st.error(
+                "High demand expected. Increase stock availability."
+            )
+# ========================================================================
 #Inventory Monitoring
 elif page == "Inventory Monitoring":
 
@@ -180,10 +230,37 @@ elif page == "Inventory Monitoring":
         ].shape[0]
     )
 
-    st.metric(
-        "🚨 Critical Inventory Alerts",
-        critical_count
+    warning_count=(
+        inventory_df[
+            inventory_df["Inventory_Status"] == "Warning"
+        ].shape[0]
     )
+
+    healthy_count=(
+        inventory_df[
+            inventory_df["Inventory_Status"] == "Healthy"
+        ].shape[0]
+    )
+
+    col1, col2, col3 =st.columns(3)
+    with col1:
+        st.metric(
+            "🚨 Critical",
+            critical_count
+        )
+    
+    with col2:
+        st.metric(
+            "⚠️ Warning",
+            warning_count
+        )
+    
+    with col3:
+        st.metric(
+            "✅ Healthy",
+            healthy_count
+        )
+
 
 
     st.subheader("Inventory Alerts")
@@ -214,7 +291,7 @@ elif page == "Inventory Monitoring":
     st.bar_chart(location_status)
 
     
-
+#===============================================================
 #Product Intelligence
 elif page == "Product Intelligence":
 
@@ -224,14 +301,28 @@ elif page == "Product Intelligence":
         "outputs/product_intelligence.csv"
     )
 
-    st.subheader("Product Intelligence Data")
+    #st.subheader("Product Intelligence Data")
+    
+    #st.dataframe(
+    #    product_df,
+    #   use_container_width=True
+    #)
+
+    #medicine_name = st.text_input("Search Product Brand ")
+    
+    #dataset preview
+    st.subheader("Dataset Preview")
 
     st.dataframe(
-        product_df,
+        product_df.head(10),
         use_container_width=True
     )
+    st.subheader("Search Medicine")
 
-    medicine_name = st.text_input("Search Product Brand ")
+    medicine_name = st.text_input(
+        "Enter Brand Name"
+    )
+
 
     if medicine_name:
         
@@ -243,31 +334,63 @@ elif page == "Product Intelligence":
             )
         ]
 
-        if len(filtered_df)>0:
-            st.dataframe(
-                filtered_df,
-                use_container_width=True
-            )
+        if not filtered_df.empty:
 
-            availability = (
+            #selected = filtered_df.iloc[0]
+            avg_rating =filtered_df["rating"].mean()
+
+            availability_count = (
                 filtered_df["availability_status"]
-                .value_counts()
+                .mode()[0]
             )
+            st.subheader("Medicine Summary")
 
-            st.bar_chart(availability)
+            col1, col2, col3 = st.columns(3)
 
-            fig, ax=plt.subplots()
+            with col1:
+                st.metric(
+                    "Brand",
+                    #selected["brand_name"]
+                    medicine_name.title()
+                )
+            
+            with col2:
+                st.metric(
+                    "Average Rating",
+                    round(avg_rating,2)
+                )
 
-            ax.hist(
-                filtered_df["rating"],
-                bins=10
-            )
+            with col3:
+                st.metric(
+                    "Most Common Availability",
+                    availability_count
+                )
 
-            ax.set_title(
-                "Rating Distribution"
-            )
+            if len(filtered_df)>0:
+                st.dataframe(
+                    filtered_df,
+                    use_container_width=True
+                )
 
-            st.pyplot(fig)
+                availability = (
+                    filtered_df["availability_status"]
+                    .value_counts()
+                )
+
+                st.bar_chart(availability)
+
+                fig, ax=plt.subplots()
+
+                ax.hist(
+                    filtered_df["rating"],
+                    bins=10
+                )
+
+                ax.set_title(
+                    "Rating Distribution"
+                )
+
+                st.pyplot(fig)
 
         else:
 
