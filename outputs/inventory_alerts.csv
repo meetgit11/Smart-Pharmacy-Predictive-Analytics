@@ -4379,3 +4379,5 @@ date,location,item,closing_stock,Inventory_Status,Recommendation,Alert,supplier
 2025-12-31,Warehouse C,Amoxicillin,4,Critical,Reorder Immediately,Low Stock Alert,Supplier Y
 2025-12-31,Warehouse C,Rice,79,Warning,Reorder Soon,OK,Supplier Y
 2025-12-31,Warehouse C,Flour,7,Critical,Reorder Immediately,Low Stock Alert,Supplier X
+2026-06-14,Hospital A,Paracetamol,25,Critical,Reorder Immediately,Low Stock Alert,XYZ Pharma
+2026-06-14,Hospital A,B-Tex,30,Critical,Reorder Immediately,Low Stock Alert,ABC Pharma

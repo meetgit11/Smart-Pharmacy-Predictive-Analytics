@@ -56,7 +56,29 @@ if page == "Home":
 
     st.divider()
 
-    col1, col2, col3 = st.columns(3)
+    inventory_df = pd.read_csv(
+        "outputs/inventory_alerts.csv"
+    )
+
+    product_df = pd.read_csv(
+        "outputs/product_intelligence.csv"
+    )
+
+    critical_alerts = (
+        inventory_df[
+            inventory_df["Inventory_Status"] == "Critical"
+        ].shape[0]
+    )
+
+    total_products = len(product_df)
+
+    healthy_products = (
+        inventory_df[
+            inventory_df["Inventory_Status"] == "Healthy"
+        ].shape[0]
+    )
+
+    col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.metric(
             label="📈 Forecast Accuracy",
@@ -66,13 +88,19 @@ if page == "Home":
     with col2:
         st.metric(
             label="Critical Alerts",
-            value="1607"
+            value=critical_alerts
         )
     
     with col3:
         st.metric(
             label="💊 Products Available",
-            value="2000"
+            value=total_products
+        )
+
+    with col4:
+        st.metric(
+            label="Healthy Inventory",
+            value=healthy_products
         )
     
     st.divider()
@@ -242,6 +270,12 @@ elif page == "Inventory Monitoring":
         ].shape[0]
     )
 
+    product_df=pd.read_csv(
+        "outputs/product_intelligence.csv"
+    )
+
+    total_products = len(product_df)
+
     col1, col2, col3 =st.columns(3)
     with col1:
         st.metric(
@@ -261,6 +295,75 @@ elif page == "Inventory Monitoring":
             healthy_count
         )
 
+    st.subheader("➕ Add New Inventory Record")
+
+    with st.form("inventory_form"):
+        location = st.selectbox(
+            "Location",
+            inventory_df["location"].unique()
+        )
+
+        item = st.text_input(
+            "Medicine Name"
+        )
+
+        stock = st.number_input(
+            "Current Stock",
+            min_value=0
+        )
+
+        supplier = st.text_input(
+            "Supplier"
+        )
+
+        submitted = st.form_submit_button(
+            "Add Record"
+        )
+    
+    if submitted:
+        if stock<50:
+            status = "Critical"
+            recommendation = "Reorder Immediately"
+            alert = "Low Stock Alert"
+        
+        elif stock<100:
+            status = "Warning"
+            recommendation = "Reorder Soon"
+            alert = "OK"
+        
+        else:
+            status = "Healthy"
+            recommendation = "No Action Required"
+            alert = "OK"
+
+        new_row = pd.DataFrame(
+            [{
+                "date": pd.Timestamp.now().date(),
+                "location": location,
+                "item": item,
+                "closing_stock": stock,
+                "Inventory_Status": status,
+                "Recommendation": recommendation,
+                "Alert": alert,
+                "supplier": supplier
+            }]
+        )
+
+        inventory_df = pd.concat(
+            [inventory_df, new_row],
+            ignore_index=True
+        )
+
+        inventory_df.to_csv(
+            "outputs/inventory_alerts.csv",
+            index=False
+        )
+
+        st.success(
+            "Inventory record added successfully."
+        )
+
+        st.rerun()
 
 
     st.subheader("Inventory Alerts")
