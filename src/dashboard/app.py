@@ -359,7 +359,7 @@ elif page == "Inventory Monitoring":
     if submitted:
         if not item.strip():
             st.error("Medicine name required")
-        elif not supplier.stip():
+        elif not supplier.strip():
             st.error("Supplier name required")
         else:
             if stock<50:
