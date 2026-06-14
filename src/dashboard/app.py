@@ -17,7 +17,12 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("💊 Smart Pharmacy Predictive Analytics System")
+#st.title("💊 Smart Pharmacy Predictive Analytics System")
+st.markdown("""
+#💊 Smart Pharmacy Predictive Analytics System
+### AI Powered Inventory Intelligence for Healthcare
+Predict • Monitor • Optimize
+""")
 
 st.markdown("""
 ### IEEE EMBS Internship Project
@@ -31,6 +36,12 @@ Developed By:
 #Sidebar
 st.sidebar.title("Navigation")
 
+st.sidebar.image(
+    "https://img.icons8.com/color/96/pill.png",
+    width=80
+)
+
+st.sidebar.markdown("## Smart Pharmacy")
 page = st.sidebar.radio(
     "Go To",
     [
@@ -82,7 +93,7 @@ if page == "Home":
     with col1:
         st.metric(
             label="📈 Forecast Accuracy",
-            value="99.97%"
+            value="Model Ready"
         )
 
     with col2:
@@ -141,6 +152,17 @@ if page == "Home":
     st.success("💊 Medicine Product Intelligence search engine")
 
     st.success("Interactive analytics dashboard")
+
+    st.divider()
+
+    st.subheader("📋 Recent Inventory Updates")
+
+    recent_records = inventory_df.tail(5)
+
+    st.dataframe(
+        recent_records,
+        use_container_width=True
+    )
 
 #=============================================================
 #Demand Forecasting Module
@@ -223,23 +245,34 @@ elif page == "Demand Forecasting":
         predicted_qty=round(prediction[0],2)
 
         st.metric(
-            "Predicted Quantity Sold",
+            " 📦 Predicted Quantity Sold",
             predicted_qty
         )
 
         if predicted_qty<8:
             st.warning(
-                "Low demand expected. Avoid overstocking."
+                " ⚠️ Low Demand Expected."
+            )
+            st.info(
+                "Recommendation: Avoid overstocking."
             )
         
         elif predicted_qty<18:
             st.success(
-                "Normal demand expected."
+                " ✅ Normal Demand Expected."
+            )
+
+            st.info(
+                "Recommendation: Maintain current stock."
             )
         
         else:
             st.error(
-                "High demand expected. Increase stock availability."
+                " 🚨 High Demand Expected."
+            )
+
+            st.info(
+                "Recommendation: Increase inventory."
             )
 # ========================================================================
 #Inventory Monitoring
@@ -320,50 +353,58 @@ elif page == "Inventory Monitoring":
             "Add Record"
         )
     
+    #if item=="":
+    #if supplier=="":
+    
     if submitted:
-        if stock<50:
-            status = "Critical"
-            recommendation = "Reorder Immediately"
-            alert = "Low Stock Alert"
-        
-        elif stock<100:
-            status = "Warning"
-            recommendation = "Reorder Soon"
-            alert = "OK"
-        
+        if not item.strip():
+            st.error("Medicine name required")
+        elif not supplier.stip():
+            st.error("Supplier name required")
         else:
-            status = "Healthy"
-            recommendation = "No Action Required"
-            alert = "OK"
+            if stock<50:
+                status = "Critical"
+                recommendation = "Reorder Immediately"
+                alert = "Low Stock Alert"
+        
+            elif stock<100:
+                status = "Warning"
+                recommendation = "Reorder Soon"
+                alert = "OK"
+        
+            else:
+                status = "Healthy"
+                recommendation = "No Action Required"
+                alert = "OK"
 
-        new_row = pd.DataFrame(
-            [{
-                "date": pd.Timestamp.now().date(),
-                "location": location,
-                "item": item,
-                "closing_stock": stock,
-                "Inventory_Status": status,
-                "Recommendation": recommendation,
-                "Alert": alert,
-                "supplier": supplier
-            }]
-        )
+            new_row = pd.DataFrame(
+                [{
+                    "date": pd.Timestamp.now().date(),
+                    "location": location,
+                    "item": item,
+                    "closing_stock": stock,
+                    "Inventory_Status": status,
+                    "Recommendation": recommendation,
+                    "Alert": alert,
+                    "supplier": supplier
+                }]
+            )
 
-        inventory_df = pd.concat(
-            [inventory_df, new_row],
-            ignore_index=True
-        )
+            inventory_df = pd.concat(
+                [inventory_df, new_row],
+                ignore_index=True
+            )
 
-        inventory_df.to_csv(
-            "outputs/inventory_alerts.csv",
-            index=False
-        )
+            inventory_df.to_csv(
+                "outputs/inventory_alerts.csv",
+                index=False
+            )
 
-        st.success(
-            "Inventory record added successfully."
-        )
+            st.success(
+                "Inventory record added successfully."
+            )
 
-        st.rerun()
+            st.rerun()
 
 
     st.subheader("Inventory Alerts")
@@ -374,7 +415,7 @@ elif page == "Inventory Monitoring":
 
     status_counts =inventory_df["Inventory_Status"].value_counts()
 
-    fig, ax = plt.subplots(figsize=(3,3))
+    fig, ax = plt.subplots(figsize=(5,5))
 
     ax.pie(
         status_counts,
@@ -384,14 +425,24 @@ elif page == "Inventory Monitoring":
 
     ax.set_title("Inventory Status Distribution")
 
-    st.pyplot(fig)
+    #st.pyplot(fig)
 
     location_status = pd.crosstab(
         inventory_df["location"],
         inventory_df["Inventory_Status"]
     )
 
-    st.bar_chart(location_status)
+    #st.bar_chart(location_status)
+
+    col1, col2 =st.columns(2)
+
+    with col1:
+        st.pyplot(fig)
+    
+    with col2:
+        st.bar_chart(location_status)
+
+
 
     
 #===============================================================
@@ -454,7 +505,8 @@ elif page == "Product Intelligence":
                 st.metric(
                     "Brand",
                     #selected["brand_name"]
-                    medicine_name.title()
+                    #medicine_name.title()
+                    filtered_df["brand_name"].mode()[0]
                 )
             
             with col2:
