@@ -244,6 +244,22 @@ elif page == "Demand Forecasting":
         )
         predicted_qty=round(prediction[0],2)
 
+        from datetime import datetime
+
+        history=pd.DataFrame({
+            "date":[datetime.now()],
+            "sku":[sku],
+            "location":[location],
+            "prediction":[predicted_qty]
+        })
+
+        history.to_csv(
+            "outputs/prediction_history.csv",
+            mode="a",
+            header=False,
+            index=False
+        )
+
         st.metric(
             " 📦 Predicted Quantity Sold",
             predicted_qty
@@ -274,8 +290,26 @@ elif page == "Demand Forecasting":
             st.info(
                 "Recommendation: Increase inventory."
             )
+
+        #prediction history
+        st.subheader(
+            " 📈 Prediction History"
+        )
+
+        history_df = pd.read_csv(
+            "outputs/prediction_history.csv"
+        )
+
+        st.dataframe(
+            history_df.tail(10),
+            use_container_width=True
+        )
+
+
 # ========================================================================
 #Inventory Monitoring
+
+
 elif page == "Inventory Monitoring":
 
     st.header("Inventory Monitoring Module")
@@ -307,7 +341,9 @@ elif page == "Inventory Monitoring":
         "outputs/product_intelligence.csv"
     )
 
-    total_products = len(product_df)
+    total_products = product_df[
+        "brand_name"
+    ].nunique()
 
     col1, col2, col3 =st.columns(3)
     with col1:
@@ -327,6 +363,19 @@ elif page == "Inventory Monitoring":
             "✅ Healthy",
             healthy_count
         )
+    
+    critical_df=inventory_df[
+        inventory_df["Inventory_Status"] == "Critical"
+    ]
+
+    st.subheader(
+        " 🚨 Critical Stock Alerts"
+    )
+
+    st.dataframe(
+        critical_df.head(10),
+        use_container_width=True
+    )
 
     st.subheader("➕ Add New Inventory Record")
 
@@ -408,9 +457,33 @@ elif page == "Inventory Monitoring":
 
 
     st.subheader("Inventory Alerts")
+    
+    
+    search_item = st.text_input(
+        " 🔍 Search Medicine"
+    )
+
+    if search_item:
+        inventory_df = inventory_df[
+            inventory_df["item"].str.contains(
+                search_item,
+                case=False,
+                na=False
+            )
+        ]
+
     st.dataframe(
         inventory_df,
         use_container_width=True
+    )
+
+    csv = inventory_df.to_csv(index=False)
+
+    st.download_button(
+        label=" 📥 Dashboard Inventory Report",
+        data=csv,
+        file_name="inventory_report.csv",
+        mime="text/csv"
     )
 
     status_counts =inventory_df["Inventory_Status"].value_counts()
