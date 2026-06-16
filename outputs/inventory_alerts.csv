@@ -4385,3 +4385,4 @@ date,location,item,closing_stock,Inventory_Status,Recommendation,Alert,supplier
 2026-06-14,Hospital A,Soframycin Tube,15,Critical,Reorder Immediately,Low Stock Alert,Pharma PQR
 2026-06-14,Hospital A,Vicks Gel,100,Healthy,No Action Required,OK,ABC Pharma
 2026-06-14,Hospital A,Vicks,100,Healthy,No Action Required,OK,ABC Pharma
+2026-06-16,Warehouse C,Vicks Gel,200,Healthy,No Action Required,OK,XYZ Pharma

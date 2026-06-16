@@ -89,11 +89,16 @@ if page == "Home":
         ].shape[0]
     )
 
+    health_score=round(
+        (healthy_products/len(inventory_df))*100,
+        2
+    )
+
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.metric(
-            label="📈 Forecast Accuracy",
-            value="Model Ready"
+            label=" 🏥 Inventory Health",
+            value=f"{health_score}%"
         )
 
     with col2:
@@ -486,6 +491,53 @@ elif page == "Inventory Monitoring":
         mime="text/csv"
     )
 
+    #Trend Analytics
+    st.subheader(" 📈 Inventory Stock Trend")
+
+    inventory_df["date"]=pd.to_datetime(
+        inventory_df["date"],
+        errors="coerce"
+    )
+
+    trend_df=(
+        inventory_df.groupby("date")["closing_stock"]
+        .sum()
+        .reset_index()
+        .sort_values("date")
+    )
+
+    st.line_chart(
+        trend_df.set_index("date")
+    )
+
+    #Supplier Anaytics
+    st.subheader(" 🏭 Supplier Distribution")
+
+    supplier_counts=(
+        inventory_df["supplier"]
+        .value_counts()
+    )
+
+    st.bar_chart(
+        supplier_counts
+    )
+
+    #Top Medicien Analysis
+    st.subheader(
+        " 💊 Top Medicines by Inventory Records"
+    )
+
+    medicine_counts = (
+        inventory_df["item"]
+        .value_counts()
+        .head(10)
+    )
+
+    st.bar_chart(
+        medicine_counts
+    )
+
+
     status_counts =inventory_df["Inventory_Status"].value_counts()
 
     fig, ax = plt.subplots(figsize=(5,5))
@@ -570,6 +622,41 @@ elif page == "Product Intelligence":
                 filtered_df["availability_status"]
                 .mode()[0]
             )
+
+            #PI KPI
+            total_found=len(filtered_df)
+
+            avg_rating=round(
+                filtered_df["rating"].mean(),
+                2
+            )
+
+            manufacturers=(
+                filtered_df["manufacturer"]
+                .nunique()
+            )
+
+            col1,col2,col3=st.columns(3)
+
+            with col1:
+                st.metric(
+                    "Products Found",
+                    total_found
+                )
+            
+            with col2:
+                st.metric(
+                    "Average Rating",
+                    avg_rating
+                )
+            
+            with col3:
+                st.metric(
+                    "Manufacturers",
+                    manufacturers
+                )
+
+
             st.subheader("Medicine Summary")
 
             col1, col2, col3 = st.columns(3)
