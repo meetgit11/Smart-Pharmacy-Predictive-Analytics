@@ -4386,3 +4386,7 @@ date,location,item,closing_stock,Inventory_Status,Recommendation,Alert,supplier
 2026-06-14,Hospital A,Vicks Gel,100,Healthy,No Action Required,OK,ABC Pharma
 2026-06-14,Hospital A,Vicks,100,Healthy,No Action Required,OK,ABC Pharma
 2026-06-16,Warehouse C,Vicks Gel,200,Healthy,No Action Required,OK,XYZ Pharma
+2026-06-17,Hospital B,Bandage ,1000,Healthy,No Action Required,OK,XYZ Pharma
+2026-06-17,Hospital B,Bandage ,1000,Healthy,No Action Required,OK,XYZ Pharma
+2026-06-17,Warehouse C,DulcoFlex,120,Healthy,No Action Required,OK,GDA Agency
+2026-06-17,Warehouse C,Syringe,150,Healthy,No Action Required,OK,XYZ Pharma

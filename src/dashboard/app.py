@@ -5,6 +5,9 @@ import streamlit as st
 import pandas as pd
 import joblib
 import matplotlib.pyplot as plt
+import plotly.graph_objects as go
+import plotly.express as px
+import os
 
 #loading model files
 model = joblib.load("models/demand_forecasting_model.pkl")
@@ -81,6 +84,22 @@ if page == "Home":
         ].shape[0]
     )
 
+    #executive kpi dashboard upgrade
+    total_records = len(inventory_df)
+
+    total_suppliers = (
+        inventory_df["supplier"]
+        .nunique()
+    )
+
+    if total_records>0:
+        critical_percent = round(
+            (critical_alerts / total_records)*100,
+            2
+        )
+    else:
+        critical_percent=0
+
     total_products = len(product_df)
 
     healthy_products = (
@@ -88,13 +107,39 @@ if page == "Home":
             inventory_df["Inventory_Status"] == "Healthy"
         ].shape[0]
     )
+    if len(inventory_df)>0:
+        health_score=round(
+            (healthy_products/len(inventory_df))*100,
+            2
+        )
+    else:
+        health_score=0
 
-    health_score=round(
-        (healthy_products/len(inventory_df))*100,
-        2
+    st.subheader(
+        " 📊 Inventory Health Score"
     )
 
-    col1, col2, col3, col4 = st.columns(4)
+    fig = go.Figure(
+        go.Indicator(
+            mode="gauge+number",
+            value=health_score,
+            title={
+                "text":"Inventory Health"
+            },
+            gauge={
+                "axis":{
+                    "range":[0,100]
+                }
+            }
+        )
+    )
+
+    st.plotly_chart(
+        fig,
+        use_container_width=True
+    )
+
+    col1, col2, col3, col4, col5, col6 = st.columns(6)
     with col1:
         st.metric(
             label=" 🏥 Inventory Health",
@@ -117,6 +162,18 @@ if page == "Home":
         st.metric(
             label="Healthy Inventory",
             value=healthy_products
+        )
+
+    with col5:
+        st.metric(
+            " 🏭 Suppliers",
+            total_suppliers
+        )
+    
+    with col6:
+        st.metric(
+            " 🚨 Critical % ",
+            f"{critical_percent}%"
         )
     
     st.divider()
@@ -160,6 +217,42 @@ if page == "Home":
 
     st.divider()
 
+    #smart insights panel
+    st.subheader(" 🧠 AI Insights")
+
+    inventory_df=pd.read_csv(
+        "outputs/inventory_alerts.csv"
+    )
+
+    critical_count=(
+        inventory_df[
+            inventory_df["Inventory_Status"] == "Critical"
+        ].shape[0]
+    )
+
+    if critical_count>1500:
+        st.error(f" ⚠️ {critical_count} products are in critical condition and require immediate replenishment.")
+
+    warning_count=(
+        inventory_df[
+            inventory_df["Inventory_Status"] == "Warning"
+        ].shape[0]
+    )
+
+    if warning_count>1000:
+        st.warning(f" 📦 {warning_count} products may become low stock soon.")
+    
+    healthy_count=(
+        inventory_df[
+            inventory_df["Inventory_Status"]=="Healthy"
+        ].shape[0]
+    )
+
+    st.success(
+        f" ✅ {healthy_count} products are currently healthy"
+    )
+
+
     st.subheader("📋 Recent Inventory Updates")
 
     recent_records = inventory_df.tail(5)
@@ -167,6 +260,35 @@ if page == "Home":
     st.dataframe(
         recent_records,
         use_container_width=True
+    )
+
+    st.subheader(
+        " 📌 Executive Insights"
+    )
+
+    if critical_percent>35:
+        st.error(
+            "Critical Inventory is above safe threshold."
+        )
+
+    elif critical_percent>20:
+        st.warning(
+            "Inventory requires attention."
+        )
+
+    else:
+        st.success("Inventory is operating normally.")
+
+    st.divider()
+
+    st.caption(
+    """
+    Smart Pharmacy Predictive Analysis System
+    IEEE EMBS Internship Project 2026
+        
+    Developed using:
+    Python | Pandas | Streamlit | Machine Learning
+    """
     )
 
 #=============================================================
@@ -213,8 +335,8 @@ elif page == "Demand Forecasting":
 
     weekday = st.slider(
         "Weekday",
-        0,
-        6,
+        1,
+        7,
         2
     )
 
@@ -258,10 +380,13 @@ elif page == "Demand Forecasting":
             "prediction":[predicted_qty]
         })
 
+        file_exists = os.path.exists(
+            "outputs/prediction_history.csv"
+        )
         history.to_csv(
             "outputs/prediction_history.csv",
             mode="a",
-            header=False,
+            header=not file_exists,
             index=False
         )
 
@@ -309,6 +434,20 @@ elif page == "Demand Forecasting":
             history_df.tail(10),
             use_container_width=True
         )
+
+        csv = history_df.to_csv(
+            index=False
+        )
+
+        st.download_button(
+            " 📥 Download Prediction History",
+            csv,
+            "prediction_history.csv",
+            "text/csv"
+        )
+    
+    st.divider()
+    st.caption("Smart Pharmacy Prediction Analytics System | IEEE EMBS Internship 2026")
 
 
 # ========================================================================
@@ -454,9 +593,7 @@ elif page == "Inventory Monitoring":
                 index=False
             )
 
-            st.success(
-                "Inventory record added successfully."
-            )
+            st.toast("Inventory record added successfully.")
 
             st.rerun()
 
@@ -505,9 +642,21 @@ elif page == "Inventory Monitoring":
         .reset_index()
         .sort_values("date")
     )
+    #trend_df=trend_df.tail(100) - for presentation
 
-    st.line_chart(
-        trend_df.set_index("date")
+    #st.line_chart(
+    #    trend_df.set_index("date")
+    #)
+    fig = px.line(
+        trend_df,
+        x="date",
+        y="closing_stock",
+        title="Inventory Stock Trend"
+    )
+
+    st.plotly_chart(
+        fig,
+        use_container_width=True
     )
 
     #Supplier Anaytics
@@ -518,10 +667,32 @@ elif page == "Inventory Monitoring":
         .value_counts()
     )
 
-    st.bar_chart(
+    #st.bar_chart(
+    #   supplier_counts
+    #)
+
+    supplier_df = (
         supplier_counts
+        .reset_index()
     )
 
+    supplier_df.columns = [
+        "Supplier",
+        "Count"
+    ]
+
+    fig = px.bar(
+        supplier_df,
+        x="Supplier",
+        y="Count",
+        title="Supplier Distribution"
+    )
+
+    st.plotly_chart(
+        fig,
+        use_container_width=True
+    )
+    
     #Top Medicien Analysis
     st.subheader(
         " 💊 Top Medicines by Inventory Records"
@@ -533,9 +704,84 @@ elif page == "Inventory Monitoring":
         .head(10)
     )
 
-    st.bar_chart(
+    #st.bar_chart(
+    #   medicine_counts
+    #)
+
+    medicine_df=(
         medicine_counts
+        .reset_index()
     )
+
+    medicine_df.columns = [
+        "Medicine",
+        "Count"
+    ]
+
+    fig = px.bar(
+        medicine_df,
+        x="Medicine",
+        y="Count",
+        title="Top Medicines"
+    )
+
+    st.plotly_chart(
+        fig,
+        use_container_width=True
+    )
+
+    #top critical medicines
+    st.subheader(" 🚨 Lowest Stock Critical Medicines")
+
+    critical_df=inventory_df[
+            inventory_df["Inventory_Status"]=="Critical"
+        ]
+    
+    top_critical=(
+        critical_df.groupby("item")["closing_stock"]
+        .mean()
+        .sort_values(ascending=False)
+        .head(5)
+    )
+    if not top_critical.empty:
+        st.bar_chart(top_critical)
+        #st.dataframe(top_critical)
+    else:
+        st.info("No critical medicines found")
+
+    #risk ranking
+    st.subheader(" 🏥 Hospital Risk Ranking")
+
+    risk_table=(
+        inventory_df[
+            inventory_df["Inventory_Status"]=="Critical"
+        ]
+        .groupby("location")
+        .size()
+        .reset_index(name="Critical_Count")
+        .sort_values(
+            "Critical_Count",
+            ascending=False
+        ) 
+    )
+
+    #st.dataframe(risk_table)
+
+    #st.bar_chart(risk_table.set_index("location"))
+    if len(risk_table)>=3:
+        col1, col2, col3 =st.columns(3)
+
+        with col1:
+            st.error(f"🥇 Highest Risk \n\n{risk_table.iloc[0]['location']}\n\nCritical: {risk_table.iloc[0]['Critical_Count']}")
+    
+        with col2:
+            st.warning(f"🥈 Second Risk\n\n{risk_table.iloc[1]['location']}\n\nCritical:{risk_table.iloc[1]['Critical_Count']}")
+
+        with col3:
+            st.info(f"🥉 Third Risk\n\n{risk_table.iloc[2]['location']}\n\nCritical: {risk_table.iloc[2]['Critical_Count']}")
+    
+        st.bar_chart(risk_table.set_index("location"))
+
 
 
     status_counts =inventory_df["Inventory_Status"].value_counts()
@@ -566,6 +812,10 @@ elif page == "Inventory Monitoring":
     
     with col2:
         st.bar_chart(location_status)
+    
+
+    st.divider()
+    st.caption("Smart Pharmacy Prediction Analytics System | IEEE EMBS Internship 2026")
 
 
 
@@ -620,7 +870,8 @@ elif page == "Product Intelligence":
 
             availability_count = (
                 filtered_df["availability_status"]
-                .mode()[0]
+                .mode()
+                .iloc[0]
             )
 
             #PI KPI
@@ -634,6 +885,11 @@ elif page == "Product Intelligence":
             manufacturers=(
                 filtered_df["manufacturer"]
                 .nunique()
+            )
+
+            avg_price = round(
+                filtered_df["final_price"].mean(),
+                2
             )
 
             col1,col2,col3=st.columns(3)
@@ -652,9 +908,10 @@ elif page == "Product Intelligence":
             
             with col3:
                 st.metric(
-                    "Manufacturers",
-                    manufacturers
+                    "Average Price",
+                    f"₹{avg_price}"
                 )
+          
 
 
             st.subheader("Medicine Summary")
@@ -679,6 +936,31 @@ elif page == "Product Intelligence":
                 st.metric(
                     "Most Common Availability",
                     availability_count
+                )
+            
+            #Product Intelligence analytics
+            st.subheader(" 📊 Brand Analytics")
+            col1,col2,col3=st.columns(3)
+
+            with col1:
+                st.metric(
+                    "Average Price",
+                    round(
+                        filtered_df["price"].mean(),
+                        2
+                    )
+                )
+            
+            with col2:
+                st.metric(
+                    "Average Reviews",
+                    int(filtered_df["num_reviews"].mean())
+                )
+
+            with col3:
+                st.metric(
+                    "Manufacturers",
+                    filtered_df["manufacturer"].nunique()
                 )
 
             if len(filtered_df)>0:
@@ -707,8 +989,27 @@ elif page == "Product Intelligence":
 
                 st.pyplot(fig)
 
+                st.subheader(
+                    " 💰 Price Distribution"
+                )
+
+                price_fig = px.histogram(
+                    filtered_df,
+                    x="final_price",
+                    nbins=20,
+                    title="Medicine Price Distribution"
+                )
+
+                st.plotly_chart(
+                    price_fig,
+                    use_container_width=True
+                )
+
         else:
 
             st.warning(
                 "No medicine found. Please enter correct data"
-            )        
+            )
+
+    st.divider()
+    st.caption("Smart Pharmacy Prediction Analytics System | IEEE EMBS Internship 2026")        
