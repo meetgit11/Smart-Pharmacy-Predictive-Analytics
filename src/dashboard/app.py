@@ -9,6 +9,8 @@ import plotly.graph_objects as go
 import plotly.express as px
 import os
 
+from auth import login
+
 #loading model files
 model = joblib.load("models/demand_forecasting_model.pkl")
 sku_encoder = joblib.load("models/sku_encoder.pkl")
@@ -19,6 +21,13 @@ st.set_page_config(
     page_title="Smart Pharmacy Predictive Analytics",
     layout="wide"
 )
+
+if "logged_in" not in st.session_state:
+    st.session_state["logged_in"]=False
+
+if not st.session_state["logged_in"]:
+    login()
+    st.stop()
 
 #st.title("💊 Smart Pharmacy Predictive Analytics System")
 st.markdown("""
@@ -45,6 +54,8 @@ st.sidebar.image(
 )
 
 st.sidebar.markdown("## Smart Pharmacy")
+if "role" in st.session_state:
+    st.sidebar.success(f"👤{st.session_state['role']}")
 page = st.sidebar.radio(
     "Go To",
     [
@@ -54,6 +65,13 @@ page = st.sidebar.radio(
         "Product Intelligence"
     ]
 )
+
+st.sidebar.divider()
+
+if st.sidebar.button(" 🚪 Logout"):
+    st.session_state["logged_in"]=False
+
+    st.rerun()
 
 #Home Page
 if page == "Home":
@@ -65,6 +83,9 @@ if page == "Home":
     predict medicine demand, monitor inventory levels, and analyze 
     medicine products using Machine Learning.
     """)
+
+    if "role" in st.session_state:
+        st.info(f"Welcome {st.session_state['role']} to Smart Pharmacy Analytics Platform.")
 
     #st.subheader("Modules")
 
@@ -262,9 +283,7 @@ if page == "Home":
         use_container_width=True
     )
 
-    st.subheader(
-        " 📌 Executive Insights"
-    )
+    st.subheader(" 📌 Executive Insights")
 
     if critical_percent>35:
         st.error(
@@ -278,6 +297,57 @@ if page == "Home":
 
     else:
         st.success("Inventory is operating normally.")
+    
+    #Executive summary
+    st.subheader(" 📑 Executive Summary")
+
+    top_supplier=(
+        inventory_df["supplier"]
+        .value_counts()
+        .idxmax()
+    )
+
+    top_medicine=(
+        inventory_df["item"]
+        .value_counts()
+        .idxmax()
+    )
+
+    st.info(
+        f""" 
+        Top Supplier: {top_supplier}
+
+        Most Recorded Medicine: {top_medicine}
+
+        Total Inventory Records: {len(inventory_df)}
+        
+        Critical Alerts: {critical_alerts}
+        """
+    )
+
+    st.subheader(" 🤖 Inventory Recommendation Center")
+
+    critical_count=(
+        inventory_df[inventory_df["Inventory_Status"]=="Critical"].shape[0]
+    )
+
+    warning_count=(
+        inventory_df[inventory_df["Inventory_Status"] == "Warning"].shape[0]
+    )
+
+    if critical_count>1500:
+        st.error(
+            "Immediate bulk procurement required. Critical inventory exceeds safe limits."
+        )
+    
+    elif critical_count>1000:
+        st.warning("Inventory requires replenishment planning within 3 days.")
+    
+    else:
+        st.success("Inventory levels are stable.")
+
+    if warning_count>1200:
+        st.info("Several medicines are approaching low stock condition.")
 
     st.divider()
 
@@ -458,6 +528,14 @@ elif page == "Inventory Monitoring":
 
     st.header("Inventory Monitoring Module")
 
+    if st.session_state.get(
+        "record_added",
+        False
+    ):
+        st.success("Inventory record added successfully.")
+
+        st.session_state["record_added"]=False
+
     inventory_df = pd.read_csv(
         "outputs/inventory_alerts.csv"
     )
@@ -520,6 +598,7 @@ elif page == "Inventory Monitoring":
         critical_df.head(10),
         use_container_width=True
     )
+
 
     st.subheader("➕ Add New Inventory Record")
 
@@ -593,8 +672,9 @@ elif page == "Inventory Monitoring":
                 index=False
             )
 
-            st.toast("Inventory record added successfully.")
+            #st.toast("Inventory record added successfully.")
 
+            st.session_state["record_added"]=True
             st.rerun()
 
 
@@ -618,6 +698,8 @@ elif page == "Inventory Monitoring":
         inventory_df,
         use_container_width=True
     )
+
+
 
     csv = inventory_df.to_csv(index=False)
 
@@ -692,6 +774,21 @@ elif page == "Inventory Monitoring":
         fig,
         use_container_width=True
     )
+
+    st.subheader(" ⚠️ Supplier Risk Analysis")
+
+    supplier_risk=(
+        inventory_df[inventory_df["Inventory_Status"]=="Critical"]
+        .groupby("supplier")
+        .size()
+        .sort_values(ascending=False)   
+    )
+
+    if not supplier_risk.empty:
+        risky_supplier=supplier_risk.index[0]
+        risky_count=supplier_risk.iloc[0]
+        st.error(f"Highest Critical Stock Dependency: {risky_supplier} ({risky_count} critical records)")
+
     
     #Top Medicien Analysis
     st.subheader(
@@ -962,11 +1059,44 @@ elif page == "Product Intelligence":
                     "Manufacturers",
                     filtered_df["manufacturer"].nunique()
                 )
+            
+            #PI Smart Insights
+            st.subheader(" 🧠 Product Insights")
+
+            if avg_rating >=4.0:
+                st.success("High Customer Satisfaction detected.")
+            
+            elif avg_rating>=3.0:
+                st.warning("Average Customer Satisfaction.")
+            
+            else:
+                st.error("Poor Product ratings detected.")
+
+            if avg_price>1000:
+                st.info("Premium pricing category")
+
+            else:
+                st.info("Affordable pricing category.")
+
+
 
             if len(filtered_df)>0:
+
+
                 st.dataframe(
                     filtered_df,
                     use_container_width=True
+                )
+
+                csv=filtered_df.to_csv(
+                    index=False
+                )
+
+                st.download_button(
+                    label=" 📥  Download Product Report",
+                    data=csv,
+                    file_name="product_report.csv",
+                    mime="text/csv"
                 )
 
                 availability = (
