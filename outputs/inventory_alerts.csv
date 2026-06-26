@@ -4391,3 +4391,4 @@ date,location,item,closing_stock,Inventory_Status,Recommendation,Alert,supplier
 2026-06-17,Warehouse C,DulcoFlex,120,Healthy,No Action Required,OK,GDA Agency
 2026-06-17,Warehouse C,Syringe,150,Healthy,No Action Required,OK,XYZ Pharma
 2026-06-18,Hospital B,SunscreenSPF50+,2000,Healthy,No Action Required,OK,ABC Pharma
+2026-06-27,Hospital A,Sensodyne Toothpaste,1500,Healthy,No Action Required,OK,XYZ Pharma

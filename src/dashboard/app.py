@@ -8,14 +8,16 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import plotly.express as px
 import os
-
+BASE_DIR = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "../..")
+)
 from auth import login
 
 #loading model files
-model = joblib.load("models/demand_forecasting_model.pkl")
-sku_encoder = joblib.load("models/sku_encoder.pkl")
-location_encoder = joblib.load("models/location_encoder.pkl")
-risk_encoder = joblib.load("models/risk_encoder.pkl")
+model = joblib.load(os.path.join(BASE_DIR,"models", "demand_forecasting_model.pkl"))
+sku_encoder = joblib.load(os.path.join(BASE_DIR, "models", "sku_encoder.pkl"))
+location_encoder = joblib.load(os.path.join(BASE_DIR,"models", "location_encoder.pkl"))
+risk_encoder = joblib.load(os.path.join(BASE_DIR,"models", "risk_encoder.pkl"))
 
 st.set_page_config(
     page_title="Smart Pharmacy Predictive Analytics",
@@ -92,11 +94,11 @@ if page == "Home":
     st.divider()
 
     inventory_df = pd.read_csv(
-        "outputs/inventory_alerts.csv"
+        os.path.join(BASE_DIR,"outputs", "inventory_alerts.csv")
     )
 
     product_df = pd.read_csv(
-        "outputs/product_intelligence.csv"
+        os.path.join(BASE_DIR,"outputs", "product_intelligence.csv")
     )
 
     critical_alerts = (
@@ -242,7 +244,7 @@ if page == "Home":
     st.subheader(" 🧠 AI Insights")
 
     inventory_df=pd.read_csv(
-        "outputs/inventory_alerts.csv"
+        os.path.join(BASE_DIR,"outputs", "inventory_alerts.csv")
     )
 
     critical_count=(
@@ -451,10 +453,10 @@ elif page == "Demand Forecasting":
         })
 
         file_exists = os.path.exists(
-            "outputs/prediction_history.csv"
+            os.path.join(BASE_DIR,"outputs", "prediction_history.csv")
         )
         history.to_csv(
-            "outputs/prediction_history.csv",
+            os.path.join(BASE_DIR,"outputs", "prediction_history.csv"),
             mode="a",
             header=not file_exists,
             index=False
@@ -496,9 +498,16 @@ elif page == "Demand Forecasting":
             " 📈 Prediction History"
         )
 
-        history_df = pd.read_csv(
-            "outputs/prediction_history.csv"
-        )
+        #history_df = pd.read_csv(
+        #    os.path.join(BASE_DIR,"outputs", "prediction_history.csv")
+        #)
+        history_path=os.path.join(BASE_DIR, "outputs", "prediction_history.csv")
+        if os.path.exists(history_path):
+            history_df=pd.read_csv(history_path)
+        else:
+            history_df=pd.DataFrame(
+                columns=["date", "sku", "location", "prediction"]
+            )
 
         st.dataframe(
             history_df.tail(10),
@@ -537,7 +546,7 @@ elif page == "Inventory Monitoring":
         st.session_state["record_added"]=False
 
     inventory_df = pd.read_csv(
-        "outputs/inventory_alerts.csv"
+        os.path.join(BASE_DIR,"outputs", "inventory_alerts.csv")
     )
     critical_count=(
         inventory_df[
@@ -560,7 +569,7 @@ elif page == "Inventory Monitoring":
     )
 
     product_df=pd.read_csv(
-        "outputs/product_intelligence.csv"
+        os.path.join(BASE_DIR,"outputs", "product_intelligence.csv")
     )
 
     total_products = product_df[
@@ -668,7 +677,7 @@ elif page == "Inventory Monitoring":
             )
 
             inventory_df.to_csv(
-                "outputs/inventory_alerts.csv",
+                os.path.join(BASE_DIR,"outputs", "inventory_alerts.csv"),
                 index=False
             )
 
@@ -924,7 +933,7 @@ elif page == "Product Intelligence":
     st.header("Product Intelligence Module")
 
     product_df = pd.read_csv(
-        "outputs/product_intelligence.csv"
+        os.path.join(BASE_DIR,"outputs", "product_intelligence.csv")
     )
 
     #st.subheader("Product Intelligence Data")
