@@ -1,239 +1,380 @@
-# Smart Pharmacy Predictive Analytics — Project Development Skill
+---
+
+name: Smart Pharmacy Predictive Analytics Enhancement
+description: Enhance an existing AI-powered pharmacy analytics prototype with proactive alerts, a grounded AI query assistant, and actionable inventory insights while preserving the existing architecture and functionality.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Smart Pharmacy Predictive Analytics Enhancement Skill
 
 ## Project Context
 
 You are working on an existing project called **Smart Pharmacy Predictive Analytics System**.
 
-This is an AI and Machine Learning powered healthcare analytics platform designed to improve pharmacy inventory management. The project already contains a working prototype and should be **enhanced, not rebuilt from scratch**.
+This is an AI and Machine Learning-powered healthcare analytics platform designed to improve pharmacy inventory management through predictive analytics and data-driven decision support.
 
-The existing system includes functionality around:
+This is an **existing working prototype**. Your responsibility is to understand and enhance it, not rebuild the entire project from scratch.
 
-* Medicine demand forecasting using Machine Learning
-* Inventory monitoring and analysis
-* Low-stock and overstock identification
-* Product intelligence and analytics
-* Interactive dashboard and visualizations
-* Inventory-related KPIs and insights
-* Existing ML workflow and project architecture
+The repository is the primary source of truth. Before making any changes, inspect the existing:
 
-The repository connected to this environment is the source of truth. Before making changes, inspect the repository carefully and understand:
+* Application structure
+* Entry points
+* Frontend or dashboard framework
+* Machine learning models
+* Prediction pipeline
+* Datasets and available data schema
+* Existing pages and modules
+* Dependencies
+* Current functionality
+* README and project documentation
 
-1. The existing application structure
-2. Current frontend/dashboard framework
-3. ML models and prediction pipeline
-4. Available datasets and data schema
-5. Existing dependencies
-6. Existing pages, modules, and functionality
-
-Do not assume data fields or functionality that do not already exist without verifying the code and dataset.
+Do not assume that a data field, API, model, or feature exists without verifying it in the repository.
 
 ---
 
-## Primary Development Goal
+# Core Project Purpose
 
-Transform the existing prototype into a more intelligent, proactive, and polished AI-powered product while preserving all currently working functionality.
+The system aims to help pharmacies make better inventory decisions using:
 
-The project should remain focused on its core purpose:
+* Machine learning-based demand forecasting
+* Inventory monitoring
+* Product-level analytics
+* Stock risk identification
+* Data visualization
+* Predictive insights
+* Intelligent decision support
 
-> **Using predictive analytics and AI to help pharmacies make better inventory decisions, reduce stockouts and wastage, and improve medicine availability.**
+The enhanced product should remain focused on this core objective.
 
-Do not unnecessarily convert the project into a generic chatbot application or add unrelated AI features.
+> Transform the existing analytics prototype into a more proactive and intelligent pharmacy decision-support platform.
+
+Do not turn the project into a generic chatbot application or unnecessarily replace the existing architecture.
 
 ---
 
-# MVP Features to Implement
+# Primary MVP Features
 
-## Feature 1: Smart Notification and Alert Center
+Implement the following features in priority order.
 
-Implement a centralized notification and alert system.
+## 1. Smart Notification and Alert Center
 
-The system should generate meaningful alerts based on existing project data and analytics.
+Create a centralized alert and notification system that makes the application proactive.
 
-Possible alert categories include:
+The system should generate meaningful alerts from actual project data, forecasts, and inventory analytics.
+
+Possible alert types include:
 
 * Critical low-stock alerts
-* Predicted future stockout alerts based on demand forecasting
+* Predicted future stockout alerts
 * Overstock alerts
 * Inventory risk alerts
-* Expiry-related alerts only if expiry data already exists and supports this feature
+* Significant demand changes
+* Other meaningful anomalies supported by the existing data
 
-### Requirements
+Only implement expiry-related alerts if the existing dataset genuinely contains sufficient expiry information.
+
+### Required Functionality
 
 * Add a visible notification bell or alert entry point
-* Display unread notification count
+* Display an unread alert count
 * Support alert severity levels:
 
   * Critical
   * Warning
   * Information
 * Allow users to view alert details
-* Allow notifications to be marked as read or dismissed
-* Maintain alert history where practical
-* Avoid generating duplicate alerts unnecessarily
-* Generate alerts dynamically from actual application data rather than hardcoded examples
+* Allow alerts to be marked as read
+* Allow alerts to be dismissed where appropriate
+* Maintain alert history if practical within the current architecture
+* Avoid unnecessary duplicate alerts
+* Generate alerts dynamically from real project data
 
-The notification system should be useful and visually integrated with the existing dashboard.
+Do not use hardcoded fake alerts as the main implementation.
+
+### Product Goal
+
+The notification system should answer:
+
+> What requires the pharmacy's attention right now?
 
 ---
 
-## Feature 2: AI Pharmacy Query Assistant
+## 2. Grounded AI Pharmacy Query Assistant
 
-Implement an AI assistant whose role is strictly limited to **answering user queries and enquiries about pharmacy data and analytics**.
+Add an AI assistant dedicated to answering user queries and enquiries about the pharmacy's data and analytics.
 
-The assistant must not autonomously:
+The assistant is an information and decision-support feature only.
 
-* Modify inventory
-* Delete data
-* Change model configurations
-* Execute restocking actions
-* Perform irreversible actions
-
-### Example Queries
-
-The assistant should support questions such as:
+### The Assistant Can Answer Questions Such As
 
 * Which medicines are likely to run out soon?
-* Why is this medicine marked as high risk?
 * What products should be prioritized for restocking?
-* Which medicines have overstock risk?
-* What is the forecast for a selected medicine?
-* Explain the demand trend.
-* Which products have declining or increasing demand?
+* Why is a particular medicine considered high risk?
+* Which medicines currently have overstock risk?
+* What is the predicted demand for a selected medicine?
+* Explain this demand forecast.
+* Which products show increasing demand?
+* Which products show declining demand?
 * Summarize the current inventory situation.
+* What are the most important inventory risks right now?
 
-### Requirements
+### Critical Constraints
 
-* Use actual project data whenever possible
-* Ground responses in existing forecasts, inventory metrics, and analytics
-* Do not hallucinate medicine statistics or predictions
-* Clearly state when requested information is unavailable
-* Provide concise and useful responses
-* Make the assistant feel integrated into the product rather than being a generic chatbot
+The AI assistant must not autonomously:
 
-If an external LLM/API is required, keep the architecture modular so the provider can be changed later.
+* Modify inventory data
+* Delete records
+* Change model configurations
+* Execute restocking actions
+* Perform destructive or irreversible actions
+
+It should only provide answers, explanations, insights, and recommendations.
+
+### Grounding Requirements
+
+Prioritize actual project data.
+
+The assistant should use available:
+
+* Forecast results
+* Inventory metrics
+* Product information
+* Alerts
+* Risk indicators
+* Dashboard analytics
+
+Do not hallucinate product statistics, demand values, stock levels, or predictions.
+
+If requested information is unavailable, clearly say that the information is not available in the current project data.
+
+Keep the implementation modular so that any external AI or LLM provider can be replaced later.
 
 ---
 
-## Feature 3: AI Insights and Actionable Recommendations
+## 3. AI Insights and Actionable Recommendations
 
-Create an AI-powered insights section that converts analytics and ML predictions into understandable recommendations.
+Create a dedicated insights section that converts existing analytics and ML predictions into clear business actions.
 
-Examples:
+The project should not only display charts and predictions. It should help the user understand:
 
-* Medicines at immediate stockout risk
-* Products predicted to require restocking soon
+> What happened, why it matters, and what should be done next.
+
+### Possible Insights
+
+Generate insights from real data such as:
+
+* Medicines requiring immediate attention
+* Products predicted to face stockout
+* High-priority restocking candidates
 * Products with overstock risk
-* Increasing or declining demand trends
-* Inventory priorities
-* Important anomalies or changes
+* Significant increases in demand
+* Significant decreases in demand
+* Important inventory anomalies
+* Changes in inventory risk
 
-### Output Format
+### Every Insight Should Ideally Include
 
-Each insight should ideally contain:
-
-* Insight title
-* Severity or priority
+* Title
+* Priority or severity
 * Short explanation
-* Supporting data or reason
+* Supporting reason or relevant data
 * Recommended action
 
-Example:
+### Example Structure
 
 **High Priority — Predicted Stockout**
 
-Medicine X is projected to fall below the safe inventory level based on forecasted demand.
+A product is projected to fall below the safe inventory level based on forecasted demand.
+
+**Why:** Forecasted demand is expected to exceed the available stock threshold.
 
 **Recommended Action:** Review and prioritize restocking.
 
-Recommendations must be derived from actual project logic and data, not randomly generated text.
+Do not randomly generate generic recommendations. Insights must be connected to actual project logic and available data.
 
 ---
 
 # Optional Feature
 
-## Forecast vs Actual / Scan Comparison
+## Forecast vs Actual Comparison
 
-If the existing data and architecture support it without major disruption, add a comparison capability for:
+Only implement this after the three primary MVP features are stable.
+
+If the existing data supports it naturally, provide a comparison capability for:
 
 * Predicted demand versus actual demand
-* Previous forecasts versus updated forecasts
-* Inventory performance across time periods
+* Forecast performance over time
+* Previous versus updated predictions
+* Model prediction accuracy where actual data is available
 
-This feature should help users understand forecasting accuracy and changes over time.
+This feature should improve transparency and trust in the forecasting system.
 
-Do not prioritize this over the three primary MVP features.
+Do not fabricate historical comparison data.
+
+Do not prioritize this feature over Alerts, AI Assistant, and AI Insights.
 
 ---
 
-# UI and Product Requirements
+# Existing Functionality Protection
 
-The application should look like one coherent product.
+The project already contains working functionality.
+
+Before modifying the code:
+
+1. Identify all existing features.
+2. Understand their dependencies.
+3. Reuse existing data pipelines where possible.
+4. Avoid unnecessary rewrites.
+5. Preserve existing working ML functionality.
+6. Preserve useful existing dashboard pages.
+
+After implementing new features, verify that existing functionality still works.
+
+Do not remove features merely to simplify implementation unless there is a genuine technical reason.
+
+---
+
+# UI and Product Design Requirements
+
+The final application should feel like one cohesive product.
 
 Follow these principles:
 
-* Preserve the existing design language where possible
-* Do not redesign working pages unnecessarily
-* Avoid excessive animations
-* Keep the interface professional and suitable for a healthcare analytics product
-* Ensure responsive layouts
-* Avoid clutter
-* Make critical information easy to identify
-* Use consistent components and terminology
+* Preserve the existing design language where practical.
+* Improve rather than unnecessarily redesign working pages.
+* Keep the interface clean and professional.
+* Avoid excessive animations.
+* Avoid clutter.
+* Make critical information easy to identify.
+* Use consistent terminology.
+* Ensure responsive layouts where practical.
+* Clearly distinguish critical alerts from normal information.
+* Make the AI features useful without overwhelming the dashboard.
 
-Prioritize usability over visual complexity.
-
----
-
-# Technical Requirements
-
-Before changing the project:
-
-1. Inspect the complete repository
-2. Identify the current architecture
-3. Identify the application entry point
-4. Understand the existing ML pipeline
-5. Inspect the dataset schema
-6. Check current dependencies
-
-While implementing:
-
-* Reuse existing functions and data pipelines where possible
-* Avoid breaking existing functionality
-* Avoid hardcoding values that should come from data
-* Keep new modules modular
-* Add comments where logic is non-obvious
-* Handle missing or incomplete data gracefully
-* Avoid unnecessary dependencies
-* Do not expose API keys or secrets
-* Use environment variables for external API credentials if needed
+The product should look suitable for a modern healthcare analytics and decision-support platform.
 
 ---
 
-# Validation Requirements
+# Technical Development Rules
 
-After implementation:
+Before implementation:
 
-1. Run the application
-2. Test every existing feature
-3. Test every newly added feature
-4. Verify that alerts are based on real application data
-5. Verify that the AI assistant does not invent unsupported data
-6. Check for broken imports and runtime errors
-7. Check responsive UI behavior where practical
-8. Update README documentation with the new capabilities
+* Inspect the complete repository.
+* Understand the existing architecture.
+* Identify the application entry point.
+* Inspect the dataset schema.
+* Understand the ML workflow.
+* Review existing dependencies.
+
+During implementation:
+
+* Reuse existing functions and components where possible.
+* Keep new features modular.
+* Avoid unnecessary dependencies.
+* Avoid hardcoding values that should be calculated from data.
+* Handle missing or incomplete data gracefully.
+* Add comments for non-obvious logic.
+* Do not expose API keys or secrets.
+* Use environment variables for external credentials.
+* Maintain backward compatibility where practical.
+
+---
+
+# Implementation Workflow
+
+Follow this sequence:
+
+## Phase 1 — Inspect
+
+Carefully inspect the entire repository and understand:
+
+* What already works
+* How the ML pipeline works
+* How data flows through the application
+* Which data is available
+* Which features already exist
+
+## Phase 2 — Plan
+
+Before making major changes, identify:
+
+* Files likely to require modification
+* New modules or components required
+* Dependencies needed
+* Potential risks to existing functionality
+
+Create a concise implementation plan.
+
+## Phase 3 — Implement
+
+Implement features in this order:
+
+1. Smart Notification and Alert Center
+2. Grounded AI Pharmacy Query Assistant
+3. AI Insights and Actionable Recommendations
+4. Optional Forecast vs Actual Comparison
+
+Do not jump to lower-priority features before the previous features are stable.
+
+## Phase 4 — Test
+
+Test:
+
+* All existing functionality
+* Notification generation
+* Alert severity and duplicate handling
+* AI query responses
+* Data grounding
+* Insight generation
+* Imports and dependencies
+* Runtime errors
+* UI integration
+
+Fix regressions before considering the work complete.
+
+## Phase 5 — Document
+
+Update the README with:
+
+* New features
+* Setup instructions
+* Required environment variables
+* External AI provider setup if applicable
+* How to run the application
+
+---
+
+# Success Criteria
+
+The enhancement is successful when the project clearly evolves from a primarily reactive analytics dashboard into a proactive AI-powered decision-support system.
+
+The final product should allow a user to:
+
+1. See what requires immediate attention through alerts.
+2. Ask questions about actual pharmacy data.
+3. Understand forecasts and inventory risks.
+4. Receive actionable recommendations.
+5. Continue using all important existing functionality.
 
 ---
 
 # Development Philosophy
 
-This is an enhancement of a working prototype.
+Prioritize:
 
-The priority is:
+1. Reliability
+2. Preservation of existing functionality
+3. High-impact MVP features
+4. Data-grounded AI
+5. Clear decision support
+6. Clean implementation
 
-1. Preserve working functionality
-2. Add high-impact MVP features
-3. Improve intelligence and decision support
-4. Maintain technical reliability
-5. Avoid unnecessary feature bloat
+Avoid:
 
-Make practical engineering decisions based on the existing repository rather than forcing a completely new architecture.
+* Feature bloat
+* Unnecessary architecture rewrites
+* Generic AI features without purpose
+* Hardcoded fake analytics
+* Hallucinated data
+* Autonomous destructive actions
+
+Make practical engineering decisions based on the actual repository and existing project architecture.
